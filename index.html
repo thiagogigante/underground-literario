@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festival Underground Literário</title>
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav class="navbar">
+      <a href="#inicio">Início</a>
+      <a href="#festival">O Festival</a>
+      <a href="#inscricoes">Inscrições</a>
+      <a href="#programacao">Programação</a>
+      <a href="#atracoes">Atrações</a>
+      <a href="#local">Local</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- ===== INÍCIO ===== -->
+  <section id="inicio" class="hero">
+    <h1>1º Festival Underground Literário</h1>
+    <p>29 e 30 de Novembro</p>
+    <a href="#inscricoes" class="btn">Inscrições Abertas</a>
+  </section>
+
+  <!-- ===== O FESTIVAL ===== -->
+  <section id="festival" class="cards">
+    <h2>O Festival</h2>
+    <div class="card-container">
+      <div class="card">Celebração da literatura independente e autoral</div>
+      <div class="card">Oficinas, performances, debates e música</div>
+      <div class="card">Espaço para artistas, leitores e novos talentos</div>
+    </div>
+  </section>
+
+  <!-- ===== INSCRIÇÕES ===== -->
+  <section id="inscricoes" class="cta">
+    <h2>Inscrições Abertas!</h2>
+    <p>Participe como autor, expositor, artista ou voluntário.</p>
+    <a href="inscricoes.html" class="btn">Acesse a página de inscrições</a>
+  </section>
+
+  <!-- ===== PROGRAMAÇÃO ===== -->
+  <section id="programacao" class="programacao">
+    <h2>Programação</h2>
+
+    <div class="dia">
+      <button class="toggle" data-target="#sabado">📅 Sábado - 29/11</button>
+      <div id="sabado" class="mosaico hidden">
+        <!-- Cards de atrações -->
+        <div class="card">Abertura e Sarau de Rua</div>
+        <div class="card">Bate-papo com Autores</div>
+        <div class="card">Show: Banda XYZ</div>
+        <button class="recolher" data-target="#sabado">Recolher</button>
+      </div>
+    </div>
+
+    <div class="dia">
+      <button class="toggle" data-target="#domingo">📅 Domingo - 30/11</button>
+      <div id="domingo" class="mosaico hidden">
+        <div class="card">Oficina de Escrita Criativa</div>
+        <div class="card">Batalha Poética</div>
+        <div class="card">Show de Encerramento</div>
+        <button class="recolher" data-target="#domingo">Recolher</button>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- ===== ATRAÇÕES CONFIRMADAS ===== -->
+  <section id="atracoes" class="carousel">
+    <h2>Atrações Confirmadas</h2>
+    <div class="carousel-container">
+      <div class="slide">Banda Stigma</div>
+      <div class="slide">Banda Vidal Rock Trio</div>
+      <div class="slide">Eric Fanuel - Escritor e Animador Infantil</div>
+      <div class="slide">Autor Indie João das Letras</div>  
+
+      <div class="slide">Banda XYZ</div>
+      <div class="slide">Coletivo Poético Raiz</div>
+      <div class="slide">Autor Indie João das Letras</div>
+
+      <div class="slide">Fulano</div>
+      <div class="slide">Ciclano</div>
+      <div class="slide">Beltrano</div>
+      
+      <div class="slide">Troca de Idéia sobre: Ilustrar e Animar em tempo de IA</div>
+      <div class="slide">Troca de Idéia sobre: RPG e Boardgames VS Jogos Digitais</div>
+      <div class="slide">Troca de Idéia sobre: ...</div>
+      <div class="slide">Animeokê</div>
+      <div class="slide">Quiz Nerd</div>
+      <div class="slide">Desfile Cosplay Kids</div>
+      <div class="slide">Concurso Cosplay</div>
+      <div class="slide">Mesas de RPG</div>
+      <div class="slide">Mesas de BoardGame</div>
+      <div class="slide">Mesas de CardGame</div>
+      <div class="slide">Fliperamas</div>
+
+      <!-- etc -->
+    </div>
+  </section>
+
+  <!-- ===== LOCAL ===== -->
+  <section id="local" class="local">
+    <h2>Local</h2>
+    <p>El Loco Eventos - Rua Abel Graça Júnior, Centro - Magé - RJ</p>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d294.1533808121646!2d-43.03900103369898!3d-22.655302448545996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99a37ce3a22d63%3A0xe24c3cde5be98a8a!2sEl%20Loco%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1761275811944!5m2!1spt-BR!2sbr"
+      width="100%" height="300" style="border:0;" allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- ===== EQUIPE ===== -->
+  <section id="equipe" class="carousel">
+    <h2>Equipe</h2>
+    <div class="carousel-container">
+      <div class="slide">Ingrid</div>
+      <div class="slide">Lucas</div>
+      <div class="slide">Marcos</div>
+      <div class="slide">Douglas</div>
+      <div class="slide">Carol</div>
+      <div class="slide">Thiago</div>
+      <div class="slide">---</div>
+      <div class="slide">---</div>
+      
+      <!-- etc -->
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <footer id="contato">
+    <h2>Contato</h2>
+    <p>Email: contato@festivalunderground.com</p>
+    <p>Instagram: @festivalundergroundlit</p>
+    <p>&copy; 2025 Festival Underground Literário</p>
+  </footer>
+
+  <script src="/src/scripts/main.js"></script>
+</body>
+</html>
+
+
+
