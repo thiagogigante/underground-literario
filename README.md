@@ -31,7 +31,8 @@ Além disso, haverá uma **Galeria de Fotos** com os registros oficiais do event
 ---
 
 ## 📷 **Imagens do Site**
-
+![Screenshot da Arte do Banner](./src/assets/images/arte.png)
 ![Screenshot do mapa do evento](./src/assets/images/mapa.png)
 
 ---
+
