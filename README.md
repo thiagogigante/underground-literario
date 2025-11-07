@@ -1,7 +1,3 @@
-Aqui está teu **README** reorganizado, mais limpo e bonito, mantendo tudo que é relevante 👇
-
----
-
 # 💥 Site do **Festival Underground Literário** 💥
 
 ![Logo do festival](./src/assets/images/logo.png)
@@ -41,3 +37,4 @@ Além disso, haverá uma **Galeria de Fotos** com os registros oficiais do event
 ---
 
 Quer que eu adicione também instruções de como rodar o projeto (ex: “abra o index.html no navegador” ou “deploy via Vercel”)? Isso deixaria o README mais completo.
+
