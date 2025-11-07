@@ -14,13 +14,14 @@
 <body>
 
   <!-- === NAVBAR =============================================== -->
-  <header id="topo">
+<header id="topo">
     <nav class="navbar" role="navigation" aria-label="Main">
       <p><a href="/index.html">Início</a> |      
-      <a href="#inscricoes" color="red">Inscrições Abertas</a> | 
+      <a href="#inscricoes" id="abertas">Inscrições Abertas</a> | 
       <a href="#festival">Sobre o Festival</a> | 
       <a href="#atracoes">Atrações Confirmadas</a> | 
-      <a href="#programacao">Mapa do Evento e Programação</a> | 
+      <a href="#mapa">Mapa do Evento</a> | 
+      <a href="#programacao"> Programação</a> | 
       <a href="#local">Local</a> | 
       <a href="#contato">Contato</a> | 
       </p>
@@ -35,22 +36,22 @@
   <div class="info-linha">
   <div class="info-item">
     <img src="/src/assets/images/calendar.png" alt="Ícone de calendário">
-    <h2 class="data_local">29 e 30 de Novembro</h2><br>
+    <h3 class="data_local">29 e 30 de Novembro</h3><br>
   </div>
   <div class="info-item">
     <img src="/src/assets/images/local.png" alt="Ícone de localização">
-    <h2 class="data_local">El Loco Eventos</h2>
+    <h3 class="data_local">El Loco Eventos</h3>
   </div>
   <div class="info-item">
     <img src="/src/assets/images/cifrao.png" alt="Ícone de Custo">
-    <h2 class="data_local">Entrada Franca</h2>
+    <h3 class="data_local">Entrada Franca</h3>
   </div>
 </div>
   </section>
 
     <!-- === INSCRIÇÕES (link para hub) =============================================== -->
   <section id="inscricoes" class="cta">
-    <h2>Inscrições Abertas!</h2>
+    <h1>Inscrições Abertas!</h1>
     <p>Quer expor sua arte, se apresentar, participar da Feira Literária ou Garagem Geek?
       <br>Disputar Batalha de Rimas, Campeonato de Skate, Concurso Cosplay?</p>
     
@@ -62,7 +63,7 @@
 
   <!-- === O FESTIVAL (cards) =============================================== -->
   <section id="festival" class="cards">
-    <h2>O Festival</h2>
+    <h1>O Festival</h1>
     <div class="card-container">
       <div class="art">
         <img src="src/assets/images/arte.png" alt="Arte do festival" id="arte">
@@ -90,23 +91,22 @@
     Deu ruim! Era pra rodar um vídeo aqui, mas aparentemente seu navegador ñ suporta. Que pena!
     </video>
   </section>
-  <!-- ===== SESSÃO TESTE - EXCLUIR DEPOIS ============================================ -->
+  <!-- ===== SESSÃO TESTE - EXCLUIR DEPOIS ================================================ -->
 
   
   <!-- ===== ATRAÇÕES CONFIRMADAS === MODELO 1 ============================================ -->
-<section class="atracoes">
-  <h2>O que você vai encontrar no Festival</h2>
+  <section class="atracoes">
+  <h1>O que você vai encontrar no Festival</h1>
 
   <div class="tabs">
-    <button class="tab active btn-day" data-tab="bandas">Bandas</button>
+    <button class="tab btn-day" data-tab="bandas">Bandas</button>
     <button class="tab btn-day" data-tab="street">Street</button>
     <button class="tab btn-day" data-tab="geek">Garagem Geek</button>
     <button class="tab btn-day" data-tab="feiras">Feiras e Exposições</button>
-    <button class="tab btn-day" data-tab="oficinas">Oficinas</button>
-    <button class="tab btn-day" data-tab="rodas">Rodas de Conversa</button>
+    <button class="tab btn-day" data-tab="rodas">Oficinas e Rodas de Conversa</button>
   </div>
-  <div class="tab-content active" id="bandas">
-    <h1> BANDAS </h1>
+  <div class="tab-content" id="bandas">
+    <h2> BANDAS </h2>
     <div class="gallery">
       <a href="#" target="_blank"><img src="/src/assets/images/confirmados/samambaiaornamental.jpg" alt="Samambaia Ornamental"></a>
       <a href="#" target="_blank"><img src="/src/assets/images/confirmados/skorno.jpg" alt="Skorno"></a>
@@ -121,7 +121,7 @@
   </div>
 
   <div class="tab-content" id="street">
-    <h1> ATIVIDADES STREET </h1>
+    <h2> ATIVIDADES STREET </h2>
     <div class="gallery">
       <a href="#"><img src="/src/assets/images//confirmados/grafitti.jpg" alt="Grafitti"></a>
       <a href="#"><img src="/src/assets/images/confirmados/grafittikids.png" alt="Grafitti Kids"></a>
@@ -132,7 +132,7 @@
   </div>
 
   <div class="tab-content" id="geek">
-    <h1> ATIVIDADES GARAGEM GEEK </h1>
+    <h2> ATIVIDADES GARAGEM GEEK </h2>
     <div class="gallery">
       <a href="#"><img src="/src/assets/images/confirmados/animeke.png" alt="Animekê"></a>
       <a href="#"><img src="/src/assets/images/confirmados/papogeek.jpg" alt="Papo de Geek"></a>
@@ -149,15 +149,12 @@
       <a href="#"><img src="/src/assets/images/confirmados/vilsonstratos.jpg" alt="Vilson Stratos"></a>
       <a href="#"><img src="/src/assets/images/confirmados/coringa.png" alt="Coringa de Magé"></a>
 
-
-
-
         </div>
     </div>
   </div>
 
   <div class="tab-content" id="feiras">
-    <h1> FEIRAS e EXPOSIÇÕES </h1>
+    <h2> FEIRAS e EXPOSIÇÕES </h2>
     <div class="gallery">
       <a href="#"><img src="/src/assets/images/confirmados/artesvisuais.jpeg" alt="Artes Visuais"></a>
       <a href="#"><img src="/src/assets/images/confirmados/artesanato.png" alt="Artesanato"></a>
@@ -166,32 +163,33 @@
     </div>
   </div>
 
-  <div class="tab-content" id="oficinas">
-      <h1> OFICINAS </h1>
-      <div class="gallery">
-        <a href="#"><img src="/src/assets/images/confirmados/cartoon.png" alt="Desenhando Cartoon"></a>
-      </div>
-    </div>
-
   <div class="tab-content" id="rodas">
-    <h1> RODAS DE CONVERSAS </h1>
+    <h2> OFICINAS E RODAS DE CONVERSAS </h2>
     <div class="gallery">
         <a href="#"><img src="/src/assets/images/confirmados/roda.jpg" alt="Rodas de Conversa"></a>
         <a href="#"><img src="/src/assets/images/confirmados/culturaperiferica.jpg" alt="Culturas Periféricas"></a>
+        <a href="#"><img src="/src/assets/images/confirmados/cartoon.png" alt="Desenhando Cartoon"></a>
         <a href="#"><img src="/src/assets/images/confirmados/coresquesentem.jpg" alt="Cores que Sentem"></a>
         <a href="#"><img src="/src/assets/images/confirmados/somdosilencio.jpg" alt="Som do Silêncio"></a>
         <a href="#"><img src="/src/assets/images/confirmados/papogeek.jpg" alt="Papo de Geek"></a>
     </div>
   </div>
-</section>
+  </section>
 
-<!-- === PROGRAMAÇÃO =============================================== -->
-<section id="programacao" class="programacao">
-  <h2>Mapa do Evento</h2>
+<!-- === MAPA =============================================== -->
+  <section id="mapa" class="mapa-section">
+  <h1>Mapa do Evento</h1>
   
-  <a href="/src/assets/images/mapa.png" alt="Mapa do Evento"><img id="mapa" src="src/assets/images/mapa.png" alt="Mapa do Evento"/></a>
-    <br> 
-  <h2>Programação</h2>
+  <div class="mapa-container">
+    <a href="/src/assets/images/mapa.png" target="_blank" alt="Mapa do Evento">
+      <img src="src/assets/images/mapa.png" alt="Mapa do Evento"/></a>
+    <br>
+  </div> 
+  </section>
+
+  <!-- === PROGRAMAÇÃOO =============================================== -->
+  <section id="programacao" class="programacao"></section>
+    <h1>Programação</h1>
 
   <!-- Botões de dias -->
   <div class="tabs">
@@ -199,7 +197,6 @@
     <button class="tab btn-day" data-tab="domingo">📅 Domingo - 30/11</button>
   </div>
   
-
   <div class="tab-content" id="sabado">
     <div class="gallery cartaz">
         <a href="#"><img src="/src/assets/images/programacao/29.png" alt="Programação de Sábado"></a>
@@ -214,19 +211,15 @@
    
   </div>
 
- 
-  <!-- Botão para a página completa -->
+   <!-- Botão para a página completa -->
   <div class="btn">
     <a href="/src/programacao.html" class="btn btn-primary"> Confere aí a Programação Completa</a>
   </div>
-  
-  
-
-</section>
+  </section>
 
   <!-- === LOCAL ================================== OK ============= -->
   <section id="local" class="local">
-    <h2>Local</h2>
+    <h1>Local</h1>
     <p>El Loco Eventos - Rua Abel Graça Júnior, Centro - Magé - RJ</p>
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d294.1533808121646!2d-43.03900103369898!3d-22.655302448545996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99a37ce3a22d63%3A0xe24c3cde5be98a8a!2sEl%20Loco%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1761275811944!5m2!1spt-BR!2sbr"
@@ -236,7 +229,7 @@
   <!-- === APOIADORES ========================== OK ===================== -->
   <section id="apoiadores">
     <div class="apoio-grupo">
-      <h3>Apoio Cultural</h3>
+      <br><h2>Apoio Cultural</h2>
       <div class="logos">
         <img src="src/assets/images/realizacao/sualogo.png" alt="Parceiro">
         <img src="src/assets/images/realizacao/sualogo.png" alt="Parceiro">
@@ -244,7 +237,7 @@
     </div>
 
     <div class="apoio-grupo">
-      <h3>Produção Executiva</h3>
+      <br><h2>Produção Executiva</h2>
       <div class="logos">
         <img src="src/assets/images/realizacao/pnab.png" alt="PNAB">
         <img src="src/assets/images/realizacao/sound_wave.png" alt="Sound Wave">
@@ -253,7 +246,7 @@
     </div>
 
     <div class="apoio-grupo">
-      <h3>Realização</h3>
+      <br><h2>Realização</h2>
       <div class="logos">
         <img src="src/assets/images/realizacao/sec_cultura_economia_criativa.png" alt="Secretaria">
         <img src="src/assets/images/realizacao/gov_rj.png" alt="Governo RJ">
@@ -265,16 +258,17 @@
 
   <!-- ===== CONTATO ===== -->
   <footer id="contato">
-    <h2>Contato</h2>
+    <h1>Contato</h1>
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
       <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
     </svg>
-    <a class="btn-contato" href="mailto:seuemail@example.com"> esteticasonora@gmail.com</a>
-     
+    <a class="btn-contato" href="mailto:seuemail@example.com" target="_blank"> esteticasonora@gmail.com</a>
+    <br><br>
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
       <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
     </svg>
-    <a class="btn-contato" href="https://www.instagram.com/esteticasonora"> @esteticasonora</a>
+    <a class="btn-contato" href="https://www.instagram.com/festivalundergroundliterario" target="_blank"> @festivalundergroundliterario</a>
+     
     
     <p>&copy; 2025 Festival Underground Literário</p>
     </footer>
