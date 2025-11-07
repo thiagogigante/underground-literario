@@ -35,6 +35,3 @@ Além disso, haverá uma **Galeria de Fotos** com os registros oficiais do event
 ![Screenshot do mapa do evento](./src/assets/images/mapa.png)
 
 ---
-
-Quer que eu adicione também instruções de como rodar o projeto (ex: “abra o index.html no navegador” ou “deploy via Vercel”)? Isso deixaria o README mais completo.
-
