@@ -1,0 +1,303 @@
+[
+  {
+    "id": "cg125",
+    "nome": "CG 125",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/banda.cg125/' target='_blank'>@banda.cg125</a>",
+    "logo": "/src/assets/images/confirmados/bandas/cg125.png",
+    "destaque": "/src/assets/images/confirmados/bandas/cg125-foto.png"
+  },
+  {
+    "id": "efeitomassivo",
+    "nome": "Efeito Massivo",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/efeitomassivo/' target='_blank'>@efeitomassivo</a>",
+    "logo": "/src/assets/images/confirmados/bandas/efeitomassivo.png",
+    "destaque": "/src/assets/images/confirmados/bandas/efeitomassivo-foto.png"
+  },
+  {
+    "id": "guvrim",
+    "nome": "Guvrim",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/guvrimm/' target='_blank'>@guvrimm</a>",
+    "logo": "/src/assets/images/confirmados/bandas/guvrim.png",
+    "destaque": "/src/assets/images/confirmados/bandas/guvrim-foto.png"
+  },
+  {
+    "id": "kmrock",
+    "nome": "KM Rock",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/bandakmrock/' target='_blank'>@bandakmrock</a>",
+    "logo": "/src/assets/images/confirmados/bandas/kmrock.png",
+    "destaque": "/src/assets/images/confirmados/bandas/kmrock-foto.png"
+  },
+  {
+    "id": "kyori",
+    "nome": "Kyori",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/bandakyori/' target='_blank'>@bandakyori</a>",
+    "logo": "/src/assets/images/confirmados/bandas/kyori.png",
+    "destaque": "/src/assets/images/confirmados/bandas/kyori-foto.png"
+  },
+  {
+    "id": "samambaiaornamental",
+    "nome": "Samambaia Ornamental",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://instagram.com/samambaiaornamental' target='_blank'>@samambaiaornamental</a>",
+    "logo": "/src/assets/images/confirmados/bandas/samambaiaornamental.jpg",
+    "destaque": "/src/assets/images/confirmados/bandas/samambaiaornamental-foto.png"
+  },
+  {
+    "id": "skorno",
+    "nome": "Skorno",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/skorno.jpg",
+    "destaque": "/src/assets/images/confirmados/bandas/skorno-foto.png"
+  },
+  {
+    "id": "stigma",
+    "nome": "Stigma",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "sunkiller",
+    "nome": "Sunkiller",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "tornokre",
+    "nome": "tornokre",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "vidalrocktrio",
+    "nome": "Vidal Rock Trio",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "baixadacrew",
+    "nome": "Baixada Crew",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "batalharimas",
+    "nome": "Batalha de Rimas",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "campeonatoskate",
+    "nome": "Campeonato de Skate - Best Trick",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "grafitti",
+    "nome": "Grafitti",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "grafittikids",
+    "nome": "Grafitti  Kids",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "soniacastilho",
+    "nome": "Sônia Castilho",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "animeke",
+    "nome": "????",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "cosplay",
+    "nome": "????",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "cosplaykids",
+    "nome": "????",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "guilda",
+    "nome": "????",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "rpgkids",
+    "nome": "????",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "joganerd",
+    "nome": "????",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "nerdquiz",
+    "nome": "????",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "magenerd",
+    "nome": "????",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "matheuscoringa",
+    "nome": "????",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "nerdquiz",
+    "nome": "????",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "tetangeek",
+    "nome": "????",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "torneiocards",
+    "nome": "Torneio de CardGame (TCG)",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "vilsonstratus",
+    "nome": "Vilson Stratus",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "rodas",
+    "nome": "???",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "rodas",
+    "nome": "???",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "rodas",
+    "nome": "???",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "rodas",
+    "nome": "???",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "rodas",
+    "nome": "???",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "rodas",
+    "nome": "???",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "rodas",
+    "nome": "???",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "expo",
+    "nome": "???",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "expo",
+    "nome": "???",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "expo",
+    "nome": "???",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "expo",
+    "nome": "???",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "expo",
+    "nome": "???",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  },
+  {
+    "id": "expo",
+    "nome": "???",
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
+    "logo": "/src/assets/images/confirmados/bandas/???.png",
+    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+  }
+]

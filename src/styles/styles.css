@@ -1,0 +1,711 @@
+/* === VARIÁVEIS GLOBAIS === */
+:root {
+  --verde-neon: #9eff64;
+  --amarelo-sujo: #ffcb3b;
+  --roxo: #a55cff;
+  --azul-livro: #2dc7ff;
+  --rosa-grafite: #ff4fa0;
+  --texto-claro: #e5e5e5;
+  --preto-fundo: #0b0c0b;
+  --transition-fast: 180ms;
+}
+
+/* === TIPOGRAFIA GLOBAL === */
+body {
+  margin: 0;
+  position: center;
+  text-align: center;
+  font-family: 'Rubik', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: var(--texto-claro);
+  background: radial-gradient(circle at top, #2a3d2a 0%, #0f150f 80%);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* BASE PARA TÍTULOS E DISPLAY */
+h1, h2, h3 { 
+  font-family: "Sedgwick Ave Display", cursive;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+  text-transform: uppercase; 
+  width: 100%;   
+  margin: 10px auto;
+  margin: 0 0 12px 0;
+  letter-spacing: 2px;  
+  position: relative;
+  z-index: 5; /* fica acima de vídeos, imagens de fundo e overlays */
+}
+h1 { 
+  color: var(--amarelo-sujo);  
+}
+h2, h3 { 
+  color: var(--amarelo-sujo); 
+}
+
+
+/* === CONTAINERS === */
+section { 
+  padding: 65px 20px; 
+  position: relative; 
+}
+main { 
+  max-width: var(--max-content-width); 
+  margin: 0 auto; 
+}
+
+/* === NAVBAR === */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1200;
+  display:flex;
+  gap: 18px;
+  justify-content:center;
+  align-items:center;
+  padding: 2px 2px;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(4px);
+  border-bottom: 2px solid var(--verde-neon);
+}
+.navbar a { 
+  color: var(--verde-neon);
+  text-decoration: none;
+  font-weight:700;
+  padding:5px 5px;
+  transition: all var(--transition-fast) ease; 
+}
+.navbar a:hover { 
+  color: var(--azul-livro); 
+  transform: translateY(-2px); 
+}
+
+/* === HERO === */
+.hero {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  height: 16vh;
+  min-height: 520px;
+  text-align:center;
+  background: url("/src/assets/images/bg.png") center/cover no-repeat;
+}
+.hero-logo { width: 40%; height: auto; margin-bottom: 2px; border-radius: 8px; padding-top: 8px;}
+.hero-title { font-size: clamp(1.6rem, 4vw, 3rem); color: var(--texto-claro); text-shadow: 2px 2px 8px black; }
+.hero-sub { color: var(--verde-neon); margin: 12px 0 18px; max-width: 760px; }
+
+/* === HERO LINHA DE INFORMES === */
+.info-linha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+  flex-wrap: wrap;
+  vertical-align: middle;
+}
+.data_local {
+  color: var(--texto-claro);
+  padding-top: 15px;
+}
+.info-item {
+  display: flex;
+  align-items: center;
+ 
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  
+}
+.info-item img {
+  display: flex;
+  width: 2.2rem;
+  height: auto;
+  filter: invert(1) contrast(1.2); /* pra deixar branco se o fundo for escuro */
+  padding-right: 1rem;
+}
+
+
+
+
+/* === BOTÕES === */
+.btn { display:inline-block; 
+  text-decoration:none; 
+  padding:10px 18px; 
+  border-radius:10px; 
+  font-weight:700; 
+  transition: transform var(--transition-fast); 
+  box-shadow: var(--transition-fast);
+  background var(--transition-fast); 
+  border:none; 
+  cursor:pointer; 
+}
+.btn-primary { 
+  background: var(--roxo); 
+  color: #fff; 
+}
+.btn-primary:hover { 
+  background: var(--rosa-grafite); 
+  transform: translateY(-3px) scale(1.02); 
+  box-shadow: 0px 6px 20px rgba(42, 195, 255, 0.877); 
+}
+
+/* additional hover for any button-like */
+
+button, .btn { 
+  outline: none; 
+}
+button:hover, .btn:hover { filter: brightness(1.03); 
+}
+
+/* === BOTÕES E EFEITOS ================ */
+
+.botoes-dias { display:flex; gap:10px; justify-content:center; margin-bottom:18px; }
+.btn-day { 
+  padding:10px 14px; 
+  border-radius:8px; 
+  background: var(--roxo); 
+  color:#fff; 
+  border:none; 
+  cursor:pointer; 
+  font-weight:700; 
+  transition: transform var(--transition-fast); 
+  background var(--transition-fast); 
+}
+
+/* Quando o botão estiver ativo (selecionado) */
+.btn-day.active {
+  background-color: var(--rosa-grafite); /* azul mais forte, por exemplo */
+  color: #fff;
+  transform: scale(1.05);
+}
+
+
+
+.btn-day:hover { 
+  transform: translateY(-3px); 
+  background: var(--azul-livro); 
+  color:#000; }
+
+.btn-day[aria-pressed="true"] { 
+  background: var(--azul-livro); 
+  color:#000; 
+  transform: translateY(-2px); }
+
+
+
+
+
+/* === CARDS / FESTIVAL === */
+.card-container { display:flex; gap: 24px; align-items:flex-start; justify-content:center; flex-wrap:wrap; padding-top:8px; }
+.art { flex: 0 1 420px; max-width:420px; }
+.art img { width:100%; height:auto; border-radius:12px; display:block; }
+.cards-sobre { display:flex; flex-direction:column; gap:16px; flex: 1 1 360px; min-width: 260px; }
+.card { background: rgba(12,12,12,0.72); border: 2px solid var(--azul-livro); padding:18px; border-radius:10px; transition: transform 220ms ease, box-shadow 220ms ease; }
+.card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(0,0,0,0.6); border-color: var(--rosa-grafite); }
+
+/* CTA === INSCRIÇÕES ABERTAS === */
+.cta {  
+ background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), 
+ url("/src/assets/images/bgrockazul.jpg") center bottom / cover no-repeat;
+  
+ /* o segredo! */
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;;
+}
+
+/* === MAPA ================ */
+
+/* fundo e centralização */
+#mapa {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('/src/assets/images/bg.png') no-repeat center center;
+}
+
+/* imagem centralizada */
+#mapa img {
+  width: 80%;
+  height: auto;
+  align-items: center / center;
+  align-content:center / center;
+  border-radius: 8px;
+}
+
+#mapa img:hover {
+box-shadow: 0 0 12px var(--azul-livro);
+}
+
+/* === PROGRAMAÇÃO ================ */
+.programacao { 
+  background-color: #000; 
+}
+.programacao-img { 
+  display: none; 
+  text-align: center; 
+  margin: 1.5rem 0; 
+  animation: fadeIn 0.5s ease-in-out;
+}
+.programacao-img img {
+  max-width: 90%; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  
+}
+.programacao-img img:hover { 
+  transform: scale(1.03);
+}
+
+
+
+
+/* === PROGRAMAÇÃO - IMAGENS E LIGHTBOX === */
+
+.btn-recolher { display: none; margin: 1rem auto; padding: 10px 20px; background: #000; color: #fff; border: none; border-radius: 8px; cursor: pointer;}
+.btn-recolher:hover { background: #222;}
+
+/* Lightbox */
+.lightbox { 
+  background-color: #9eff64;
+  display: none; position: fixed; z-index: 9999; inset: 0; background: rgba(0,0,0,0.9); justify-content: center; align-items: center; }
+.lightbox img { max-width: 90%; max-height: 90%; }
+.lightbox-close { position: absolute; top: 20px; right: 30px; font-size: 2rem; color: white; cursor: pointer;}
+
+/* table inside slides */
+.agenda { width:100%; border-collapse:collapse; background: rgba(0,0,0,0.45); border-radius:8px; overflow:hidden; }
+.agenda th, .agenda td { border:1px solid rgba(255,255,255,0.04); padding:8px; text-align:center; font-size:0.95rem; }
+
+/* === ATRAÇÕES CONFIRMADAS + video de fundo === */
+#atracoes { 
+  position:relative; 
+  overflow:hidden; 
+  padding: 220px 20px;
+  color: #fff;
+  position: relative;
+}
+
+#atracoes video { 
+  position:absolute; 
+  inset:0; 
+  width:100%; 
+  height:100%; 
+  object-fit:cover; 
+  opacity:0.5; 
+  z-index:0; 
+  pointer-events:none; }
+
+#atracoes .overlay-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* ============= GALERIA ATRAÇÕES CONFIRMADAS  ============= */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  padding: 20px 0;
+  justify-items: center;
+}
+
+.gallery a {
+  aspect-ratio: 1 / 1; /* mantém o formato quadrado */
+  width: 8rem;
+  max-width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.gallery a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px var(--azul-livro);
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* corta sem distorcer */
+  display: block;
+}
+
+.cartazarea {
+  display: none;
+  width: 100%;
+  text-align: center;
+  margin: 1.5rem auto;
+}
+.cartazarea.active {
+  display: block;
+  animation: fade .3s ease;
+}
+
+.cartazarea img {
+  max-width: 800px; /* limite máximo no desktop */
+  width: 90%; /* ocupa quase toda a largura em telas menores */
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cartazarea img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 12px var(--azul-livro);
+}
+
+/* responsivo */
+@media (max-width: 768px) {
+  .cartazarea img {
+    max-width: 95%;
+  }
+}
+
+
+/* === APOIADORES / LOGOS === */
+#apoiadores { 
+  background: url("/src/assets/images/bg.png") center/cover no-repeat; 
+  padding: top 1rem;
+  padding: bottom 1rem;
+  gap: 10px;
+}
+.logos { display:flex; gap:10px; justify-content:center; align-items:center; flex-wrap:wrap; }
+.logos img { width:4rem; height:auto; filter:brightness(0.9); transition: transform 200ms ease, filter 200ms ease; }
+.logos img:hover { transform: scale(1.05); filter:brightness(1.05);
+}
+
+
+/* ============== RODAPÉ  CONTATO ============ */
+  footer {
+  background: rgba(0,0,0); 
+  padding: 10px 20px; 
+  color:var(--texto-claro); 
+  text-align:center; 
+  
+  }
+  footer a{
+  color: var(--roxo);
+  text-decoration: none;
+  font-weight: 60000;
+}
+  footer a:hover{
+  color: var(--verde-neon);
+}
+
+
+/* === TRANSIÇÕES ENTRE SESSÕES (rasgado/grunge overlay) === */
+/* subtle grunge overlay already applied — we also add a decorative bottom mask */
+section::after {
+  content:"";
+  position:absolute;
+  left:0; right:0; bottom:-1px;
+  height:48px;
+  background-size: auto 80px;
+  pointer-events:none;
+  opacity:0.9;
+  color: #2a3d2a;
+}
+
+/* === SCROLL REVEAL HELPERS (applied by JS) === */
+.reveal { opacity:0; transform: translateY(30px); transition: opacity 700ms ease, transform 700ms cubic-bezier(.2,.9,.2,1); }
+.reveal.revealed { opacity:1; transform: translateY(0); }
+
+/* === RESPONSIVE === */
+@media (max-width: 920px) {
+  .hero { height: 56vh; padding-top:60px; }
+  .art { flex-basis: 70%; max-width: 100%; }
+  .cards-sobre { width: 70%; }
+  .slide { flex: 0 0 210px; }
+  
+}
+
+@media (max-width: 600px) {
+  .navbar { gap: 8px; padding:10px; }
+  .navbar a { font-size: 0.9rem; padding:4px 6px; }
+  .hero-logo { width:320px; }
+  .area-slide { padding:8px; }
+  .agenda th, .agenda td { font-size: 0.82rem; padding:6px; }
+  section { padding: 48px 12px; }
+  .area-slide { min-width: 100%; }
+  }
+
+@media (max-width: 768px) {
+    #hero .info .item { gap: 6px; font-size: 1rem; }
+    #hero .logo { width: 80%; /* garante que a logo se ajuste também */ max-width: 300px;}
+}
+
+ 
+/* small cleanup */
+.hidden { display:none !important; }
+
+
+/*============== FUNDO? ===========*/
+
+#festival, #local, {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* --- HERO ajustes responsivos --- */
+#hero .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;         /* permite quebrar linha no mobile */
+  gap: 24px;               /* espaçamento padrão desktop */
+  margin-top: 20px;        /* reduz a distância abaixo da logo */
+}
+
+#hero .info .item {
+  display: flex;
+  align-items: center;
+  gap: 8px;                /* espaço entre ícone e texto */
+  font-size: 1.1rem;
+}
+
+/* ====================== SESSÃO ATRAÇÕES - CONTROLE DE EXIBIÇÃO DAS CATEGORIAS ================ */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.tab {
+  border: none;
+  padding: .6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.tab-content {
+  display: none;
+}
+.tab-content.active {
+  display: block;
+  animation: fade .3s ease;
+}
+@keyframes fade { from {opacity:0;} to {opacity:1;} }
+
+
+
+
+/* ====== LINKTREE PAGE ====== */
+body.linktree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 180vh;
+  background: radial-gradient(circle, #132113, #000);
+}
+
+.perfil {
+  margin-top: 10px;
+  width: 150px;        /* tamanho do círculo */
+  height: 150px;
+  border-radius: 50%;  /* 🔹 torna o contêiner circular */
+  overflow: hidden;    /* 🔹 corta tudo que sair da borda */
+  margin: 0 auto;      /* centraliza horizontalmente */
+  border: 3px solid var(--azul-livro); /* opcional, dá um contorno bonito */
+}
+
+.perfil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* 🔹 garante que a imagem preencha o círculo sem distorcer */
+  display: block;
+}
+
+.links {
+  text-align: center;
+}
+.link-card {
+  display: block;
+  margin: 15px auto;
+  width: 250px;
+  background: rgba(0,0,0,0.8);
+  border: 2px solid var(--azul-livro);
+  color: var(--verde-neon);
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.link-card:hover {
+  background: var(--roxo);
+  color: white;
+  transform: scale(1.05);
+}
+
+/* ====== INSCRIÇÕES (HUB DE LINKS) ====== */
+body.linktree h1 {
+  color: var(--amarelo-sujo);
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.voltar {
+  display: inline-block;
+  margin-top: 25px;
+  color: var(--azul-livro);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.voltar:hover {
+  color: var(--rosa-grafite);
+  text-decoration: underline;
+  box-shadow: 0 0 12px var(--azul-livro);
+
+}
+
+/* =============================== EXIBIÇÃO DAS FICHAS DE ATRAÇÃO ================== */
+/* === FICHA DE ATRAÇÃO / OVERLAY === */
+.overlay-ficha {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 20px;
+  backdrop-filter: blur(4px);
+}
+
+.overlay-ficha.hidden {
+  display: none;
+}
+
+.ficha-content {
+  background: rgba(20,20,20,0.95);
+  border: 2px solid var(--azul-livro);
+  border-radius: 14px;
+  padding: 25px;
+  max-width: 900px;
+  width: 80%;
+  color: var(--texto-claro);
+  text-align: center;
+  position: relative;
+  animation: fadeIn 0.3s ease;
+}
+
+/* topo (logo + nome) */
+.ficha-topo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.ficha-topo img {
+  width: 80px;
+  border-radius: 8px;
+}
+
+/* corpo (imagem + bio) */
+.ficha-corpo {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ficha-imagem {
+  width: 100%;
+  max-width: 80%; /* limite de largura */
+  height: 250px; /* altura fixa pra todas */
+  overflow: hidden; /* corta o excesso */
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ficha-imagem img {
+  max-width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  width: 70%;
+  height: 100%;
+  object-fit: cover; /* ajusta a imagem sem distorcer */
+  object-position: center; /* centraliza */
+}
+
+.ficha-imagem img:hover {
+  transform: scale(1.03);
+}
+
+.ficha-bio {
+  flex: 1;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.ficha-bio a {
+  color: var(--azul-livro);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ficha-bio a:hover {
+  color: var(--rosa-grafite);
+}
+
+/* controles (próximo/anterior) */
+.ficha-controles {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ficha-controles button {
+  background: var(--roxo);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.ficha-controles button:hover {
+  transform: scale(1.05);
+}
+
+/* botão fechar */
+.btn-fechar {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: var(--rosa-grafite);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
