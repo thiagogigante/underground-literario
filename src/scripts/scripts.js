@@ -1,11 +1,39 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    // ===================== MENU MOBILE =====================
+
+(function setupMobileMenu() {
+  const toggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.menu');
+
+  if (!toggle || !menu) return;
+
+  toggle.addEventListener('click', () => {
+    const isOpen = menu.classList.toggle('open'); // adiciona/remove .open
+    menu.setAttribute('aria-expanded', String(isOpen));
+    toggle.setAttribute('aria-expanded', String(isOpen));
+  });
+
+  // Fechar o menu ao clicar em um link (mobile)
+  menu.addEventListener('click', (e) => {
+    if (e.target.tagName === 'A' && menu.classList.contains('open')) {
+      menu.classList.remove('open');
+      menu.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+})();
+
   // ===================== UTILIDADES =====================
 
   const $ = sel => document.querySelector(sel);
   const $$ = sel => Array.from(document.querySelectorAll(sel));
 
   function safeAddEvent(el, ev, fn) { if (el) el.addEventListener(ev, fn); }
+
+carregarAtracoes();
+carregarEquipe();
+
 
   // ===================== EFEITO: SCROLL REVEAL (ENTRADA DAS SESSÕES E ELEMENTOS EM DIREÇÕES ALEATORIAS) =====================
 
@@ -196,12 +224,14 @@ function abrirFicha(index) {
   fichaIndex = index;
   const atracao = atracoesData[index];
   if (!atracao) return;
-document.getElementById('ficha-logo').src = atracao.logo;
-
-  document.getElementById('ficha-logo').src = atracao.logo;
+//document.getElementById('ficha-logo').src = atracao.logo;//
   document.getElementById('ficha-nome').textContent = atracao.nome;
   document.getElementById('ficha-destaque').src = atracao.destaque;
   document.getElementById('ficha-bio').innerHTML = atracao.bio;
+// instagram entre as setas
+const linkInsta = document.getElementById('ficha-instagram');
+linkInsta.textContent = atracao.instagram ? atracao.instagram.replace('https://www.instagram.com/', '@') : '';
+linkInsta.href = atracao.instagram || '#';
 
   document.getElementById('overlay-ficha').classList.remove('hidden');
 }
@@ -224,7 +254,9 @@ document.getElementById('ficha-next').addEventListener('click', () => {
   abrirFicha(fichaIndex);
 });
 
-carregarAtracoes();
+
+
+
 
 
 // === PROGRAMAÇÃO - alternar cartazes ===
@@ -235,4 +267,92 @@ document.querySelectorAll('.btn-day').forEach(btn => {
     btn.classList.add('active');
     document.getElementById(btn.dataset.tab).classList.add('active');
   });
+});
+
+// === FICHAS DA EQUIPE ===
+let equipeData = [];
+let equipeIndex = 0;
+
+async function carregarEquipe() {
+  const resposta = await fetch('src/data/equipe.json');
+  equipeData = await resposta.json();
+
+  document.querySelectorAll('.equipe-gallery a').forEach((a) => {
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const id = a.dataset.id;
+      abrirFichaEquipePorId(id);
+    });
+  });
+}
+
+function abrirFichaEquipePorId(id) {
+  const index = equipeData.findIndex(p => p.id === id);
+  if (index !== -1) abrirFichaEquipe(index);
+}
+
+function abrirFichaEquipe(index) {
+  equipeIndex = index;
+  const pessoa = equipeData[index];
+  if (!pessoa) return;
+
+  document.getElementById('equipe-nome').textContent = pessoa.nome;
+  document.getElementById('equipe-destaque').src = pessoa.foto;
+  document.getElementById('equipe-bio').innerHTML = pessoa.bio;
+
+  document.getElementById('overlay-equipe').classList.remove('hidden');
+}
+
+// fechar ficha da equipe
+document.addEventListener('click', (e) => {
+  if (e.target.classList.contains('btn-fechar') || e.target.id === 'overlay-equipe') {
+    document.getElementById('overlay-equipe').classList.add('hidden');
+  }
+});
+
+// =================== LIGHTBOX + PANZOOM UNIFICADO ============REMOVER?=================
+document.addEventListener("DOMContentLoaded", () => {
+  const imagens = document.querySelectorAll("img.lightboxable");
+
+  imagens.forEach(img => {
+    img.style.cursor = "zoom-in";
+
+    img.addEventListener("click", () => {
+      abrirLightbox(img.src);
+    });
+  });
+
+  function abrirLightbox(src) {
+    const overlay = document.createElement("div");
+    overlay.className = "lightbox-overlay";
+
+    const img = document.createElement("img");
+    img.src = src;
+    overlay.appendChild(img);
+
+    document.body.appendChild(overlay);
+
+    // 🟣 Panzoom (zoom + arrastar)
+    const panzoomInstance = Panzoom(img, {
+      maxScale: 4,
+      contain: 'outside',
+      cursor: 'grab'
+    });
+
+    overlay.addEventListener("wheel", panzoomInstance.zoomWithWheel);
+
+    // 🔹 fechar ao clicar fora
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) fecharLightbox();
+    });
+
+    // 🔹 suportar botão voltar do celular
+    history.pushState({ lightbox: true }, "");
+
+    window.addEventListener("popstate", fecharLightbox, { once: true });
+
+    function fecharLightbox() {
+      overlay.remove();
+    }
+  }
 });

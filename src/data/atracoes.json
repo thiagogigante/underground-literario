@@ -2,302 +2,385 @@
   {
     "id": "cg125",
     "nome": "CG 125",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/banda.cg125/' target='_blank'>@banda.cg125</a>",
-    "logo": "/src/assets/images/confirmados/bandas/cg125.png",
-    "destaque": "/src/assets/images/confirmados/bandas/cg125-foto.png"
+    "bio": "Conheça a Banda!",
+    "destaque": "/src/assets/images/confirmados/bandas-destaque/cg125-foto.webp",
+    "instagram": "https://www.instagram.com/banda.cg125"
   },
   {
     "id": "efeitomassivo",
     "nome": "Efeito Massivo",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/efeitomassivo/' target='_blank'>@efeitomassivo</a>",
-    "logo": "/src/assets/images/confirmados/bandas/efeitomassivo.png",
-    "destaque": "/src/assets/images/confirmados/bandas/efeitomassivo-foto.png"
+    "bio": "Conheça a Banda!",
+    "destaque": "/src/assets/images/confirmados/bandas-destaque/efeitomassivo-foto.webp",
+    "instagram": "https://www.instagram.com/efeitomassivo"
   },
   {
     "id": "guvrim",
     "nome": "Guvrim",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/guvrimm/' target='_blank'>@guvrimm</a>",
-    "logo": "/src/assets/images/confirmados/bandas/guvrim.png",
-    "destaque": "/src/assets/images/confirmados/bandas/guvrim-foto.png"
+    "bio": "Conheça a Banda!",
+    "destaque": "/src/assets/images/confirmados/bandas-destaque/guvrim-foto.webp",
+    "instagram": "https://www.instagram.com/guvrimm"
   },
   {
     "id": "kmrock",
     "nome": "KM Rock",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/bandakmrock/' target='_blank'>@bandakmrock</a>",
-    "logo": "/src/assets/images/confirmados/bandas/kmrock.png",
-    "destaque": "/src/assets/images/confirmados/bandas/kmrock-foto.png"
+    "bio": "Conheça a Banda!",
+    "destaque": "/src/assets/images/confirmados/bandas-destaque/kmrock-foto.webp",
+    "instagram": "https://www.instagram.com/bandakmrock"
   },
   {
     "id": "kyori",
     "nome": "Kyori",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/bandakyori/' target='_blank'>@bandakyori</a>",
-    "logo": "/src/assets/images/confirmados/bandas/kyori.png",
-    "destaque": "/src/assets/images/confirmados/bandas/kyori-foto.png"
+    "bio": "Com 10 anos de estrada, a Kyori é uma força vibrante do J-Rock e New Metal, unindo a energia do rock japonês com o peso do alternativo. Inspirada por nomes como L’Arc-en-Ciel, ONE OK ROCK, Evanescence e Linkin Park, a banda criou uma sonoridade única que conecta a cultura pop japonesa à intensidade do palco.<br>Presença constante em grandes eventos de anime no RJ e ES, a Kyori entrega shows enérgicos, com riffs marcantes, vocais poderosos e uma conexão visceral com o público.<br><br>Cada apresentação é uma celebração entre técnica, emoção e crossover cultural.",
+    "destaque": "/src/assets/images/confirmados/bandas-destaque/kyori-foto.webp",
+    "instagram": "https://www.instagram.com/bandakyori"
   },
   {
     "id": "samambaiaornamental",
     "nome": "Samambaia Ornamental",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://instagram.com/samambaiaornamental' target='_blank'>@samambaiaornamental</a>",
-    "logo": "/src/assets/images/confirmados/bandas/samambaiaornamental.jpg",
-    "destaque": "/src/assets/images/confirmados/bandas/samambaiaornamental-foto.png"
+    "bio": "Conheça a Banda!",
+    "destaque": "/src/assets/images/confirmados/bandas-destaque/samambaiaornamental-foto.webp",
+    "instagram": "https://www.instagram.com/samambaiaornamental"
   },
   {
     "id": "skorno",
     "nome": "Skorno",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/skorno.jpg",
-    "destaque": "/src/assets/images/confirmados/bandas/skorno-foto.png"
+    "bio": "Com som agressivo e letras críticas, o Skorno expõe as desigualdades sociais e convoca à revolta. Misturando cultura e política, a banda denuncia a desumanidade das classes oprimidas e defende mudança e resistência. Formada no Rio de Janeiro em 2014, conta com Bruno Xistra (baixo), Filipe Vidal (guitarra) e Igor Ribeiro (bateria). #MarcelVive</p>",
+    "destaque": "/src/assets/images/confirmados/bandas-destaque/skorno-foto.webp",
+    "instagram": "https://www.instagram.com/skornorj"
   },
   {
     "id": "stigma",
     "nome": "Stigma",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "bio": "Conheça a Banda!",
+    "destaque": "/src/assets/images/confirmados/bandas-destaque/stigma-foto.webp",
+    "instagram": "https://www.instagram.com/banda_stigma"
   },
   {
     "id": "sunkiller",
     "nome": "Sunkiller",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "bio": "Conheça a Banda!",
+    "destaque": "/src/assets/images/confirmados/bandas-destaque/sunkiller-foto.webp",
+    "instagram": "https://www.instagram.com/sunkillerbr"
   },
   {
     "id": "tornokre",
     "nome": "tornokre",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "bio": "Conheça a Banda!",
+    "destaque": "/src/assets/images/confirmados/bandas-destaque/tornokre-foto.webp",
+    "instagram": "https://www.instagram.com/tornokre"
   },
   {
     "id": "vidalrocktrio",
     "nome": "Vidal Rock Trio",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "bio": "Conheça a Banda!",
+    "destaque": "/src/assets/images/confirmados/bandas-destaque/vidalrocktrio-foto.webp",
+    "instagram": "https://www.instagram.com/vidalrocktrio"
   },
   {
     "id": "baixadacrew",
     "nome": "Baixada Crew",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "bio": "Conheça a Banda!",
+    "destaque": "/src/assets/images/confirmados/street-destaque/baixadacrew-foto.webp",
+    "instagram": ""
   },
   {
     "id": "batalharimas",
     "nome": "Batalha de Rimas",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO",
+    "destaque": "/src/assets/images/confirmados/street-destaque/batalharimas-foto.webp,",
+    "instagram": ""
   },
   {
     "id": "campeonatoskate",
     "nome": "Campeonato de Skate - Best Trick",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO",
+    "destaque": "/src/assets/images/confirmados/street-destaque/campeonatoskate-foto.webp,",
+    "instagram": ""
   },
   {
     "id": "grafitti",
     "nome": "Grafitti",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO",
+    "destaque": "/src/assets/images/confirmados/street-destaque/grafitti-foto.webp",
+    "instagram": ""
   },
   {
     "id": "grafittikids",
     "nome": "Grafitti  Kids",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO",
+    "destaque": "/src/assets/images/confirmados/street-destaque/gratiffikids-foto.webp",
+    "instagram": ""
   },
   {
     "id": "soniacastilho",
     "nome": "Sônia Castilho",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO",
+    "destaque": "/src/assets/images/confirmados/street-destaque/soniacastilho-foto.webp",
+    "instagram": ""
   },
   {
     "id": "animeke",
-    "nome": "????",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "nome": "Animekê",
+    "bio": "Prepare suas cordas vocais pra subir no palco e cantar os clássicos dos desenhos animados que marcaram sua infância. Quero ver quem vai ter coragem e soltar a voz no Animekê da Garagem Geek!",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/animeke-foto.webp",
+    "instagram": ""
   },
   {
     "id": "cosplay",
-    "nome": "????",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "nome": "Concurso de Cosplay",
+    "bio": "Fique atento às regras para garantir sua participação no Concurso Cosplay",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/cosplay-foto.webp",
+    "instagram": ""
   },
   {
     "id": "cosplaykids",
-    "nome": "????",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "nome": "Desfile de Cosplay Kids",
+    "bio": "Fique atento às regras para garantir a participação de sua criança no Desfile de Cosplay Kids",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/cosplaykids-foto.webp",
+    "instagram": ""
   },
   {
     "id": "guilda",
-    "nome": "????",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "nome": "Guilda de Magé",
+    "bio": "Grupo de Mauá que trabalha com aluguél de jogos de tabuleiro. Também participam do Joga Nerd, todo 3º sábado do Mês no Espaço Cultural Magé Nerd, próximo a Estação Guia de Pacobaíba em Mauá.",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/guilda-foto.webp",
+    "instagram": ""
   },
   {
     "id": "rpgkids",
-    "nome": "????",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "nome": "RPG e RPG Kids",
+    "bio": "É preciso chegar cedo e fazer a inscrição.",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/rpgkids-foto.webp",
+    "instagram": ""
   },
   {
     "id": "joganerd",
-    "nome": "????",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
-  },
-  {
-    "id": "nerdquiz",
-    "nome": "????",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "nome": "Joga Nerd",
+    "bio": "Encontro mensal que acontece a todo 3º sábado do mês no Espaço Cultural Magé Nerd, próximo a Estação Guia e Pacobaíba em Mauá. Estarão com todo seu arcenal pra galera experimentar de perto como é jogar um boardgame de qualidade!",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/joganerd-foto.webp",
+    "instagram": ""
   },
   {
     "id": "magenerd",
-    "nome": "????",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "nome": "Magé Nerd",
+    "bio": "Magé Nerd, primeira rede de cultura  Nerd/Geek  da cidade de Magé, começou  cobrindo  vários eventos  do segmento: de Jedicon RJ a Guapanime, sempre trazendo entrevistas e novidades da cultura pop. Agora se aventura com o primeiro Espaço Cultural Nerd na Região já  conta com Biblioteca Carlos Villagrán, Feira de Livros e Quadros e é a casa do Joga Nerd(evento de boardgame) junto  com nossos parceiros da Guilda Nerd e Titan Geek, e em breve teremos  mais novidades  sigam  às  nossas  redes @magenerd no face, Instagram e YouTube.",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/magenerd-foto.webp",
+    "instagram": "https://www.instagram.com/magenerd"
   },
   {
     "id": "matheuscoringa",
-    "nome": "????",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "nome": "Matheus Athayde, o Coringa de Magé",
+    "bio": "Matheus é um jovem estudante de artes cênicas, conhecido na cidade de Magé por seu caricato cosplay dee Coringa, que ele veste para chamar atenção e brincar com a população enquanto vende suas pipocas caseiras para financiar os estudos. <br><br> Ele estará com a gente participando de um quadro de Perguntas e Respostas. Vamos ver quem acerta se não.... HaHAHaHAahAHaHAhahHA",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/matheuscoringa-foto.webp",
+    "instagram": "https://www.instagram.com/coringademage_"
   },
   {
     "id": "nerdquiz",
-    "nome": "????",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "nome": "Coringa Quiz",
+    "bio": "Você sabe tudo sobe o mundo geek? É Otaku raiz? O Gamer mais condecorado da PSN? Sabe tudo sobre filmes e séries? ENTÃO PROVE! <br><br> Queremos ver quem sabe tudo de cultura pop e vai acertar as perguntas do Coringa. <br>Tá valendo prêmio hein!",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/quiz-foto.webp",
+    "instagram": ""
   },
   {
-    "id": "tetangeek",
-    "nome": "????",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "titangeek",
+    "nome": "Titan Geek - Geek House",
+    "bio": "A Titan Geek e um ponto de encontro para os nerds de Mauá,  ",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/titangeek-foto.webp",
+    "instagram": "https://www.instagram.com/titangeekhouse"
+  },
+  {
+    "id": "retroarcade",
+    "nome": "Retrô Arcade (TCG)",
+    "bio": "Bora reviver a emoção de jogar no fliperama? Teremos máquinas de Arcade com jogos clássicos disponíveis pra quem quiser se desafiar no game retrô!",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/retroarcade-foto.webp",
+    "instagram": ""
   },
   {
     "id": "torneiocards",
     "nome": "Torneio de CardGame (TCG)",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "bio": "Traga seu Desk e venha competir com a gente! <br><br>Coordenado pelo Vilson Stratos, referência em TCG da região, os visitantes do Festival Underground Literário poderão se inscrever para participar dos torneios de Yu-Gi-Oh! (Formato avançado com a lista de restritas e proibidas vigente) e Pokémon (Rotação atual).",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/torneiocards-foto.webp",
+    "instagram": ""
   },
   {
-    "id": "vilsonstratus",
-    "nome": "Vilson Stratus",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "vilsonstratos",
+    "nome": "Vilson Stratos",
+    "bio": "Vilson “Stratos” Borges (35) é um morador de Magé (RJ) e apaixonado pelo hobby de jogos de cartas colecionáveis, também conhecidos como Trading Card Games, TCGs, Card Games etc. <br><br>No seu canal do Youtube “Vilson Stratos” ele aborda diversos jogos como Yu-Gi-Oh!, Pokémon, Magic the Gathering, Digimon Card Game, One Piece Card Game e entre outros! <br><br>Ele estará marcando presença no 1° Festival Underground Literário coordenando a área de Card Games onde todos que quiserem um espaço para conhecer mais sobre o hobby, para encontrar os amigos e jogar partidas do seu Card Game favorito e competir em torneios eletrizantes de Yu-Gi-Oh! (Formato avançado com a lista de restritas e proibidas vigente) e Pokémon (Rotação atual) são mais que bem-vindos para participar!",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/vilsonstratos-foto.webp",
+    "instagram": ""
   },
   {
-    "id": "rodas",
-    "nome": "???",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "papogeek1",
+    "nome": "Papo de Geek - Arte VERSUS Tecnologia",
+    "bio": "Na verdade o título Art VERSUS Tech é uma provocação, nesse Papo de Geek não pretendemos ficar em lados opostos. Vamos juntar forças com um time que prova, na prática, que arte e tecnologia não são caminhos opostos — são parceiras poderosas. Nossos convidados vivem essa fusão todos os dias: animando personagens que conquistam o mundo, criando narrativas visuais incríveis, liderando equipes criativas, pesquisando ciência, desenvolvendo ferramentas com IA e experimentando novos formatos de expressão. Eles usam tecnologia para ampliar criatividade, e usam arte para dar sentido ao que a tecnologia possibilita. É essa bagagem — que mistura cinema, jogos, educação, pesquisa, música, inovação e muita mão na massa — que vai guiar nossa conversa.",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/papogeek1.webp",
+    "instagram": ""
   },
   {
-    "id": "rodas",
-    "nome": "???",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "marlos",
+    "nome": "Marlos Ulrich",
+    "bio": "Graduado em Gestão Pública, apto em Segurança pública e privada em grandes eventos, Marlo é o realizador do tradicional evento de anime GUAPANIME, que acontece duas vezes ao ano na cidade de Guapimirim. O evento reúne fãs da cultura pop, artistas convidados, dubladores, concursos de cosplayer, campeonatos de video game, apresentações de dança K-pop, dentre diversas outras atrações.<br><br>Marlo vai participar do nosso Papo de Geek, no tema Produção de Eventos onde contará um pouco sobre sua experiência, sobre os desafios de estar a frente de eventos para este segmento, dará dicas para engajar o público. Ele também trará um grupo de Dança K-Pop que é parceiro em seus eventos para se apresentar no 1º Festival Underground Literário convidando a todos para sua próxima edição que será no dia 18 de janeiro de 2026.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/marlos-foto.webp",
+    "instagram": "https://www.instagram.com/marlosulrich/"
   },
   {
-    "id": "rodas",
-    "nome": "???",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "hamilton",
+    "nome": "Hamilton Kabuna",
+    "bio": "Quadrinista, professor de desenho, membro do CAPA COMICS, com vasta experiência em eventos, Hamilton estará expondo revistas em quadrinhos de sua editora indepenente, oferecerá uma oficina de Storytelling e participará conosco no Papo de Geek sobre Produção de Eventos de Cultura Pop.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/hamilton-foto.webp",
+    "instagram": "https://www.instagram.com/kabunahamilton/"
   },
   {
-    "id": "rodas",
-    "nome": "???",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "capa",
+    "nome": "Capa Comics",
+    "bio": "A Capa Comics é um coletivo de histórias em quadrinhos da Baixada Fluminense formado em 2013. O grupo inspirou seu nome no lendário Tenório Cavalcanti, mais conhecido como o Homem da Capa Preta, que no cinema, foi interpretado por José Wilker. Seus integrantes são quadrinistas que se juntaram sob a mesma bandeira para produzir tramas ambientadas em sua própria região, dando origem a um universo de quadrinhos brasileiros.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/capa-foto.webp",
+    "instagram": "https://www.instagram.com/capacomics/"
   },
   {
-    "id": "rodas",
-    "nome": "???",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "papogeek2",
+    "nome": "Papo de Geek - Produção de Eventos de Cultura Pop",
+    "bio": "Neste Papo de Geek estaremos com duas feras! O Marlos (do Guapanime) e o Hamilton (do Capa Comics).<br><br>O que será que a gente precisa pra ter mais eventos assim na nossa cidade hein?<br>Bora trocar uma idéia sobre isso?",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/papogeek2.webp",
+    "instagram": ""
   },
   {
-    "id": "rodas",
-    "nome": "???",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "catarina",
+    "nome": "Catarina Niero",
+    "bio": "Catarina Niero é Supervisora de Animação e Animadora 2D, com 14 anos de experiência em séries de TV, longas-metragens e publicidade, alguns como TFT para Riot Games,  Overwatch, séries como Meu Amigazao, irmão do Jorel, Anymalu Show, Snoopy entre outros e atualmente supervisiona a equipe da Turma da Boiadeirinha para Ana Castela. Ao longo de sua trajetória, desenvolveu uma visão técnica e artística sólida, combinando domínio de linguagem visual com sensibilidade narrativa. Atua tanto na criação quanto na supervisão de equipes, conduzindo projetos de alta complexidade e grande visibilidade com foco em qualidade, organização e colaboração.<br><br>Especialista em dar vida a personagens e transformar ideias em movimento, ela é apaixonada por contar histórias — acreditando na animação como uma ponte entre emoção, imaginação e propósito. Sua experiência inclui formação e treinamento de equipes, liderança de pipelines completos e suporte a artistas em diferentes níveis, sempre com um olhar atento ao desenvolvimento humano e criativo.<br><br>Casada e mãe do Noah e da Liana, Catarina traz para cada projeto uma combinação única de técnica, sensibilidade e comprometimento. Seu propósito é inspirar, orientar e construir ambientes de trabalho onde artistas possam crescer e dar o melhor de si, contribuindo para um mercado de animação mais maduro, acolhedor e inovador.",
+    "destaque": "/src/assets/images/confirmados/pessoas/catarina-foto.webp",
+    "instagram": "https://www.instagram.com/inaniero.art"
   },
   {
-    "id": "rodas",
-    "nome": "???",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "felipe",
+    "nome": "Felipe Simões",
+    "bio": "Casado com a Priscila e pai do Eric (14) e da Laura (9). Formado em Ilustração e Animação em Design  3D pela Universidade Veiga de Almeida. Trabalha  como animador 2D e 3D  no mercado audiovisual desde 2010.<br><br>Ao longo da carreira, teve a oportunidade de colaborar com diversos estúdios nacionais, como 2D Lab, Copa Estúdios, Combo Estúdio, Lightfarm e Zombie Studio. Viveu dois anos na Irlanda, onde trabalhou presencialmente no estúdio Lighthouse. Também atuou remotamente como Lead Animator para o estúdio Icon Creative, em Vancouver, no Canadá.<br><br>Atualmente é Diretor de Animação no estúdio Histeria, onde anima e supervisiona a animação de cinemátics de jogos da Riot Games, como League of Legends,TFT e Valorant.<br><br>Alguns projetos nos quais trabalhou: Meu Amigãozão, Historietas Assombradas, Any Malu Show, The Cuphead Show, WondLa, além de animar em alguns cinematics de  Overwatch, Valorant, League of Legends, Free Fire e TFT.<br><br>Fora do trabalho, gosta de jogar videogame, tocar guitarra e se envolver em projetos criativos — como pintar miniaturas, fazer esculturas em biscuit ou com caneta 3D. Sou apaixonado por quadrinhos e super-heróis (ainda que leia menos do que gostaria).",
+    "destaque": "/src/assets/images/confirmados/pessoas/felipe-foto.webp",
+    "instagram": "https://www.instagram.com/simoes.animation"
   },
   {
-    "id": "expo",
-    "nome": "???",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "jp",
+    "nome": "João Paulo",
+    "bio": "JP é Diretor Criativo na Lightfarm e Head do Academy Lab, onde lidera equipes e projetos que integram arte, tecnologia e criatividade. Com uma trajetória de mais de 15 anos no mercado, atua como artista 3D generalista, instrutor e mentor, dedicando-se à formação de novos profissionais e ao desenvolvimento de processos criativos inovadores.<br><br>Apaixonado por cinema de animação e entusiasta de novas tecnologias, JP explora a arte digital como uma forma de expressão capaz de unir técnica e emoção. Sua experiência abrange colaborações com projetos nacionais e internacionais, desde a criação de personagens, ambientes e narrativas visuais de alto impacto, até direção, gerenciamento e organização de projetos e times criativos de alta performance.<br><br>Seu propósito é fomentar a cultura da criação digital — conectando pessoas, compartilhando conhecimento e inspirando novas gerações de artistas.",
+    "destaque": "/src/assets/images/confirmados/pessoas/jp-foto.webp",
+    "instagram": "https://www.instagram.com/artofjoaolacerda"
   },
   {
-    "id": "expo",
-    "nome": "???",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "ueslei",
+    "nome": "Ueslei Reis",
+    "bio": "Ueslei Reis é físico, mestre em Ciência, Tecnologia e Educação, e educador com experiência no ensino de física. Um dos ramos de sua pesquisa explora as intersecções entre ciência e arte, especialmente como conceitos de espaço e tempo presentes nas artes visuais anteciparam ou dialogaram com formulações posteriores da física.<br><br>Ao longo de sua trajetória docente, defende que o ensino de ciências pode — e deve — se nutrir de outras linguagens humanas, não apenas como recurso didático, mas como forma de revelar visões de mundo que impulsionam o avanço científico e tecnológico, assim como esse avanço, por sua vez, contribui para as transformações nas expressões artísticas. <br><br>Atualmente, como gestor escolar, dedica-se ao estudo e desenvolvimento de aplicações com Inteligência Artificial Generativa, criando ferramentas voltadas ao apoio pedagógico e à gestão escolar. <br><br>Paralelamente, explora a IA de forma criativa na produção de videoclipes musicais de forma não profissional, integrando música, imagem e narrativa audiovisual como um laboratório estético e tecnológico. <br><br>Defende que a inteligência artificial precisa ser regulamentada para que os artistas cujos trabalhos foram utilizados no treinamento das IAs recebam os devidos royalties, e acredita que a IA não deve servir para imitar o que já é feito por humanos, mas sim como meio para criar algo novo — algo possível apenas pela criatividade e inventividade humana",
+    "destaque": "/src/assets/images/confirmados/pessoas/ueslei-foto.webp",
+    "instagram": "https://www.instagram.com/profuesleireis"
   },
   {
-    "id": "expo",
-    "nome": "???",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "fernando",
+    "nome": "Fernando Legião",
+    "bio": "Pioneiro da Cultura Geek em Magé, Fernando Legião (como é conhecido) além de ser um desbravador do mundo Nerd também é artista plástico, faz pinturas a óleo e estará com sua exposição de quadros e livros antgos no Festival Underground Literário.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/fernando-foto.webp",
+    "instagram": "https://www.instagram.com/fernando.legiao"
   },
   {
-    "id": "expo",
-    "nome": "???",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "everton",
+    "nome": "Everton Drawings",
+    "bio": "Everton é um jovem mageense apaixonado por animes, super heróis e games. Seu diagnóstico de autismo não o afastou de sua paixão pelo mundo geek e de se dedicar aos seus desenhos. Muito pelo contrário, isso o tornou quase uma máquina de obras de arte. Artes nas quais ele vai expor durante o Festival. <br><br>Everton aprimorou tão bem suas técnicas de desenho que hoje dá aulas na Fundação Cultural de Magé e também estará com sua Oficina de Desenho Mangá durante o Festival. <br><br>Chegem cedo para se inscrever, vagas limitadas!",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/everton-foto.webp",
+    "instagram": "https://www.instagram.com/evertondrawings"
+  },
+    {
+    "id": "oficinageek1",
+    "nome": "Oficina de Desenho Cartoon",
+    "bio": "Com a ilustradora Catarina Niero.<br><br>Vagas Limitadas, chegue cedo para se inscrever!",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/oficinageek1-foto.webp",
+    "instagram": "https://www.instagram.com/inaniero.art"
+  },
+    {
+    "id": "oficinageek2",
+    "nome": "Oficina de Desenho Mangá",
+    "bio": "Com a professor de desenho, Everton.<br><br>Vagas Limitadas, chegue cedo para se inscrever!",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/oficinageek2-foto.webp",
+    "instagram": "https://www.instagram.com/evertondrawings"
+  },  {
+    "id": "oficeinageek3",
+    "nome": "Oficina de Storytelling",
+    "bio": "Com o quadrinista Hamilton Kabuna,<br><br>Vagas Limitadas, chegue cedo para se inscrever! ",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/oficinageek3-foto.webp",
+    "instagram": "https://www.instagram.com/kabunahamilton/"
   },
   {
-    "id": "expo",
-    "nome": "???",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "contacaohistoria",
+    "nome": "Contação de Histórias com Professora Anajara Vidal",
+    "bio": "Contação da história “O Reino das Cores”, que convida o público a mergulhar em um mundo encantado onde as cores ganham vida e transmitem valores como respeito, amizade e diversidade. A proposta estimula a imaginação, a escuta sensível e a interação lúdica entre as crianças.",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/contacaohistorias-foto.webp",
+    "instagram": "https://www.instagram.com/anajaravidal" 
   },
   {
-    "id": "expo",
-    "nome": "???",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO<br><br><a href='https://www.instagram.com/?????/' target='_blank'>@b??????</a>",
-    "logo": "/src/assets/images/confirmados/bandas/???.png",
-    "destaque": "/src/assets/images/confirmados/bandas/???-foto.png"
+    "id": "costelinha",
+    "nome": "Musicalização Infantil com Tio Costelinha",
+    "bio": "Tio Costelinha, encanta crianças com contação de histórias, música e performances educativas, levando arte, inclusão e afeto para escolas, praças, teatros e grandes eventos, como Bienal do Livro, Theatro Municipal e Flip.",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/costelinha-foto.webp",
+    "instagram": "https://www.instagram.com/ericfanuel_ofc" 
+  },
+  {
+    "id": "coresquesentem",
+    "nome": "Oficina: Cores que Sentem",
+    "bio": "A oficina “Cores que Sentem” contará com atividades lúdicas que incentivarão as crianças a se expressarem, valorizando e reconhecendo as diversas emoções que colorem a infância. Dessa forma, promoveremos a inclusão e o respeito por meio do acolhimento de cada criança em sua singularidade.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/coresquesentem-foto.webp",
+    "instagram": ""
+  },
+  {
+    "id": "somdosilencio",
+    "nome": "Oficina: O Som do Silêncio",
+    "bio": "A oficina “Som do Silêncio” contará com atividades que explorarão diferentes formas de comunicação e percepção — de nós mesmos e dos outros — de maneira prática e envolvente, proporcionando experiências que acolhem a diversidade e promovem a inclusão.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/somdosilencio-foto.webp",
+    "instagram": ""
+  },
+  {
+    "id": "projeto50euns",
+    "nome": "Projeto 50 e Uns",
+    "bio": "Projeto criado por Rossane Gralato que visa trazer independência financeira para mulheres. Realiza feira de artesanato toda quinta-feira no Calçadão de Magé",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/projeto50euns-foto.webp",
+    "instagram": "https://www.instagram.com/projeto50euns"
+  },
+  {
+    "id": "eric",
+    "nome": "Eric Fanuel",
+    "bio": "Eric Fanuel é escritor, produtor cultural. <br> <br> Como autor, transita entre poesia, prosa e literatura infantojuvenil, reunindo obras que celebram identidade, memória e ancestralidade. Como produtor, idealiza e realiza projetos culturais, festivais e ações formativas que fortalecem a cena artística de Magé e da Baixada Fluminense.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/eric-foto.webp",
+    "instagram": "https://www.instagram.com/ericfanuel_ofc"
+  },
+  {
+    "id": "fernanda",
+    "nome": "Fernanda Santos Navarro",
+    "bio": "Natural de Magé, é uma escritora que viveu por três décadas na Europa, o que influenciou profundamente sua produção literária. Seu primeiro lançamento foi o documentário “Vida Fácil”, em 2011, na Bienal do Livro do Rio de Janeiro, e em 2016, foi apresentado na FNAC de Lisboa. Ao longo dos anos, Fernanda publicou diversas obras, incluindo títulos cristãos como “Jesus, a Verdade que Liberta” e “Mulher, por que choras?”. Também produziu o documentário “Se eu sobreviver”, em homenagem aos policiais do Brasil. O romance “Minha culpa é te amar” foi lançado na Feira Literária de Lisboa, e em 2025, o romance “Debaixo da mesma lua” foi apresentado na FLIG de Papimirim e também na FLIN de Magé. Para 2026, Fernanda tem lançamentos previstos, como “40 Luas”, o livro infantil “Um pedacinho de Sol para mim” e a segunda edição do documentário “Se eu sobreviver”, em homenagem aos policiais do Brasil, especialmente aos PMs do Rio de Janeiro, incluindo a participação de seu filho.<br><br>OBRAS: Debaixo da mesma lua<br><br>SINOPSE 'Debaixo da Mesma Lua, Amor' é uma envolvente narrativa de amor e escolhas, tecida pela autora Fernanda Santos Navarro. No calor de uma tarde de verão no interior do Rio de Janeiro, Laura, uma mulher independente e bem-sucedida na área da enocultura, vê sua vida dar uma guinada inesperada quando cruza o caminho de Lucas, um simples e trabalhador pedreiro.<br><br>Numa dança entre risos e lágrimas, 'Debaixo da Mesma Lua, Amor' explora a complexidade das relações humanas, destacando que, por vezes, alguém precisa perder para que outro possa ganhar, e que lágrimas podem preceder sorrisos. No final, a obra ressalta que, apesar das dificuldades, a vida é feita de escolhas, e, com o tempo, tudo se ajeita.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/fernanda-foto.webp",
+    "instagram": ""
+  },
+  {
+    "id": "jurema",
+    "nome": "Jurema Araujo",
+    "bio": "58 anos, carioca, poeta, com 5 antologias, 2 revistas e vários saraus pela vida.<br><br>OBRAS: O Livro Negro dos Sentidos; Narrativas insubmissas<br><br>SINOPSEAntologias mistas com poemas, contos e crônicas",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/jurema-foto.webp",
+    "instagram": "https://www.instagram.com/palavras_femeas"
+  },
+  {
+    "id": "olga",
+    "nome": "Olga Tavares",
+    "bio": "Doutoranda em Anteopologia pela UFF e foi presidente da Associacao Mageeense de Pessoas com deficiência por 20 anos. Realizou pesquisa em igrejas de Magé, cujo resultado se tornou no livro Teologia e Deficiência<br><br>Teologia e Deficiência, um convite aos que têm fome e sede de justiça.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/olga-foto.webp",
+    "instagram": "https://www.instagram.com/olgamariatavares"
+  },
+  {
+    "id": "wellington",
+    "nome": "Wellington Toledo",
+    "bio": "Nascido em 1 de dezembro de 1982. Mestre em Letras Vernáculas pela UFRJ. Membro-fundador da Academia Mageense de Letras e Arte (Anla). Ex-aluno de Dona Cleonice Berardinelli (28/08/1916 – 31/01/2023); a mais longeva ocupante da oitava cadeira da Academia Brasileira de Letras (ABL). Graduado em Letras e Artes Visuais. Pai, professor (Língua Portuguesa e Artes Visuais), escritor (dois livros de poesia publicados e um 3º em processo de publicação, “Biobibliografia” [2016], “O labirinto de Sísifo e Aforismos por aí Afora” [2023] e “Arte para Ingres Ver” [2025/2026]), marceneiro, ambientalista, músico, luthier. Lotado na Prefeitura Municipal de Magé (PMM) há mais de 11 anos.  “A mesóclise do eu/ que desejou não ter sido/ o que não foi/ e o ser que foi tecido/ por não desejar ser outro ser.”. Essa coisa aí ou nada disso. E escreve. Mesmo sabendo que “Escrever é confabular em bula o próprio veneno, / na tentativa nula de burlá-lo.”",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/wellington-foto.webp",
+    "instagram": "https://www.instagram.com/welltoledo"
+  },
+  {
+    "id": "wudson",
+    "nome": "Wudson Guilherme de Oliveira",
+    "bio": "Autor principal de 15 revistas e 14 livros, entre eles “Branquitude, representações & privilégios” ambos acadêmicos com artigos científicos voltados para a educação das “Relações Étnico-Raciais”. Autor do livro “Contos Afro-Diaspóricos e Periféricos”, Posfaciador do livro infantil “O Dia em que o Vento Perdeu a Cor” e Coautor de 14 livros de antologias literárias. Entre eles, “Meu Griot Maxambomba!”, “Um indivíduo antirracista”, “Mocambo (Re)Existência”, “Brincadeiras de capoeiragens”, “Foi um amor á primeira vista”, “Uma mulher misteriosa” entre outras escritas. Entre as honrarias, foi contemplado no Prêmio Conceição Evaristo de Literatura, da IV Edição Prêmio Palmares das Artes, recebeu a “Menção Honrosa” no 37º Concurso Literário Yoshio Takemoto, com o conto “Um samurai da cor da noite”, publicado em português e japonês (hiragana), dentre outros. <br><br> OBRAS: Branquitude, representações & privilégios: estudos sobre a identidade branca nas histórias em quadrinhos e Contos afro-diaspóricos e periféricos. <br><br>SINOPSE: Diálogos sobre os personagens das revistas de histórias em quadrinhos que são amaparados pelas perspectivas da branquitude. Já o outro livro, apresenta contos voltados as discussões das questões étnico-raciais, bem como propostas para trabalhar com esses pontos de vistas.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/wudson-foto.webp",
+    "instagram": "https://www.instagram.com/wudafrica"
   }
 ]

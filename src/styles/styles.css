@@ -9,7 +9,9 @@
   --preto-fundo: #0b0c0b;
   --transition-fast: 180ms;
 }
-
+html, body {
+  overflow-x: hidden;
+}
 /* === TIPOGRAFIA GLOBAL === */
 body {
   margin: 0;
@@ -56,33 +58,112 @@ main {
   margin: 0 auto; 
 }
 
-/* === NAVBAR === */
+/* === NAVBAR FIXA === */
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1200;
-  display:flex;
-  gap: 18px;
-  justify-content:center;
-  align-items:center;
-  padding: 2px 2px;
-  background: rgba(0,0,0,0.7);
-  backdrop-filter: blur(4px);
+  z-index: 2000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(6px);
   border-bottom: 2px solid var(--verde-neon);
 }
-.navbar a { 
-  color: var(--verde-neon);
+
+/* ============================================================
+   DESKTOP NAV
+============================================================ */
+
+.menu {
+  display: flex;
+  white-space: nowrap;      /* nunca quebra linha */
+  gap: 20px;                /* espaçamento horizontal */
+  align-items: center;
+  margin: 0;
+  padding: 8px 12px;
+  list-style: none;
+}
+
+/* links do menu */
+.menu > a {
+  display: inline-block;
   text-decoration: none;
-  font-weight:700;
-  padding:5px 5px;
-  transition: all var(--transition-fast) ease; 
+  color: var(--verde-neon);
+  font-weight: 700;
+  padding: 6px 6px;
+  transition: color var(--transition-fast), transform var(--transition-fast);
+
+  /* fonte reduz conforme necessário, mas nunca quebra */
+  font-size: clamp(0.75rem, 1.4vw, 1rem);
 }
-.navbar a:hover { 
-  color: var(--azul-livro); 
-  transform: translateY(-2px); 
+
+.menu > a:hover {
+  color: var(--azul-livro);
+  transform: translateY(-2px);
 }
+
+/* botão mobile (escondido no desktop) */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--verde-neon);
+  font-size: 1.6rem;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+/* ============================================================
+   MOBILE
+============================================================ */
+@media (max-width: 820px) {
+
+  .menu {
+    display: none;              /* escondido até abrir */
+    position: absolute;
+    top: calc(100% + 2px);
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 90vh;
+    background: rgba(0,0,0,0.92);
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    gap: 2px;
+    padding-top: 70px;
+
+    border-bottom: 1px solid var(--verde-neon);
+    z-index: 1500;
+    overflow-y: auto;
+  }
+
+  /* quando abrir */
+  .menu.open {
+    display: flex;
+  }
+
+  /* estilo dos links no mobile */
+  .menu > a {
+    font-size: clamp(1.2rem, 3.4vh, 2rem);
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  /* mostra o botão mobile */
+  .menu-toggle {
+    display: block;
+  }
+}
+
 
 /* === HERO === */
 .hero {
@@ -186,8 +267,6 @@ button:hover, .btn:hover { filter: brightness(1.03);
   transform: scale(1.05);
 }
 
-
-
 .btn-day:hover { 
   transform: translateY(-3px); 
   background: var(--azul-livro); 
@@ -198,17 +277,6 @@ button:hover, .btn:hover { filter: brightness(1.03);
   color:#000; 
   transform: translateY(-2px); }
 
-
-
-
-
-/* === CARDS / FESTIVAL === */
-.card-container { display:flex; gap: 24px; align-items:flex-start; justify-content:center; flex-wrap:wrap; padding-top:8px; }
-.art { flex: 0 1 420px; max-width:420px; }
-.art img { width:100%; height:auto; border-radius:12px; display:block; }
-.cards-sobre { display:flex; flex-direction:column; gap:16px; flex: 1 1 360px; min-width: 260px; }
-.card { background: rgba(12,12,12,0.72); border: 2px solid var(--azul-livro); padding:18px; border-radius:10px; transition: transform 220ms ease, box-shadow 220ms ease; }
-.card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(0,0,0,0.6); border-color: var(--rosa-grafite); }
 
 /* CTA === INSCRIÇÕES ABERTAS === */
 .cta {  
@@ -221,71 +289,39 @@ button:hover, .btn:hover { filter: brightness(1.03);
   color: #fff;;
 }
 
-/* === MAPA ================ */
 
-/* fundo e centralização */
-#mapa {
+/* === CARDS / FESTIVAL === */
+.card-container { display:flex; gap: 24px; align-items:flex-start; justify-content:center; flex-wrap:wrap; padding-top:8px; }
+.art { flex: 0 1 420px; max-width:420px; }
+.art img { width:100%; height:auto; border-radius:12px; display:block; }
+.cards-sobre { display:flex; flex-direction:column; gap:16px; flex: 1 1 360px; min-width: 260px; }
+.card { background: rgba(12,12,12,0.72); border: 2px solid var(--azul-livro); padding:18px; border-radius:10px; transition: transform 220ms ease, box-shadow 220ms ease; }
+.card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(0,0,0,0.6); border-color: var(--rosa-grafite); }
+
+
+/* === FESTIVAL == VIDEO  === */
+
+  /* o festival vira container do vídeo */
+#festival {
+  position: relative;
+  overflow: hidden; /* impede o vídeo de vazar */
+}
+
+/* vídeo no fundo da sessão festival */
+#atracoes video {
+  position: absolute;
+  inset: 0;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: url('/src/assets/images/bg.png') no-repeat center center;
-}
-
-/* imagem centralizada */
-#mapa img {
-  width: 80%;
-  height: auto;
-  align-items: center / center;
-  align-content:center / center;
-  border-radius: 8px;
-}
-
-#mapa img:hover {
-box-shadow: 0 0 12px var(--azul-livro);
-}
-
-/* === PROGRAMAÇÃO ================ */
-.programacao { 
-  background-color: #000; 
-}
-.programacao-img { 
-  display: none; 
-  text-align: center; 
-  margin: 1.5rem 0; 
-  animation: fadeIn 0.5s ease-in-out;
-}
-.programacao-img img {
-  max-width: 90%; 
-  border-radius: 10px; 
-  cursor: pointer; 
-  
-}
-.programacao-img img:hover { 
-  transform: scale(1.03);
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  z-index: 0;
+  pointer-events: none;
 }
 
 
+/* ============= GALERIA ATRAÇÕES CONFIRMADAS  ============= */
 
-
-/* === PROGRAMAÇÃO - IMAGENS E LIGHTBOX === */
-
-.btn-recolher { display: none; margin: 1rem auto; padding: 10px 20px; background: #000; color: #fff; border: none; border-radius: 8px; cursor: pointer;}
-.btn-recolher:hover { background: #222;}
-
-/* Lightbox */
-.lightbox { 
-  background-color: #9eff64;
-  display: none; position: fixed; z-index: 9999; inset: 0; background: rgba(0,0,0,0.9); justify-content: center; align-items: center; }
-.lightbox img { max-width: 90%; max-height: 90%; }
-.lightbox-close { position: absolute; top: 20px; right: 30px; font-size: 2rem; color: white; cursor: pointer;}
-
-/* table inside slides */
-.agenda { width:100%; border-collapse:collapse; background: rgba(0,0,0,0.45); border-radius:8px; overflow:hidden; }
-.agenda th, .agenda td { border:1px solid rgba(255,255,255,0.04); padding:8px; text-align:center; font-size:0.95rem; }
-
-/* === ATRAÇÕES CONFIRMADAS + video de fundo === */
 #atracoes { 
   position:relative; 
   overflow:hidden; 
@@ -294,22 +330,10 @@ box-shadow: 0 0 12px var(--azul-livro);
   position: relative;
 }
 
-#atracoes video { 
-  position:absolute; 
-  inset:0; 
-  width:100%; 
-  height:100%; 
-  object-fit:cover; 
-  opacity:0.5; 
-  z-index:0; 
-  pointer-events:none; }
-
 #atracoes .overlay-content {
   position: relative;
   z-index: 2;
 }
-
-/* ============= GALERIA ATRAÇÕES CONFIRMADAS  ============= */
 
 .gallery {
   display: grid;
@@ -375,6 +399,197 @@ box-shadow: 0 0 12px var(--azul-livro);
     max-width: 95%;
   }
 }
+
+
+/* === PROGRAMAÇÃO ================ */
+.programacao { 
+  background-color: #000; 
+}
+.programacao-img { 
+  display: none; 
+  text-align: center; 
+  margin: 1.5rem 0; 
+  animation: fadeIn 0.5s ease-in-out;
+}
+.programacao-img img {
+  max-width: 90%; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  
+}
+.programacao-img img:hover { 
+  transform: scale(1.03);
+}
+
+
+
+
+/* === PROGRAMAÇÃO - IMAGENS E LIGHTBOX === */
+
+.btn-recolher { display: none; margin: 1rem auto; padding: 10px 20px; background: #000; color: #fff; border: none; border-radius: 8px; cursor: pointer;}
+.btn-recolher:hover { background: #222;}
+
+/* Lightbox */
+.lightbox { 
+  background-color: #9eff64;
+  display: none; position: fixed; z-index: 9999; inset: 0; background: rgba(0,0,0,0.9); justify-content: center; align-items: center; }
+.lightbox img { max-width: 90%; max-height: 90%; }
+.lightbox-close { position: absolute; top: 20px; right: 30px; font-size: 2rem; color: white; cursor: pointer;}
+
+/* table inside slides */
+.agenda { width:100%; border-collapse:collapse; background: rgba(0,0,0,0.45); border-radius:8px; overflow:hidden; }
+.agenda th, .agenda td { border:1px solid rgba(255,255,255,0.04); padding:8px; text-align:center; font-size:0.95rem; }
+
+
+/* === MAPA ================ */
+
+/* fundo e centralização */
+#mapa {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('/src/assets/images/bg.png') no-repeat center center;
+  background-size: cover;
+  overflow-x: hidden; /* evita rolagem lateral */
+}
+
+.mapa-container {
+  max-width: 100%;
+  overflow: hidden; /* garante que nada estoure */
+}
+
+/* imagem centralizada */
+#mapa img {
+  width: 80%;
+  height: auto;
+  align-items: center / center;
+  align-content:center / center;
+  border-radius: 8px;
+  max-width: 900px; /* limite pra telas grandes */
+
+}
+
+/* === EQUIPE === */
+.equipe {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  min-height: 20px;
+  text-align:center;
+  background: url("/src/assets/images/bg.png") center/cover no-repeat;
+}
+
+/* === GALERIA EQUIPE (botões/fotos quadradas) === */
+.equipe-gallery {
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  padding: 20px 0;
+  justify-items: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.equipe-gallery a {
+  aspect-ratio: 1 / 1;
+  width: 5rem;
+  max-width: 120px;
+  border-radius: 80px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.equipe-gallery a:hover {
+  transform: scale(1.05);
+/*  box-shadow: 0 0 12px var(--azul-livro);  aplicar estilo neon só quando o link estiver ativo*/
+}
+
+.equipe-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* === FICHA DE EQUIPE (overlay invertido) === */
+.equipe-corpo {
+  display: flex;
+  flex-direction: row-reverse; /* 🔹 imagem à direita, texto à esquerda */
+  gap: 2%;
+  justify-content: center;
+  align-items: stretch;
+  min-height: 280px;
+  max-height: 60vh;
+  overflow: hidden;
+}
+
+.equipe-corpo .ficha-imagem {
+  flex: 0 0 40%;
+  max-height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.equipe-corpo .ficha-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.equipe-corpo .ficha-bio {
+  flex: 1;
+  overflow-y: auto;
+  text-align: left;
+  padding-right: 10px;
+  line-height: 1.5;
+}
+
+/* === Responsivo === */
+@media (max-width: 768px) {
+  .equipe-corpo {
+    flex-direction: column;
+    max-height: none;
+  }
+  .equipe-corpo .ficha-imagem {
+    flex: 0 0 auto;
+    width: 100%;
+    max-height: 40vh;
+  }
+  .equipe-corpo .ficha-bio {
+    overflow-y: visible;
+  }
+}
+
+
+.equipe-img { 
+  display: none; 
+  text-align: center; 
+  margin: 1.5rem 0; 
+  animation: fadeIn 0.5s ease-in-out;
+}
+.equipe-img img {
+  max-width: 90%; 
+  border-radius: 10px; 
+  cursor: pointer; 
+}
+.equipe-img img:hover { 
+  transform: scale(1.03);
+}
+
+
 
 
 /* === APOIADORES / LOGOS === */
@@ -580,6 +795,10 @@ body.linktree h1 {
 
 }
 
+/* ============ SOBRE O FESTIVAL ======== VIDEO ================== */
+
+
+
 /* =============================== EXIBIÇÃO DAS FICHAS DE ATRAÇÃO ================== */
 /* === FICHA DE ATRAÇÃO / OVERLAY === */
 .overlay-ficha {
@@ -588,10 +807,13 @@ body.linktree h1 {
   background: rgba(0,0,0,0.85);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   z-index: 9999;
   padding: 20px;
   backdrop-filter: blur(4px);
+  gap: 2%;
+  overflow: hidden;
+  flex-wrap: nowrap;
 }
 
 .overlay-ficha.hidden {
@@ -599,16 +821,21 @@ body.linktree h1 {
 }
 
 .ficha-content {
+  display: flex;
+  flex-direction: column;
+  
   background: rgba(20,20,20,0.95);
   border: 2px solid var(--azul-livro);
   border-radius: 14px;
-  padding: 25px;
   max-width: 900px;
-  width: 80%;
+  height: 90vh;
+  width: 100%;
   color: var(--texto-claro);
   text-align: center;
   position: relative;
   animation: fadeIn 0.3s ease;
+
+  padding-bottom: 12px; /* 🔹 sobe o bloco inteiro sem colar no fim */
 }
 
 /* topo (logo + nome) */
@@ -618,8 +845,14 @@ body.linktree h1 {
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
+
+#ficha-nome {
+  white-space: normal;  /* permite quebrar */
+  text-align: center;
+}
+
 
 .ficha-topo img {
   width: 80px;
@@ -629,32 +862,42 @@ body.linktree h1 {
 /* corpo (imagem + bio) */
 .ficha-corpo {
   display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+  gap: 5px;
+  flex-wrap: flex;/* empilha no mobile */
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  text-align: left;
+  flex: 1; /* ocupa o espaço todo e empurra o rodapé para baixo */
+  overflow-y: auto; /* garante que só o conteúdo role, não os botões */
+  padding-bottom: 10px; /* evita grudar demais nos botões */
 }
 
 .ficha-imagem {
-  width: 100%;
-  max-width: 80%; /* limite de largura */
-  height: 250px; /* altura fixa pra todas */
+  flex: 0 0 60%;
+  height: auto;
+  max-height:90%;
+  width: 90%;
   overflow: hidden; /* corta o excesso */
-  border-radius: 8px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+ 
+  padding: 30px;        /* ajusta a imagem para não colar nas bordas */
+  box-sizing: border-box;
 }
+
 
 .ficha-imagem img {
   max-width: 100%;
   border-radius: 8px;
   transition: transform 0.3s ease;
-  width: 70%;
-  height: 100%;
   object-fit: cover; /* ajusta a imagem sem distorcer */
   object-position: center; /* centraliza */
+  width: 100%;
+  height: 100%;
 }
+
 
 .ficha-imagem img:hover {
   transform: scale(1.03);
@@ -662,9 +905,24 @@ body.linktree h1 {
 
 .ficha-bio {
   flex: 1;
-  text-align: left;
+  text-align: justify;
   font-size: 1rem;
   line-height: 1.4;
+  max-height: 200px;        /* limite de altura */
+  overflow-y: auto;         /* ativa a rolagem vertical */
+  padding-right: 8px;       /* espaço pra não colar na borda */
+  flex: 1;
+  max-height: 100%;
+}
+
+/* estiliza a barra de rolagem (opcional, mas deixa bonito) */
+.ficha-bio::-webkit-scrollbar {
+  width: 6px;
+}
+
+.ficha-bio::-webkit-scrollbar-thumb {
+  background-color: var(--azul-livro);
+  border-radius: 6px;
 }
 
 .ficha-bio a {
@@ -682,7 +940,20 @@ body.linktree h1 {
   margin-top: 16px;
   display: flex;
   justify-content: space-between;
+  padding: 0 10px; /* 🔹 dá um respiro das bordas laterais */
 }
+
+.ficha-controles #ficha-instagram {
+  color: var(--azul-livro);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.ficha-controles #ficha-instagram:hover {
+  color: var(--rosa-grafite);
+}
+
 
 .ficha-controles button {
   background: var(--roxo);
@@ -692,10 +963,12 @@ body.linktree h1 {
   padding: 8px 14px;
   cursor: pointer;
   transition: transform 0.2s;
+  min-width: 50px; /* 🔹 facilita o clique */
 }
 
 .ficha-controles button:hover {
   transform: scale(1.05);
+  background: var(--rosa-grafite);
 }
 
 /* botão fechar */
@@ -708,4 +981,85 @@ body.linktree h1 {
   color: var(--rosa-grafite);
   font-size: 1.6rem;
   cursor: pointer;
+  line-height: 1; /* 🔹 garante alinhamento do caractere */
+  z-index: 10; /* 🔹 assegura que fique acima de tudo */
+  transition: transform 0.2s, color 0.2s;
 }
+.btn-fechar:hover {
+  transform: scale(1.2);
+  color: var(--azul-livro);
+}
+
+@media (max-width: 768px) {
+  .ficha-corpo {
+    flex-direction: column; /* empilha imagem e texto */
+    align-items: center;    /* centraliza tudo */
+    
+  }
+
+  .ficha-imagem {
+    max-width: 90%;        /* imagem ocupa boa parte da tela */
+    height: auto;           /* altura ajusta conforme proporção */
+  }
+
+  .ficha-imagem img {
+    width: 100%;           /* preenche a largura da div */
+    height: auto;
+  }
+
+  .ficha-bio {
+    width: 90%;
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+/* === estilo do link do instagram na área de controles === */
+.ficha-instagram a {
+  color: var(--azul-livro);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.ficha-instagram a:hover {
+  color: var(--rosa-grafite);
+}
+
+
+/* overlay geral */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+/*============= LIGHTBOX E PANZOOM ============*/
+/* overlay geral */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+/* imagem no overlay */
+.lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  cursor: zoom-in;
+}
+
+/* cursor pra zoom */
+.panzoom-enabled {
+  cursor: grab;
+}
+.panzoom-enabled:active {
+  cursor: grabbing;
+}
+

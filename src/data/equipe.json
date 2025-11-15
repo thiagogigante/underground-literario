@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pessoa1",
+    "nome": "Nome da Pessoa 1",
+    "bio": "Conheça essa pessoa da Equipe!<br><br><a href='https://www.instagram.com/pessoa.1/' target='_blank'>@pessoa.1</a>",
+    "foto": "/src/assets/images/equipe/pessoa1.png"
+  },
+  {
+    "id": "pessoa2",
+    "nome": "Nome da Pessoa 2",
+    "bio": "Conheça essa pessoa da Equipe!<br><br><a href='https://www.instagram.com/pessoa.2/' target='_blank'>@pessoa.2</a>",
+    "foto": "/src/assets/images/equipe/pessoa2.png"
+  },
+  {
+    "id": "pessoa3",
+    "nome": "Nome da Pessoa 3",
+    "bio": "Conheça essa pessoa da Equipe!<br><br><a href='https://www.instagram.com/pessoa.2/' target='_blank'>@pessoa.3</a>",
+    "foto": "/src/assets/images/equipe/pessoa3.png"
+  },
+  {
+    "id": "pessoa4",
+    "nome": "Nome da Pessoa 4",
+    "bio": "Conheça essa pessoa da Equipe!<br><br><a href='https://www.instagram.com/pessoa.4/' target='_blank'>@pessoa.4</a>",
+    "foto": "/src/assets/images/equipe/pessoa4.png"
+  }
+]
