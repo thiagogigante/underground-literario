@@ -51,7 +51,7 @@
   {
     "id": "stigma",
     "nome": "Stigma",
-    "bio": "Conheça a Banda!",
+    "bio": "A Banda STIGMA vai comemorar seus 8 ANOS de banda aqui, no nosso palco!<br>Para quem ainda não conhece, a STIGMA é uma potência do Rock formada em 2018, vinda diretamente de Magé na Baixada Fluminense do Rio de Janeiro.<br><br>O som dos caras é uma mistura poderosa, com influências que vão dos gigantes do rock clássico, como AC/DC e Led Zeppelin, até nomes como System of a Down, Audioslave, Metallica e Raimundos.<br><br>No show, eles prometem um repertório recheado de hits nacionais e internacionais que marcaram épocas, até o cenário atual, e ainda vão tocar seu som AUTORAL e mostrar que o Rock ainda vive!!!<br>Prepare-se para uma performance cheia de energia!<br><br>Venha curtir e celebrar o aniversário da BANDA STIGMA com a gente!!!",
     "destaque": "/src/assets/images/confirmados/bandas-destaque/stigma-foto.webp",
     "instagram": "https://www.instagram.com/banda_stigma"
   },
@@ -65,7 +65,7 @@
   {
     "id": "tornokre",
     "nome": "tornokre",
-    "bio": "Conheça a Banda!",
+    "bio": "Banda criada em Magé, no ano de 1994, com intenção de criar seu próprio som, com influências de vários sub-gêneros do rock, dando origem a um estilo que mistura hardcore e crossover<br><br>Formação atual:<br><br>Adriano no contra baixo e vocais <br>João Paulo na guitarra<br>Ramon na bateria<br><br>Além do show da Tornokrê, o público também vai conferir uma entrevista exclusiva com a banda, trazendo histórias, inspirações e a visão deles sobre a cena underground.",
     "destaque": "/src/assets/images/confirmados/bandas-destaque/tornokre-foto.webp",
     "instagram": "https://www.instagram.com/tornokre"
   },
@@ -114,9 +114,16 @@
   {
     "id": "soniacastilho",
     "nome": "Sônia Castilho",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO",
+    "bio": "O Studio de Dança Sônia Castilho marcará presença no Festival Underground Literário, com seus mais de 25 anos de atuação na dança em Magé (sede em Fragoso), oferecendo modalidades como Ballet Clássico, Jazz, Zumba, Hip Hop, Fit Dance, Dança do Ventre e Dança de Salão. Com turmas infantil, juvenil e adulto.",
     "destaque": "/src/assets/images/confirmados/street-destaque/soniacastilho-foto.webp",
-    "instagram": ""
+    "instagram": "https://www.instagram.com/sdsoniacastilho"
+  },
+   {
+    "id": "aphrodite",
+    "nome": "Aphrodite Dance Group",
+    "bio": "Sob a direção do bailarino Luís Felipe, o Aphrodite, criado em 2024, nasceu com o propósito de expressar arte com muita força, beleza e atitude da deusa que nos dá nome.<br><br>Unindo talento, criatividade e muita energia, o Aphrodite traz coreografias marcantes, que transitam entre o urbano, o jazz e o estilizado, sempre com uma pegada ousada e autêntica.",
+    "destaque": "/src/assets/images/confirmados/street-destaque/aphrodite-foto.webp",
+    "instagram": "https://www.instagram.com/aphrodite.dancegroup"
   },
   {
     "id": "animeke",
@@ -384,3 +391,4 @@
     "instagram": "https://www.instagram.com/wudafrica"
   }
 ]
+
