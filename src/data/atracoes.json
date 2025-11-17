@@ -79,21 +79,21 @@
   {
     "id": "baixadacrew",
     "nome": "Baixada Crew",
-    "bio": "Conheça a Banda!",
+    "bio": "Coletivo cultural que une diversos dançaridos da Baixada Fluminense.<br><br>Sob direção da Artista Dançarina e Assistente de Produção Jessica Nascimento, o Grupo Baixada Crew oferece aulas regulares toda Segunda e terça-feira no Poliesportivo Renato Merdeiros no bairro de Fragoso, Magé - RJ",
     "destaque": "/src/assets/images/confirmados/street-destaque/baixadacrew-foto.webp",
-    "instagram": ""
+    "instagram": "https://www.instagram.com/baixadacrew_"
   },
   {
     "id": "batalharimas",
     "nome": "Batalha de Rimas",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO",
+    "bio": "O microfone vai estar aberto pra quem tem verso afiado, presença de palco e atitude pra representar a cena e mostrar que a rima também é resistência! Aqui é espaço de respeito, arte e liberdade de expressão, do jeitinho que o movimento hip-hop ensina nas ruas.<br><br>A disputa vai rolar no palco preparado pra receber quem chega pesado no improviso e quem quer fazer o público vibrar a cada punchline!<br><br>Aqui a palavra é a arma e a criatividade é o escudo!<br><br> Para se inscrever e participar,<a href='https://docs.google.com/forms/d/e/1FAIpQLSd5_dwLQfeK2WT1G8WPdrnoloDpwt7OkfjLhMDlnG9WHDYh9A/viewform' target='blank'>Clique aqui!</a>",
     "destaque": "/src/assets/images/confirmados/street-destaque/batalharimas-foto.webp,",
     "instagram": ""
   },
   {
     "id": "campeonatoskate",
     "nome": "Campeonato de Skate - Best Trick",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO",
+    "bio": "O 1º Festival Underground Literário traz o Campeonato de Skate – Best Trick, pra quem manda bem nas manobras e quer mostrar estilo, técnica e atitude na pista!<br><br>Vai rolar no lendário Beco da Palha, bem no coração de Magé – RJ! O pico vai estar transformado com equipamentos instalados especialmente pro evento e um espaço aberto pro público vibrar a cada manobra insana! <br><br>Então já sabe: leva teu skate, tua vibe e teu melhor trick, porque aqui o destaque vai pra quem tem criatividade, estilo e ousadia no shape — daquele jeitinho que só a galera da rua sabe fazer!<br><br>Para se inscrever e participar, <a href='https://docs.google.com/forms/d/e/1FAIpQLSdJURcXtDjPtC1Naf5SQSSlXcqQdkGEMgRtuWqctGKM5UvvEA/viewform' target='blank'>Clique aqui!</a>",
     "destaque": "/src/assets/images/confirmados/street-destaque/campeonatoskate-foto.webp,",
     "instagram": ""
   },
