@@ -2,14 +2,14 @@
   {
     "id": "cg125",
     "nome": "CG 125",
-    "bio": "Conheça a Banda!",
+    "bio": "Em breve, Descrição da Atração",
     "destaque": "/src/assets/images/confirmados/bandas-destaque/cg125-foto.webp",
     "instagram": "https://www.instagram.com/banda.cg125"
   },
   {
     "id": "efeitomassivo",
     "nome": "Efeito Massivo",
-    "bio": "Conheça a Banda!",
+    "bio": "Em breve, Descrição da Atração",
     "destaque": "/src/assets/images/confirmados/bandas-destaque/efeitomassivo-foto.webp",
     "instagram": "https://www.instagram.com/efeitomassivo"
   },
@@ -23,7 +23,7 @@
   {
     "id": "kmrock",
     "nome": "KM Rock",
-    "bio": "Conheça a Banda!",
+    "bio": "Em breve, Descrição da Atração",
     "destaque": "/src/assets/images/confirmados/bandas-destaque/kmrock-foto.webp",
     "instagram": "https://www.instagram.com/bandakmrock"
   },
@@ -37,7 +37,7 @@
   {
     "id": "samambaiaornamental",
     "nome": "Samambaia Ornamental",
-    "bio": "Conheça a Banda!",
+    "bio": "Em breve, Descrição da Atração",
     "destaque": "/src/assets/images/confirmados/bandas-destaque/samambaiaornamental-foto.webp",
     "instagram": "https://www.instagram.com/samambaiaornamental"
   },
@@ -58,7 +58,7 @@
   {
     "id": "sunkiller",
     "nome": "Sunkiller",
-    "bio": "Conheça a Banda!",
+    "bio": "Em breve, Descrição da Atração",
     "destaque": "/src/assets/images/confirmados/bandas-destaque/sunkiller-foto.webp",
     "instagram": "https://www.instagram.com/sunkillerbr"
   },
@@ -72,16 +72,9 @@
   {
     "id": "vidalrocktrio",
     "nome": "Vidal Rock Trio",
-    "bio": "Conheça a Banda!",
+    "bio": "Em breve, Descrição da Atração",
     "destaque": "/src/assets/images/confirmados/bandas-destaque/vidalrocktrio-foto.webp",
     "instagram": "https://www.instagram.com/vidalrocktrio"
-  },
-  {
-    "id": "baixadacrew",
-    "nome": "Baixada Crew",
-    "bio": "Coletivo cultural que une diversos dançaridos da Baixada Fluminense.<br><br>Sob direção da Artista Dançarina e Assistente de Produção Jessica Nascimento, o Grupo Baixada Crew oferece aulas regulares toda Segunda e terça-feira no Poliesportivo Renato Merdeiros no bairro de Fragoso, Magé - RJ",
-    "destaque": "/src/assets/images/confirmados/street-destaque/baixadacrew-foto.webp",
-    "instagram": "https://www.instagram.com/baixadacrew_"
   },
   {
     "id": "batalharimas",
@@ -100,14 +93,14 @@
   {
     "id": "grafitti",
     "nome": "Grafitti",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO",
+    "bio": "Em breve, Descrição da Atração",
     "destaque": "/src/assets/images/confirmados/street-destaque/grafitti-foto.webp",
     "instagram": ""
   },
   {
     "id": "grafittikids",
     "nome": "Grafitti  Kids",
-    "bio": "AGUARDANDO BIO DESSA ATRAÇÃO",
+    "bio": "Em breve, Descrição da Atração",
     "destaque": "/src/assets/images/confirmados/street-destaque/gratiffikids-foto.webp",
     "instagram": ""
   },
@@ -124,6 +117,13 @@
     "bio": "Sob a direção do bailarino Luís Felipe, o Aphrodite, criado em 2024, nasceu com o propósito de expressar arte com muita força, beleza e atitude da deusa que nos dá nome.<br><br>Unindo talento, criatividade e muita energia, o Aphrodite traz coreografias marcantes, que transitam entre o urbano, o jazz e o estilizado, sempre com uma pegada ousada e autêntica.",
     "destaque": "/src/assets/images/confirmados/street-destaque/aphrodite-foto.webp",
     "instagram": "https://www.instagram.com/aphrodite.dancegroup"
+  },
+  {
+    "id": "baixadacrew",
+    "nome": "Baixada Crew",
+    "bio": "Coletivo cultural que une diversos dançaridos da Baixada Fluminense.<br><br>Sob direção da Artista Dançarina e Assistente de Produção Jessica Nascimento, o Grupo Baixada Crew oferece aulas regulares toda Segunda e terça-feira no Poliesportivo Renato Merdeiros no bairro de Fragoso, Magé - RJ",
+    "destaque": "/src/assets/images/confirmados/street-destaque/baixadacrew-foto.webp",
+    "instagram": "https://www.instagram.com/baixadacrew_"
   },
   {
     "id": "animeke",
@@ -177,7 +177,7 @@
   {
     "id": "matheuscoringa",
     "nome": "Matheus Athayde, o Coringa de Magé",
-    "bio": "Matheus é um jovem estudante de artes cênicas, conhecido na cidade de Magé por seu caricato cosplay dee Coringa, que ele veste para chamar atenção e brincar com a população enquanto vende suas pipocas caseiras para financiar os estudos. <br><br> Ele estará com a gente participando de um quadro de Perguntas e Respostas. Vamos ver quem acerta se não.... HaHAHaHAahAHaHAhahHA",
+    "bio": "Mateus Athayde: Ator, escritor, criador de conteúdo digital e comunicador com 14 mil seguidores nas redes sociais.<br>Mageense e agora Conselheiro Municipal de Cultura, faz na cidade um trabalho de divulgação de fazedores de cultura de várias áreas e produz um conteúdo de Lifestyle com muito bom humor, através de personagens como o Coringa de Magé que utiliza como marketing criativo para suas pipocas gourmet que vende pelo primeiro distrito. <br><br>Estará com a gente participando de um quadro de perguntas e respostas no Festival Underground Literário, e quem não acertar as perguntas, já sabe... HAHAHAHAHAHAHAHA",
     "destaque": "/src/assets/images/confirmados/geek-destaque/matheuscoringa-foto.webp",
     "instagram": "https://www.instagram.com/coringademage_"
   },
@@ -220,7 +220,7 @@
     "id": "papogeek1",
     "nome": "Papo de Geek - Arte VERSUS Tecnologia",
     "bio": "Na verdade o título Art VERSUS Tech é uma provocação, nesse Papo de Geek não pretendemos ficar em lados opostos. Vamos juntar forças com um time que prova, na prática, que arte e tecnologia não são caminhos opostos — são parceiras poderosas. Nossos convidados vivem essa fusão todos os dias: animando personagens que conquistam o mundo, criando narrativas visuais incríveis, liderando equipes criativas, pesquisando ciência, desenvolvendo ferramentas com IA e experimentando novos formatos de expressão. Eles usam tecnologia para ampliar criatividade, e usam arte para dar sentido ao que a tecnologia possibilita. É essa bagagem — que mistura cinema, jogos, educação, pesquisa, música, inovação e muita mão na massa — que vai guiar nossa conversa.",
-    "destaque": "/src/assets/images/confirmados/rodas-destaque/papogeek1.webp",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/papogeek1-foto.webp",
     "instagram": ""
   },
   {
@@ -248,7 +248,7 @@
     "id": "papogeek2",
     "nome": "Papo de Geek - Produção de Eventos de Cultura Pop",
     "bio": "Neste Papo de Geek estaremos com duas feras! O Marlos (do Guapanime) e o Hamilton (do Capa Comics).<br><br>O que será que a gente precisa pra ter mais eventos assim na nossa cidade hein?<br>Bora trocar uma idéia sobre isso?",
-    "destaque": "/src/assets/images/confirmados/rodas-destaque/papogeek2.webp",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/papogeek2-foto.webp",
     "instagram": ""
   },
   {
@@ -319,6 +319,20 @@
     "bio": "Contação da história “O Reino das Cores”, que convida o público a mergulhar em um mundo encantado onde as cores ganham vida e transmitem valores como respeito, amizade e diversidade. A proposta estimula a imaginação, a escuta sensível e a interação lúdica entre as crianças.",
     "destaque": "/src/assets/images/confirmados/rodas-destaque/contacaohistorias-foto.webp",
     "instagram": "https://www.instagram.com/anajaravidal" 
+  },
+  {
+    "id": "culturaperiferica",
+    "nome": "Roda de Conversa - Cultura Periférica",
+    "bio": "Em breve, Descrição da Atração",
+    "destaque": "/src/assets/images/confirmados/pessoas/culturaperiferica-foto.webp",
+    "instagram": ""
+  },
+  {
+    "id": "historiademage",
+    "nome": "História de Magé",
+    "bio": "Carlito Lopes de Oliveira Junior, mestrando em História Social pelo Programa de Pós-Graduação da Universidade Federal Fluminense. Licenciado em História pela Universidade São Francisco. Atualmente desenvolve pesquisa em torno da história política, eclesiástica e socioeconômica de Magé/RJ e seus antigos territórios. Membro do Grupo de Estudos e Pesquisa Eulália e Bárbara (GEPEB). Pesquisador do Núcleo de Estudos e Pesquisa em História Econômica e Social (NEPHES). Membro do Grupo de Estudos em História Econômica e Pensamento Econômico (UESC). Atua como coordenador do patrimônio histórico-cultural da Secretaria de Cultura, Turismo e Eventos de Magé. Fundador e editor-chefe do portal de divulgação científica História de Magé.",
+    "destaque": "/src/assets/images/confirmados/pessoas/historiademage-foto.webp",
+    "instagram": "https://www.instagram.com/historiademage"
   },
   {
     "id": "costelinha",
