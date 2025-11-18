@@ -80,28 +80,28 @@
     "id": "batalharimas",
     "nome": "Batalha de Rimas",
     "bio": "O microfone vai estar aberto pra quem tem verso afiado, presença de palco e atitude pra representar a cena e mostrar que a rima também é resistência! Aqui é espaço de respeito, arte e liberdade de expressão, do jeitinho que o movimento hip-hop ensina nas ruas.<br><br>A disputa vai rolar no palco preparado pra receber quem chega pesado no improviso e quem quer fazer o público vibrar a cada punchline!<br><br>Aqui a palavra é a arma e a criatividade é o escudo!<br><br> Para se inscrever e participar,<a href='https://docs.google.com/forms/d/e/1FAIpQLSd5_dwLQfeK2WT1G8WPdrnoloDpwt7OkfjLhMDlnG9WHDYh9A/viewform' target='blank'>Clique aqui!</a>",
-    "destaque": "/src/assets/images/confirmados/street-destaque/batalharimas-foto.webp,",
-    "instagram": "https://www.instagram.com/@hiagobg.oficial"
+    "destaque": "/src/assets/images/confirmados/street-destaque/batalharimas-foto.webp",
+    "instagram": ""
   },
   {
     "id": "caiobg",
     "nome": "Caio BG",
     "bio": "Caio BG é uma das vozes mais influentes da cena urbana de Magé. Artista, produtor e fundador da BG Records — estúdio pioneiro em trap e cultura urbana na região — ele transforma vivências reais em música com identidade própria. Com estética marcante e presença de impacto, Caio BG representa a evolução do trap independente e a força da nova geração que move as ruas.",
-    "destaque": "/src/assets/images/confirmados/street-destaque/caiobg-foto.webp,",
+    "destaque": "/src/assets/images/confirmados/street-destaque/caiobg-foto.webp",
     "instagram": "https://www.instagram.com/caiogeovanibg"
   },
   {
     "id": "hiagobg",
     "nome": "Hiago BG",
     "bio": "Hiago BG é cantor e compositor da BG Records. Começou na música aos 10 anos e hoje mistura trap, chill rap e reggaeton em uma identidade marcante. Representante de Magé, leva letras diretas e cheias de vivência. Sua versatilidade artística é marcada pela capacidade de dialogar com múltiplos gêneros, mantendo coesão e identidade sonora.",
-    "destaque": "/src/assets/images/confirmados/street-destaque/hiagobg-foto.webp,",
-    "instagram": ""
+    "destaque": "/src/assets/images/confirmados/street-destaque/hiagobg-foto.webp",
+    "instagram": "https://www.instagram.com/hiagobg.oficial"
   },
   {
     "id": "jonnysolty",
     "nome": "Jonny Solty",
     "bio": "Jonny Solty é músico, criador de conteúdo e comunicador nato. Une autenticidade, humor e vivência real para conectar pessoas através da música e das ideias. Dono do single “SONHO”, segue construindo um público fiel com carisma e energia própria.",
-    "destaque": "/src/assets/images/confirmados/street-destaque/jonnysolty-foto.webp,",
+    "destaque": "/src/assets/images/confirmados/street-destaque/jonnysolty-foto.webp",
     "instagram": "https://www.instagram.com/jonny.solty"
   },
   {
@@ -115,7 +115,7 @@
     "id": "campeonatoskate",
     "nome": "Campeonato de Skate - Best Trick",
     "bio": "O 1º Festival Underground Literário traz o Campeonato de Skate – Best Trick, pra quem manda bem nas manobras e quer mostrar estilo, técnica e atitude na pista!<br><br>Vai rolar no lendário Beco da Palha, bem no coração de Magé – RJ! O pico vai estar transformado com equipamentos instalados especialmente pro evento e um espaço aberto pro público vibrar a cada manobra insana! <br><br>Então já sabe: leva teu skate, tua vibe e teu melhor trick, porque aqui o destaque vai pra quem tem criatividade, estilo e ousadia no shape — daquele jeitinho que só a galera da rua sabe fazer!<br><br>Para se inscrever e participar, <a href='https://docs.google.com/forms/d/e/1FAIpQLSdJURcXtDjPtC1Naf5SQSSlXcqQdkGEMgRtuWqctGKM5UvvEA/viewform' target='blank'>Clique aqui!</a>",
-    "destaque": "/src/assets/images/confirmados/street-destaque/campeonatoskate-foto.webp,",
+    "destaque": "/src/assets/images/confirmados/street-destaque/campeonatoskate-foto.webp",
     "instagram": ""
   },
   {
@@ -162,7 +162,7 @@
   },
   {
     "id": "soniacastilho",
-    "nome": "Sônia Castilho",
+    "nome": "Sônia Castilho Studio de Dança",
     "bio": "O Studio de Dança Sônia Castilho marcará presença no Festival Underground Literário, com seus mais de 25 anos de atuação na dança em Magé (sede em Fragoso), oferecendo modalidades como Ballet Clássico, Jazz, Zumba, Hip Hop, Fit Dance, Dança do Ventre e Dança de Salão. Com turmas infantil, juvenil e adulto.",
     "destaque": "/src/assets/images/confirmados/street-destaque/soniacastilho-foto.webp",
     "instagram": "https://www.instagram.com/sdsoniacastilho"
@@ -448,4 +448,5 @@
     "instagram": "https://www.instagram.com/historiademage"
   }
 ]
+
 
