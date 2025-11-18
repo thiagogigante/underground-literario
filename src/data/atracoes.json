@@ -81,14 +81,14 @@
     "nome": "Batalha de Rimas",
     "bio": "O microfone vai estar aberto pra quem tem verso afiado, presença de palco e atitude pra representar a cena e mostrar que a rima também é resistência! Aqui é espaço de respeito, arte e liberdade de expressão, do jeitinho que o movimento hip-hop ensina nas ruas.<br><br>A disputa vai rolar no palco preparado pra receber quem chega pesado no improviso e quem quer fazer o público vibrar a cada punchline!<br><br>Aqui a palavra é a arma e a criatividade é o escudo!<br><br> Para se inscrever e participar,<a href='https://docs.google.com/forms/d/e/1FAIpQLSd5_dwLQfeK2WT1G8WPdrnoloDpwt7OkfjLhMDlnG9WHDYh9A/viewform' target='blank'>Clique aqui!</a>",
     "destaque": "/src/assets/images/confirmados/street-destaque/batalharimas-foto.webp,",
-    "instagram": ""
+    "instagram": "https://www.instagram.com/@hiagobg.oficial"
   },
   {
     "id": "caiobg",
     "nome": "Caio BG",
     "bio": "Caio BG é uma das vozes mais influentes da cena urbana de Magé. Artista, produtor e fundador da BG Records — estúdio pioneiro em trap e cultura urbana na região — ele transforma vivências reais em música com identidade própria. Com estética marcante e presença de impacto, Caio BG representa a evolução do trap independente e a força da nova geração que move as ruas.",
     "destaque": "/src/assets/images/confirmados/street-destaque/caiobg-foto.webp,",
-    "instagram": ""
+    "instagram": "https://www.instagram.com/@caiogeovanibg"
   },
   {
     "id": "hiagobg",
@@ -98,10 +98,10 @@
     "instagram": ""
   },
   {
-    "id": "campeonatobboy",
-    "nome": "Campeonato de B-Boy",
-    "bio": "",
-    "destaque": "/src/assets/images/confirmados/street-destaque/campeonatobboy-foto.webp,",
+    "id": "campeonatobreak",
+    "nome": "Campeonato de Break Dance",
+    "bio": "O chão vai sacudir com essa Batalha de Break Dance! Um encontro de ritmo, energia e expressão que celebra a cultura urbana em movimento.<br>Vai rolar muito break dance e freestyle, com espaço aberto pra quem vive o corpo como arte e traduz a batida em atitude! Aqui, o palco é de quem tem presença, estilo e personalidade, cada passo vale como poesia no asfalto.",
+    "destaque": "/src/assets/images/confirmados/street-destaque/campeonatobreak-foto.webp,",
     "instagram": ""
   },
   {
@@ -126,24 +126,24 @@
     "instagram": ""
   },
   {
-    "id": "soniacastilho",
-    "nome": "Sônia Castilho",
-    "bio": "O Studio de Dança Sônia Castilho marcará presença no Festival Underground Literário, com seus mais de 25 anos de atuação na dança em Magé (sede em Fragoso), oferecendo modalidades como Ballet Clássico, Jazz, Zumba, Hip Hop, Fit Dance, Dança do Ventre e Dança de Salão. Com turmas infantil, juvenil e adulto.",
-    "destaque": "/src/assets/images/confirmados/street-destaque/soniacastilho-foto.webp",
-    "instagram": "https://www.instagram.com/sdsoniacastilho"
-  },
-  {
     "id": "aphrodite",
     "nome": "Aphrodite Dance Group",
     "bio": "Sob a direção do bailarino Luís Felipe, o Aphrodite, criado em 2024, nasceu com o propósito de expressar arte com muita força, beleza e atitude da deusa que nos dá nome.<br><br>Unindo talento, criatividade e muita energia, o Aphrodite traz coreografias marcantes, que transitam entre o urbano, o jazz e o estilizado, sempre com uma pegada ousada e autêntica.",
     "destaque": "/src/assets/images/confirmados/street-destaque/aphrodite-foto.webp",
     "instagram": "https://www.instagram.com/aphrodite.dancegroup"
+  },  
+  {
+    "id": "baixadacrew",
+    "nome": "Baixada Crew",
+    "bio": "Sob a direção do bailarino Luís Felipe, o Aphrodite, criado em 2024, nasceu com o propósito de expressar arte com muita força, beleza e atitude da deusa que nos dá nome.<br><br>Unindo talento, criatividade e muita energia, o Aphrodite traz coreografias marcantes, que transitam entre o urbano, o jazz e o estilizado, sempre com uma pegada ousada e autêntica.",
+    "destaque": "/src/assets/images/confirmados/street-destaque/baixadacrew-foto.webp",
+    "instagram": "https://www.instagram.com/baixadacrew_"
   },
   {
-    "id": "campeonatoskate",
-    "nome": "Campeonato de Skate - Best Trick",
-    "bio": "O 1º Festival Underground Literário traz o Campeonato de Skate – Best Trick, pra quem manda bem nas manobras e quer mostrar estilo, técnica e atitude na pista!<br><br>Vai rolar no lendário Beco da Palha, bem no coração de Magé – RJ! O pico vai estar transformado com equipamentos instalados especialmente pro evento e um espaço aberto pro público vibrar a cada manobra insana! <br><br>Então já sabe: leva teu skate, tua vibe e teu melhor trick, porque aqui o destaque vai pra quem tem criatividade, estilo e ousadia no shape — daquele jeitinho que só a galera da rua sabe fazer!<br><br>Para se inscrever e participar, <a href='https://docs.google.com/forms/d/e/1FAIpQLSdJURcXtDjPtC1Naf5SQSSlXcqQdkGEMgRtuWqctGKM5UvvEA/viewform' target='blank'>Clique aqui!</a>",
-    "destaque": "/src/assets/images/confirmados/street-destaque/campeonatoskate-foto.webp,",
+    "id": "boombox",
+    "nome": "Boombox Crew Dance",
+    "bio": "BoomBox Crew Dance, Grupo de Danças Urbanas que aborda variados estilos clássicos do Hip-Hop como, Breaking, Looking, Krumpping, Popping, Robotdance entre outros e Poesia. Promove Cyphers e Batalhas a mais de 10 anos na localidade e projeta abordar os 4 elementos do Hip-Hop acrescentando  DJ, Mc e Graffity.",
+    "destaque": "/src/assets/images/confirmados/street-destaque/boombox-foto.webp,",
     "instagram": ""
   },
   {
@@ -154,11 +154,11 @@
     "instagram": ""
   },
   {
-    "id": "boombox",
-    "nome": "Boombox Crew Dance",
-    "bio": "BoomBox Crew Dance, Grupo de Danças Urbanas que aborda variados estilos clássicos do Hip-Hop como, Breaking, Looking, Krumpping, Popping, Robotdance entre outros e Poesia. Promove Cyphers e Batalhas a mais de 10 anos na localidade e projeta abordar os 4 elementos do Hip-Hop acrescentando  DJ, Mc e Graffity.",
-    "destaque": "/src/assets/images/confirmados/street-destaque/boombox-foto.webp,",
-    "instagram": ""
+    "id": "soniacastilho",
+    "nome": "Sônia Castilho",
+    "bio": "O Studio de Dança Sônia Castilho marcará presença no Festival Underground Literário, com seus mais de 25 anos de atuação na dança em Magé (sede em Fragoso), oferecendo modalidades como Ballet Clássico, Jazz, Zumba, Hip Hop, Fit Dance, Dança do Ventre e Dança de Salão. Com turmas infantil, juvenil e adulto.",
+    "destaque": "/src/assets/images/confirmados/street-destaque/soniacastilho-foto.webp",
+    "instagram": "https://www.instagram.com/sdsoniacastilho"
   },
   {
     "id": "animeke",
@@ -170,14 +170,14 @@
   {
     "id": "cosplay",
     "nome": "Concurso de Cosplay",
-    "bio": "Fique atento às regras para garantir sua participação no Concurso Cosplay",
+    "bio": "O palco abre espaço para cosplayers mostrarem todo seu talento, dedicação e amor pelos personagens que representam. É o momento de brilhar, posar, interpretar e surpreender o público com figurinos criativos, performances divertidas e muita energia geek.<br><br>Fique atento às regras para garantir sua participação no Concurso Cosplay",
     "destaque": "/src/assets/images/confirmados/geek-destaque/cosplay-foto.webp",
     "instagram": ""
   },
   {
     "id": "cosplaykids",
     "nome": "Desfile de Cosplay Kids",
-    "bio": "Fique atento às regras para garantir a participação de sua criança no Desfile de Cosplay Kids",
+    "bio": "Um momento especial para as crianças viverem a magia da cultura pop, desfilando com seus personagens favoritos em um ambiente seguro, acolhedor e cheio de fofura. É o tipo de atração que derrete corações e rende fotos inesquecíveis.<br><br>Fique atento às regras para garantir a participação de sua criança no Desfile de Cosplay Kids",
     "destaque": "/src/assets/images/confirmados/geek-destaque/cosplaykids-foto.webp",
     "instagram": ""
   },
@@ -191,7 +191,7 @@
   {
     "id": "rpgkids",
     "nome": "RPG e RPG Kids",
-    "bio": "É preciso chegar cedo e fazer a inscrição.",
+    "bio": "O RPG é um hobby que combina imaginação, colaboração e narrativa, onde cada jogador cria um personagem e juntos constroem histórias cheias de aventura, mistério e heroísmo. No festival, o público poderá viver essa experiência na prática, mergulhando em mundos fantásticos guiados por mestres experientes e aventuras criadas especialmente para quem quer descobrir — ou redescobrir — a magia de contar histórias em grupo.<br><br> As crianças também têm seu momento de rolar o dado, em versões leves e lúdicas, perfeitas para estimular criatividade, resolução de problemas e trabalho em equipe.<br><br>As vagas são limitadas, recomendamos chegar cedo para fazer a inscrição.",
     "destaque": "/src/assets/images/confirmados/geek-destaque/rpgkids-foto.webp",
     "instagram": ""
   },
@@ -233,7 +233,7 @@
   {
     "id": "titangeek",
     "nome": "Titan Geek - Geek House",
-    "bio": "A Titan Geek e um ponto de encontro para os nerds de Mauá,  ",
+    "bio": "A Titan Geek e um ponto de encontro para os nerds de Mauá, além de colar com a galera do Boardgame também vai trazer Mesa de RPG pra  ",
     "destaque": "/src/assets/images/confirmados/geek-destaque/titangeek-foto.webp",
     "instagram": "https://www.instagram.com/titangeekhouse"
   },
@@ -387,7 +387,7 @@
   {
     "id": "papogeek2",
     "nome": "Papo de Geek - Produção de Eventos de Cultura Pop",
-    "bio": "Neste Papo de Geek estaremos com duas feras! O Marlos (do Guapanime) e o Hamilton (do Capa Comics).<br><br>O que será que a gente precisa pra ter mais eventos assim na nossa cidade hein?<br>Bora trocar uma idéia sobre isso?",
+    "bio": "Neste Papo de Geek estaremos com duas feras! O Marlos (do Guapanime) e o Hamilton (do Capa Comics).<br><br>Vamos conversar sobre a experiência deles na realização de eventos para público geek e tentar descobrir o que será que a gente precisa pra ter mais eventos assim na nossa cidade, hein?<br>Bora trocar uma idéia sobre isso?",
     "destaque": "/src/assets/images/confirmados/rodas-destaque/papogeek2-foto.webp",
     "instagram": ""
   },
@@ -441,6 +441,3 @@
     "instagram": "https://www.instagram.com/historiademage"
   }
 ]
-
-
-
