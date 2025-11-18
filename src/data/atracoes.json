@@ -88,7 +88,7 @@
     "nome": "Caio BG",
     "bio": "Caio BG é uma das vozes mais influentes da cena urbana de Magé. Artista, produtor e fundador da BG Records — estúdio pioneiro em trap e cultura urbana na região — ele transforma vivências reais em música com identidade própria. Com estética marcante e presença de impacto, Caio BG representa a evolução do trap independente e a força da nova geração que move as ruas.",
     "destaque": "/src/assets/images/confirmados/street-destaque/caiobg-foto.webp,",
-    "instagram": "https://www.instagram.com/@caiogeovanibg"
+    "instagram": "https://www.instagram.com/caiogeovanibg"
   },
   {
     "id": "hiagobg",
@@ -96,6 +96,13 @@
     "bio": "Hiago BG é cantor e compositor da BG Records. Começou na música aos 10 anos e hoje mistura trap, chill rap e reggaeton em uma identidade marcante. Representante de Magé, leva letras diretas e cheias de vivência. Sua versatilidade artística é marcada pela capacidade de dialogar com múltiplos gêneros, mantendo coesão e identidade sonora.",
     "destaque": "/src/assets/images/confirmados/street-destaque/hiagobg-foto.webp,",
     "instagram": ""
+  },
+  {
+    "id": "jonnysolty",
+    "nome": "Jonny Solty",
+    "bio": "Jonny Solty é músico, criador de conteúdo e comunicador nato. Une autenticidade, humor e vivência real para conectar pessoas através da música e das ideias. Dono do single “SONHO”, segue construindo um público fiel com carisma e energia própria.",
+    "destaque": "/src/assets/images/confirmados/street-destaque/jonnysolty-foto.webp,",
+    "instagram": "https://www.instagram.com/jonny.solty"
   },
   {
     "id": "campeonatobreak",
@@ -441,3 +448,4 @@
     "instagram": "https://www.instagram.com/historiademage"
   }
 ]
+
