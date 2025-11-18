@@ -317,7 +317,7 @@
     "id": "contacaohistoria",
     "nome": "Contação de Histórias com Professora Anajara Vidal",
     "bio": "Contação da história “O Reino das Cores”, que convida o público a mergulhar em um mundo encantado onde as cores ganham vida e transmitem valores como respeito, amizade e diversidade. A proposta estimula a imaginação, a escuta sensível e a interação lúdica entre as crianças.",
-    "destaque": "/src/assets/images/confirmados/rodas-destaque/contacaohistoria-foto.webp",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/contacaodehistoria-foto.webp",
     "instagram": "https://www.instagram.com/anajaravidal" 
   },
   {
@@ -345,14 +345,14 @@
     "id": "coresquesentem",
     "nome": "Oficina: Cores que Sentem",
     "bio": "A oficina “Cores que Sentem” contará com atividades lúdicas que incentivarão as crianças a se expressarem, valorizando e reconhecendo as diversas emoções que colorem a infância. Dessa forma, promoveremos a inclusão e o respeito por meio do acolhimento de cada criança em sua singularidade.",
-    "destaque": "/src/assets/images/confirmados/feira-destaque/coresquesentem-foto.webp",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/coresquesentem-foto.webp",
     "instagram": ""
   },
   {
     "id": "somdosilencio",
     "nome": "Oficina: O Som do Silêncio",
     "bio": "A oficina “Som do Silêncio” contará com atividades que explorarão diferentes formas de comunicação e percepção — de nós mesmos e dos outros — de maneira prática e envolvente, proporcionando experiências que acolhem a diversidade e promovem a inclusão.",
-    "destaque": "/src/assets/images/confirmados/feira-destaque/somdosilencio-foto.webp",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/somdosilencio-foto.webp",
     "instagram": ""
   },
   {
@@ -405,4 +405,5 @@
     "instagram": "https://www.instagram.com/wudafrica"
   }
 ]
+
 
