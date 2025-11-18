@@ -310,28 +310,28 @@
     "id": "oficeinageek3",
     "nome": "Oficina de Storytelling",
     "bio": "Com o quadrinista Hamilton Kabuna,<br><br>Vagas Limitadas, chegue cedo para se inscrever! ",
-    "destaque": "/src/assets/images/confirmados/feira-destaque/oficinageek3-foto.webp",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/oficinageek3-foto.webp",
     "instagram": "https://www.instagram.com/kabunahamilton/"
   },
   {
     "id": "contacaohistoria",
     "nome": "Contação de Histórias com Professora Anajara Vidal",
     "bio": "Contação da história “O Reino das Cores”, que convida o público a mergulhar em um mundo encantado onde as cores ganham vida e transmitem valores como respeito, amizade e diversidade. A proposta estimula a imaginação, a escuta sensível e a interação lúdica entre as crianças.",
-    "destaque": "/src/assets/images/confirmados/rodas-destaque/contacaohistorias-foto.webp",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/contacaohistoria-foto.webp",
     "instagram": "https://www.instagram.com/anajaravidal" 
   },
   {
     "id": "culturaperiferica",
     "nome": "Roda de Conversa - Cultura Periférica",
     "bio": "Em breve, Descrição da Atração",
-    "destaque": "/src/assets/images/confirmados/pessoas/culturaperiferica-foto.webp",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/culturaperiferica-foto.webp",
     "instagram": ""
   },
   {
     "id": "historiademage",
     "nome": "História de Magé",
     "bio": "Carlito Lopes de Oliveira Junior, mestrando em História Social pelo Programa de Pós-Graduação da Universidade Federal Fluminense. Licenciado em História pela Universidade São Francisco. Atualmente desenvolve pesquisa em torno da história política, eclesiástica e socioeconômica de Magé/RJ e seus antigos territórios. Membro do Grupo de Estudos e Pesquisa Eulália e Bárbara (GEPEB). Pesquisador do Núcleo de Estudos e Pesquisa em História Econômica e Social (NEPHES). Membro do Grupo de Estudos em História Econômica e Pensamento Econômico (UESC). Atua como coordenador do patrimônio histórico-cultural da Secretaria de Cultura, Turismo e Eventos de Magé. Fundador e editor-chefe do portal de divulgação científica História de Magé.",
-    "destaque": "/src/assets/images/confirmados/pessoas/historiademage-foto.webp",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/historiademage-foto.webp",
     "instagram": "https://www.instagram.com/historiademage"
   },
   {
