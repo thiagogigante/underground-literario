@@ -77,11 +77,11 @@
     "instagram": "https://www.instagram.com/vidalrocktrio"
   },
   {
-    "id": "batalharimas",
-    "nome": "Batalha de Rimas",
-    "bio": "O microfone vai estar aberto pra quem tem verso afiado, presença de palco e atitude pra representar a cena e mostrar que a rima também é resistência! Aqui é espaço de respeito, arte e liberdade de expressão, do jeitinho que o movimento hip-hop ensina nas ruas.<br><br>A disputa vai rolar no palco preparado pra receber quem chega pesado no improviso e quem quer fazer o público vibrar a cada punchline!<br><br>Aqui a palavra é a arma e a criatividade é o escudo!<br><br> Para se inscrever e participar,<a href='https://docs.google.com/forms/d/e/1FAIpQLSd5_dwLQfeK2WT1G8WPdrnoloDpwt7OkfjLhMDlnG9WHDYh9A/viewform' target='blank'>Clique aqui!</a>",
-    "destaque": "/src/assets/images/confirmados/street-destaque/batalharimas-foto.webp",
-    "instagram": ""
+    "id": "bgproducoes",
+    "nome": "BG PRODUÇÕES",
+    "bio": "",
+    "destaque": "/src/assets/images/confirmados/street-destaque/caiobg-foto.webp",
+    "instagram": "https://www.instagram.com/bgrecordsoficial"
   },
   {
     "id": "caiobg",
@@ -106,10 +106,10 @@
   },  
   {
     "id": "kim",
-    "nome": "Kim",
-    "bio": "Kim",
+    "nome": "Kim Costa",
+    "bio": "KIM COSTA é um rapper e compositor brasileiro, conhecido por suas letras intensas e Motivacionais. Com uma forte conexão com a realidade urbana e a cultura do rap, estilo lírico que tem conquistado fãs em todo Município de Magé <br>Nascido no Bairro de PIABETÁ/MAGÉ,<br>Kim Costa cresceu em um ambiente onde a Música e a Arte foi uma parte essencial da sua vida. Desde jovem, se inspirou em artistas como ( Chris Brown, Racionais Mc’s e Marcelo D2) Kim começou a escrever suas próprias rimas aos 17 anos. A vivência nas ruas e as experiências de superação e evolução pessoal são as principais fontes de inspiração para suas letras.'<br>Seu primeiro projeto a ganhar visibilidade em Magé, foi o EP: Vida de MC, lançado em 2023 com 3 Músicas exclusivas e Vídeo clipes em 3D, ganhou reconhecimento Visual e sonoro, as músicas e os clipes, abordam suas origens, evolução artística e pessoal e motiva os Mc’s ( cantores ) a nunca desistir dos seus sonhos . <br>Em 2025, Kim Costa, foi convidado a cantar no Festa que comemorou 460 anos do Município de MAGÉ, participando na Abertura do Show do Cantor: MATUE, junto com a BG RECORDs, show ao vivo  que atraiu um  público aproximado de 60 mil pessoas, assim KIM COSTA solidifica sua posição como um dos nomes na Cena do rap Mageense.",
     "destaque": "/src/assets/images/confirmados/street-destaque/kim-foto.webp",
-    "instagram": "https://www.instagram.com/"
+    "instagram": "https://www.instagram.com/kimcostaoficial"
   },
   {
     "id": "dezz",
@@ -119,8 +119,15 @@
     "instagram": "https://www.instagram.com/dezzcaro"
   },
   {
+    "id": "batalharimas",
+    "nome": "Batalha de Rimas",
+    "bio": "O microfone vai estar aberto pra quem tem verso afiado, presença de palco e atitude pra representar a cena e mostrar que a rima também é resistência! Aqui é espaço de respeito, arte e liberdade de expressão, do jeitinho que o movimento hip-hop ensina nas ruas.<br><br>A disputa vai rolar no palco preparado pra receber quem chega pesado no improviso e quem quer fazer o público vibrar a cada punchline!<br><br>Aqui a palavra é a arma e a criatividade é o escudo!<br><br> Para se inscrever e participar,<a href='https://docs.google.com/forms/d/e/1FAIpQLSd5_dwLQfeK2WT1G8WPdrnoloDpwt7OkfjLhMDlnG9WHDYh9A/viewform' target='blank'>Clique aqui!</a>",
+    "destaque": "/src/assets/images/confirmados/street-destaque/batalharimas-foto.webp",
+    "instagram": ""
+  },
+  {
     "id": "campeonatobreak",
-    "nome": "Campeonato de Break Dance",
+    "nome": "Batalha de Break Dance",
     "bio": "O chão vai sacudir com essa Batalha de Break Dance! Um encontro de ritmo, energia e expressão que celebra a cultura urbana em movimento.<br>Vai rolar muito break dance e freestyle, com espaço aberto pra quem vive o corpo como arte e traduz a batida em atitude! Aqui, o palco é de quem tem presença, estilo e personalidade, cada passo vale como poesia no asfalto.",
     "destaque": "/src/assets/images/confirmados/street-destaque/campeonatobreak-foto.webp",
     "instagram": ""
