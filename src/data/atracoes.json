@@ -37,7 +37,7 @@
   {
     "id": "samambaiaornamental",
     "nome": "Samambaia Ornamental",
-    "bio": "Em breve, Descrição da Atração",
+    "bio": "SAMAMBAIA ORNAMENTAL é um trio de rock n’ roll criado no ano de 2019 em Magé/RJ. A banda carrega influências do rock alternativo e punk rock nacional e internacional, sem deixar de fazer referências aos fenômenos culturais da baixada fluminense em suas letras e sonoridade. Hoje a Samambaia trás ao público o lançamento duplo “Nova Ordem Ornamental”, trazendo uma sonoridade agressiva e tecendo críticas ácidas ao uso de inteligência artificial e devastação desenfreada da natureza.",
     "destaque": "/src/assets/images/confirmados/bandas-destaque/samambaiaornamental-foto.webp",
     "instagram": "https://www.instagram.com/samambaiaornamental"
   },
@@ -72,7 +72,7 @@
   {
     "id": "vidalrocktrio",
     "nome": "Vidal Rock Trio",
-    "bio": "Em breve, Descrição da Atração",
+    "bio": "VIDAL ROCK TRIO é o projeto homônimo do guitarrista e vocalista Lucas Vidal. Às vezes grunge, às vezes blues e quase sempre Reginaldo Rossi, a proposta do trio é fazer tributo às músicas que já tocaram no seu rádio e você não lembra. Se possível fazer esse tributo bem sujo e quente.",
     "destaque": "/src/assets/images/confirmados/bandas-destaque/vidalrocktrio-foto.webp",
     "instagram": "https://www.instagram.com/vidalrocktrio"
   },
@@ -476,6 +476,7 @@
     "instagram": "https://www.instagram.com/thamirescorreaatelie"
   }
 ]
+
 
 
 
