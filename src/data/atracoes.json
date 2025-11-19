@@ -103,6 +103,20 @@
     "bio": "Jonny Solty é músico, criador de conteúdo e comunicador nato. Une autenticidade, humor e vivência real para conectar pessoas através da música e das ideias. Dono do single “SONHO”, segue construindo um público fiel com carisma e energia própria.",
     "destaque": "/src/assets/images/confirmados/street-destaque/jonnysolty-foto.webp",
     "instagram": "https://www.instagram.com/jonny.solty"
+  },  
+  {
+    "id": "kim",
+    "nome": "Kim",
+    "bio": "Kim",
+    "destaque": "/src/assets/images/confirmados/street-destaque/kim-foto.webp",
+    "instagram": "https://www.instagram.com/"
+  },
+  {
+    "id": "dezz",
+    "nome": "Dezz Caro",
+    "bio": "Da Venezuela pro Rio, ele chegou dominando a cena latina com energia, atitude e um som pop urbano que mistura reggaeton, funk, afrohouse e elementos quentes da pista. Carismático, intenso e impossível de ignorar, ele traz uma vibração sensual e irresistível que toma conta do público. Preparem-se pra sentir o peso… DEZZ, o Gringo mais Caro!",
+    "destaque": "/src/assets/images/confirmados/street-destaque/dezz-foto.webp",
+    "instagram": "https://www.instagram.com/dezzcaro"
   },
   {
     "id": "campeonatobreak",
@@ -129,7 +143,7 @@
     "id": "grafittikids",
     "nome": "Grafitti  Kids",
     "bio": "Em breve, Descrição da Atração",
-    "destaque": "/src/assets/images/confirmados/street-destaque/gratiffikids-foto.webp",
+    "destaque": "/src/assets/images/confirmados/street-destaque/graffitikids-foto.webp",
     "instagram": ""
   },
   {
@@ -240,7 +254,7 @@
   {
     "id": "titangeek",
     "nome": "Titan Geek - Geek House",
-    "bio": "A Titan Geek e um ponto de encontro para os nerds de Mauá, além de colar com a galera do Boardgame também vai trazer Mesa de RPG pra  ",
+    "bio": "Titan Geek House, foi criada por Glaucio Cardozo em maio de 2011 como uma Lan House, tendo computadores com jogos online e videogame, um sonho pessoal para ser um point de games na região. Ao longo do tempo, com amizades formadas, o espaço começou a ser usado para realizar encontros de mesas de RPG (Role-Playing Game - Jogo de Interpretação de Papéis), por volta do ano de 2013 e no ano seguinte, também se tornando point de encontro para jogadores de TCG (TCG - Trading Card Game): Magic e Pokémon. Titan Geek House é referência de RPG e TCG no 5º Distrito de Magé, almejando alcançar toda cidade de Magé, juntamente com seus parceiros, Magé Nerd e Guilda de Magé, ao realizar mensalmente o Joga Nerd, com foco de reunir todos num grande encontro para se divertirem jogando: Jogos de tabuleiro, RPG e TCG no mesmo lugar.",
     "destaque": "/src/assets/images/confirmados/geek-destaque/titangeek-foto.webp",
     "instagram": "https://www.instagram.com/titangeekhouse"
   },
@@ -343,10 +357,10 @@
     "instagram": ""
   },
   {
-    "id": "culturaperiferica",
-    "nome": "Roda de Conversa - Cultura Periférica",
+    "id": "culturasperifericas",
+    "nome": "Roda de Conversa: Culturas Periféricas",
     "bio": "Em breve, Descrição da Atração",
-    "destaque": "/src/assets/images/confirmados/rodas-destaque/culturaperiferica-foto.webp",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/culturasperifericas-foto.webp",
     "instagram": ""
   },
   {
@@ -446,6 +460,13 @@
     "bio": "Carlito Lopes de Oliveira Junior, mestrando em História Social pelo Programa de Pós-Graduação da Universidade Federal Fluminense. Licenciado em História pela Universidade São Francisco. Atualmente desenvolve pesquisa em torno da história política, eclesiástica e socioeconômica de Magé/RJ e seus antigos territórios. Membro do Grupo de Estudos e Pesquisa Eulália e Bárbara (GEPEB). Pesquisador do Núcleo de Estudos e Pesquisa em História Econômica e Social (NEPHES). Membro do Grupo de Estudos em História Econômica e Pensamento Econômico (UESC). Atua como coordenador do patrimônio histórico-cultural da Secretaria de Cultura, Turismo e Eventos de Magé. Fundador e editor-chefe do portal de divulgação científica História de Magé.",
     "destaque": "/src/assets/images/confirmados/rodas-destaque/historiademage-foto.webp",
     "instagram": "https://www.instagram.com/historiademage"
+  },
+  {
+    "id": "thamires",
+    "nome": "Thamires Corrêa",
+    "bio": "Thamires Corrêa – Designer, costureira, professora e CEO do Thamires Corrêa Ateliê e Donna Lili Crochê. Desenvolve uma pocket coleção inspirada em sua ancestralidade e vive o redesign de sua marca, guiada pelo propósito e pela maternidade. Acredita na moda como expressão, memória e transformação.",
+    "destaque": "/src/assets/images/confirmados/rodas-destaque/thamires-foto.webp",
+    "instagram": "https://www.instagram.com/thamirescorreaatelie"
   }
 ]
 

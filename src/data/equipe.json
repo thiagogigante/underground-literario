@@ -1,9 +1,10 @@
 [
   {
     "id": "pessoa1",
-    "nome": "Nome da Pessoa 1",
-    "bio": "Conheça essa pessoa da Equipe!<br><br><a href='https://www.instagram.com/pessoa.1/' target='_blank'>@pessoa.1</a>",
-    "foto": "/src/assets/images/equipe/pessoa1.png"
+    "nome": "Thiago Gigante",
+    "bio": "Confira minha BIO em breve...",
+    "destaque": "/src/assets/images/equipe/thiagogigante.webp",
+    "instagram": "https://www.instagram.com/thiago.gigante"
   },
   {
     "id": "pessoa2",
