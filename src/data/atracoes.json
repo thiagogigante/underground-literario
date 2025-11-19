@@ -164,7 +164,7 @@
     "id": "boombox",
     "nome": "Boombox Crew Dance",
     "bio": "BoomBox Crew Dance, Grupo de Danças Urbanas que aborda variados estilos clássicos do Hip-Hop como, Breaking, Looking, Krumpping, Popping, Robotdance entre outros e Poesia. Promove Cyphers e Batalhas a mais de 10 anos na localidade e projeta abordar os 4 elementos do Hip-Hop acrescentando  DJ, Mc e Graffity.",
-    "destaque": "/src/assets/images/confirmados/street-destaque/boomboxcrew-foto.webp,",
+    "destaque": "/src/assets/images/confirmados/street-destaque/boomboxcrew-foto.webp",
     "instagram": ""
   },
   {
@@ -469,6 +469,7 @@
     "instagram": "https://www.instagram.com/thamirescorreaatelie"
   }
 ]
+
 
 
 
