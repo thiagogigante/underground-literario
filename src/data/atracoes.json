@@ -444,14 +444,14 @@
     "id": "hamilton",
     "nome": "Hamilton Kabuna",
     "bio": "Quadrinista, professor de desenho, membro do CAPA COMICS, com vasta experiência em eventos, Hamilton estará expondo revistas em quadrinhos de sua editora indepenente, oferecerá uma oficina de Storytelling e participará conosco no Papo de Geek sobre Produção de Eventos de Cultura Pop.",
-    "destaque": "/src/assets/images/confirmados/feira-destaque/hamilton-foto.webp",
+    "destaque": "/src/assets/images/confirmados/pessoas/hamilton-foto.webp",
     "instagram": "https://www.instagram.com/kabunahamilton/"
   },
   {
     "id": "marlos",
     "nome": "Marlos Ulrich",
     "bio": "Graduado em Gestão Pública, apto em Segurança pública e privada em grandes eventos, Marlo é o realizador do tradicional evento de anime GUAPANIME, que acontece duas vezes ao ano na cidade de Guapimirim. O evento reúne fãs da cultura pop, artistas convidados, dubladores, concursos de cosplayer, campeonatos de video game, apresentações de dança K-pop, dentre diversas outras atrações.<br><br>Marlo vai participar do nosso Papo de Geek, no tema Produção de Eventos onde contará um pouco sobre sua experiência, sobre os desafios de estar a frente de eventos para este segmento, dará dicas para engajar o público. Ele também trará um grupo de Dança K-Pop que é parceiro em seus eventos para se apresentar no 1º Festival Underground Literário convidando a todos para sua próxima edição que será no dia 18 de janeiro de 2026.",
-    "destaque": "/src/assets/images/confirmados/feira-destaque/marlos-foto.webp",
+    "destaque": "/src/assets/images/confirmados/pessoas/marlos-foto.webp",
     "instagram": "https://www.instagram.com/marlosulrich/"
   },  
   {
@@ -469,6 +469,7 @@
     "instagram": "https://www.instagram.com/thamirescorreaatelie"
   }
 ]
+
 
 
 
