@@ -122,7 +122,7 @@
     "id": "campeonatobreak",
     "nome": "Campeonato de Break Dance",
     "bio": "O chão vai sacudir com essa Batalha de Break Dance! Um encontro de ritmo, energia e expressão que celebra a cultura urbana em movimento.<br>Vai rolar muito break dance e freestyle, com espaço aberto pra quem vive o corpo como arte e traduz a batida em atitude! Aqui, o palco é de quem tem presença, estilo e personalidade, cada passo vale como poesia no asfalto.",
-    "destaque": "/src/assets/images/confirmados/street-destaque/campeonatobreak-foto.webp,",
+    "destaque": "/src/assets/images/confirmados/street-destaque/campeonatobreak-foto.webp",
     "instagram": ""
   },
   {
@@ -469,5 +469,6 @@
     "instagram": "https://www.instagram.com/thamirescorreaatelie"
   }
 ]
+
 
 
