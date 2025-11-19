@@ -77,10 +77,10 @@
     "instagram": "https://www.instagram.com/vidalrocktrio"
   },
   {
-    "id": "bgproducoes",
-    "nome": "BG PRODUÇÕES",
-    "bio": "",
-    "destaque": "/src/assets/images/confirmados/street-destaque/caiobg-foto.webp",
+    "id": "bgrecords",
+    "nome": "BG RECORDS",
+    "bio": "A BG Records chega ao festival representando toda a força criativa de Magé. Com mais de uma década produzindo rap, trap, funk, música latina e música urbana, o estúdio se destaca pela qualidade, inovação e pelo desenvolvimento artístico que transforma talentos mageenses em verdadeiros protagonistas. Reconhecida por seus videoclipes, produções de alto nível e pela energia autêntica que carrega, a BG Records traz ao palco a essência da cultura urbana com profissionalismo, identidade e uma presença marcante.",
+    "destaque": "/src/assets/images/confirmados/street-destaque/bgrecords-foto.webp",
     "instagram": "https://www.instagram.com/bgrecordsoficial"
   },
   {
@@ -476,6 +476,7 @@
     "instagram": "https://www.instagram.com/thamirescorreaatelie"
   }
 ]
+
 
 
 
