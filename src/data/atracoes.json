@@ -58,7 +58,7 @@
   {
     "id": "sunkiller",
     "nome": "Sunkiller",
-    "bio": "Em breve, Descrição da Atração",
+    "bio": "Sunkiller, originários de Fragoso e há dois anos no corre. Letícia (voz), Felipe (guitarra), Carol (baixo) e Victor (bateria) guiam sua musicalidade com elementos que transitam entre o metal alternativo e emocore. A banda segue se apresentando com setlists cover enquanto prepara seu primeiro lançamento. As principais influências da banda são Three Days Grace, Deftones, The Pretty Reckless.",
     "destaque": "/src/assets/images/confirmados/bandas-destaque/sunkiller-foto.webp",
     "instagram": "https://www.instagram.com/sunkillerbr"
   },
@@ -117,6 +117,20 @@
     "bio": "Da Venezuela pro Rio, ele chegou dominando a cena latina com energia, atitude e um som pop urbano que mistura reggaeton, funk, afrohouse e elementos quentes da pista. Carismático, intenso e impossível de ignorar, ele traz uma vibração sensual e irresistível que toma conta do público. Preparem-se pra sentir o peso… DEZZ, o Gringo mais Caro!",
     "destaque": "/src/assets/images/confirmados/street-destaque/dezz-foto.webp",
     "instagram": "https://www.instagram.com/dezzcaro"
+  },
+  {
+    "id": "bigup",
+    "nome": "Big Up",
+    "bio": "A Big UP é um selo musical nascido no coração da Penha, Zona Norte do Rio de Janeiro, fruto da união e organização de MCs que transformaram a vivência de quebrada em potência artística. Com nomes de peso em seu quadro associativo, como Filipe Ret e Diana Bouth, o selo se destaca pela estética do Trap juvenil, marcada por letras picantes, românticas e carregadas de atitude. Entre seus talentos está Vttin, sobrinho de Filipe Ret e uma das novas promessas da cena, trazendo frescor e autenticidade ao catálogo da Big UP. O selo atua como plataforma de crescimento para jovens artistas que buscam identidade, expressão e espaço dentro da música urbana contemporânea.",
+    "destaque": "/src/assets/images/confirmados/street-destaque/bigup.webp",
+    "instagram": "https://www.instagram.com/original_bigup"
+  },
+  {
+    "id": "Rhuas.Art",
+    "nome": "Rhuas.Art",
+    "bio": "A Rhuas.Art é uma produtora artística independente idealizada por Mário Junior, criador e articulador cultural dedicado ao fortalecimento da cena Hip Hop. A produtora se destaca pela criação de projetos sociais que impulsionam talentos emergentes, como A CHANCE, Cria dos Crias e Vitrine MC, iniciativas que oferecem oportunidades reais para MCs independentes, conectando arte, formação profissional e impacto comunitário. Com uma visão voltada à inclusão, educação musical e valorização da cultura urbana, a Rhuas.Art atua como ponte entre artistas, marcas e público, construindo futuros possíveis dentro e fora dos palcos.",
+    "destaque": "/src/assets/images/confirmados/street-destaque/rhuas.webp",
+    "instagram": "https://www.instagram.com/rhuas.Art"
   },
   {
     "id": "batalharimas",
@@ -217,16 +231,16 @@
     "instagram": ""
   },
   {
-    "id": "dekache",
-    "nome": "Dekache Pixel Art",
-    "bio": "Alex Dekache é um artista independente que tranforma pixels em arte geek. Utilizando missangas, conhecidas como BEADS, ele aplica técnicas para definir figuras e agrupa-las em totens, quadros, pingentes e demais itens decorativos. Grande parte de suas obras são sempre voltadas ao universo dos games retrô com referências do Super Nintendo, Mega Drive e jogos das gerações de 8, 16 e 32 bits. ",
-    "destaque": "/src/assets/images/confirmados/geek-destaque/dekache-foto.webp",
-    "instagram": "https://www.instagram.com/dekache.pixelart"
+    "id": "rpg",
+    "nome": "Mesa de RPG",
+    "bio": "O RPG é um hobby que combina imaginação, colaboração e narrativa, onde cada jogador cria um personagem e juntos constroem histórias cheias de aventura, mistério e heroísmo. No festival, o público poderá viver essa experiência na prática, mergulhando em mundos fantásticos guiados por mestres experientes e aventuras criadas especialmente para quem quer descobrir — ou redescobrir — a magia de contar histórias em grupo.<br>Para maiores de 13 anos<br>As vagas são limitadas, recomendamos chegar cedo para fazer a inscrição.",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/rpgkids-foto.webp",
+    "instagram": ""
   },
   {
     "id": "rpgkids",
-    "nome": "RPG e RPG Kids",
-    "bio": "O RPG é um hobby que combina imaginação, colaboração e narrativa, onde cada jogador cria um personagem e juntos constroem histórias cheias de aventura, mistério e heroísmo. No festival, o público poderá viver essa experiência na prática, mergulhando em mundos fantásticos guiados por mestres experientes e aventuras criadas especialmente para quem quer descobrir — ou redescobrir — a magia de contar histórias em grupo.<br><br> As crianças também têm seu momento de rolar o dado, em versões leves e lúdicas, perfeitas para estimular criatividade, resolução de problemas e trabalho em equipe.<br><br>As vagas são limitadas, recomendamos chegar cedo para fazer a inscrição.",
+    "nome": "Mesa de RPG Kids",
+    "bio": "O RPG é um hobby que combina imaginação, colaboração e narrativa, onde cada jogador cria um personagem e juntos constroem histórias cheias de aventuras, mistério e heroísmo. <br><br> No festival as crianças também terão seu momento de rolar os dados, em versões leves e lúdicas, perfeitas para estimular criatividade, resolução de problemas e trabalho em equipe.<br>Para Criaças de 4 a 12 anos<br><br>As vagas são limitadas, recomendamos chegar cedo para fazer a inscrição.",
     "destaque": "/src/assets/images/confirmados/geek-destaque/rpgkids-foto.webp",
     "instagram": ""
   },
@@ -285,6 +299,13 @@
     "bio": "Vilson “Stratos” Borges (35) é um morador de Magé (RJ) e apaixonado pelo hobby de jogos de cartas colecionáveis, também conhecidos como Trading Card Games, TCGs, Card Games etc. <br><br>No seu canal do Youtube “Vilson Stratos” ele aborda diversos jogos como Yu-Gi-Oh!, Pokémon, Magic the Gathering, Digimon Card Game, One Piece Card Game e entre outros! <br><br>Ele estará marcando presença no 1° Festival Underground Literário coordenando a área de Card Games onde todos que quiserem um espaço para conhecer mais sobre o hobby, para encontrar os amigos e jogar partidas do seu Card Game favorito e competir em torneios eletrizantes de Yu-Gi-Oh! (Formato avançado com a lista de restritas e proibidas vigente) e Pokémon (Rotação atual) são mais que bem-vindos para participar!",
     "destaque": "/src/assets/images/confirmados/geek-destaque/vilsonstratos-foto.webp",
     "instagram": ""
+  },
+  {
+    "id": "dekache",
+    "nome": "Dekache Pixel Art",
+    "bio": "Alex Dekache é um artista independente que tranforma pixels em arte geek. Utilizando missangas, conhecidas como BEADS, ele aplica técnicas para definir figuras e agrupa-las em totens, quadros, pingentes e demais itens decorativos. Grande parte de suas obras são sempre voltadas ao universo dos games retrô com referências do Super Nintendo, Mega Drive e jogos das gerações de 8, 16 e 32 bits. ",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/dekache-foto.webp",
+    "instagram": "https://www.instagram.com/dekache.pixelart"
   },
   {
     "id": "fernando",
@@ -483,13 +504,3 @@
     "instagram": "https://www.instagram.com/thamirescorreaatelie"
   }
 ]
-
-
-
-
-
-
-
-
-
-
