@@ -388,7 +388,6 @@ button:hover, .btn:hover { filter: brightness(1.03);
 
 .cartazarea img:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 12px var(--azul-livro);
 }
 
 /* responsivo */
@@ -460,14 +459,15 @@ button:hover, .btn:hover { filter: brightness(1.03);
 
 /* imagem centralizada */
 #mapa img {
-  width: 80%;
+  width: 90%;
   height: auto;
   align-items: center / center;
   align-content:center / center;
   border-radius: 8px;
-  max-width: 900px; /* limite pra telas grandes */
-
+  max-width: 9000px; /* limite pra telas grandes */
 }
+
+
 
 /* === EQUIPE === */
 .equipe {
@@ -586,7 +586,6 @@ button:hover, .btn:hover { filter: brightness(1.03);
 .equipe-img img:hover { 
   transform: scale(1.03);
 }
-
 
 
 
@@ -1018,43 +1017,4 @@ body.linktree h1 {
 
 .ficha-instagram a:hover {
   color: var(--rosa-grafite);
-}
-
-
-/* overlay geral */
-.lightbox-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 99999;
-}
-/*============= LIGHTBOX E PANZOOM ============*/
-/* overlay geral */
-.lightbox-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 99999;
-}
-
-/* imagem no overlay */
-.lightbox-overlay img {
-  max-width: 90vw;
-  max-height: 90vh;
-  object-fit: contain;
-  cursor: zoom-in;
-}
-
-/* cursor pra zoom */
-.panzoom-enabled {
-  cursor: grab;
-}
-.panzoom-enabled:active {
-  cursor: grabbing;
 }
