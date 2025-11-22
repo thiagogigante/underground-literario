@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
 carregarAtracoes();
 carregarEquipe();
 
-
   // ===================== EFEITO: SCROLL REVEAL (ENTRADA DAS SESSÕES E ELEMENTOS EM DIREÇÕES ALEATORIAS) =====================
 
   (function scrollReveal() {
@@ -97,107 +96,7 @@ document.querySelectorAll('.tab').forEach(btn => {
   });
 });
 
-//==================================== FIM DO CÓDIGO EM USO ================================================== \\
-
-
-
-
-/* // ===================== CUSTOM CURSOR (subtle, non-intrusive) =====================
-
-  (function customCursor() {
-    // only enable on non-touch devices
-    if ('ontouchstart' in window) return;
-    const cursor = document.createElement('div');
-    cursor.id = 'cursor-custom';
-    Object.assign(cursor.style, {
-      position: 'fixed', width: '18px', height: '18px', border: '2px solid rgba(45,199,255,0.9)',
-      borderRadius: '50%', pointerEvents: 'none', transform: 'translate(-50%,-50%)', transition: 'transform 120ms ease, background 120ms',
-      zIndex: 99999, mixBlendMode: 'difference'
-    });
-    document.body.appendChild(cursor);
-
-    document.addEventListener('mousemove', (e) => {
-      cursor.style.left = e.clientX + 'px';
-      cursor.style.top = e.clientY + 'px';
-    });
-
-    // scale on hover for interactive elements
-    const interactors = $$('a, button, .area-arrow, .carousel-arrow, .btn-day, .btn');
-    interactors.forEach(el => {
-      el.addEventListener('mouseenter', () => { cursor.style.transform = 'translate(-50%,-50%) scale(1.6)'; });
-      el.addEventListener('mouseleave', () => { cursor.style.transform = 'translate(-50%,-50%) scale(1)'; });
-    });
-
-    // hide cursor on touch
-    window.addEventListener('touchstart', () => { cursor.style.display = 'none'; }, { once: true });
-  })();
-*/
-
-/*  // ===================== BACKGROUND LIGHT MOTION (low-cost) =====================
-  (function subtleBackgroundMotion(){
-    // gentle CSS-based approach - toggles a slight class to body to animate gradient via CSS if desired.
-    // We keep JS light: alternate a CSS variable every few seconds to create slow color shift.
-    let pos = 0;
-    setInterval(() => {
-      pos = (pos + 1) % 360;
-      // small, low-cost hue-rotate via CSS variable
-      document.documentElement.style.setProperty('--bgh', pos);
-    }, 5000);
-  })();
-*/
-
-/* === PROGRAMAÇÃO: Exibir Imagens e Lightbox ===
-document.querySelectorAll('.btn-day').forEach(btn => {
-  btn.addEventListener('click', () => {
-   const day = btn.dataset.day;
-    const img = document.getElementById(`img-${day}`);
-    const closeBtn = img.nextElementSibling;
-
-    const isVisible = img.style.display === 'block';
-
-    document.querySelectorAll('.programacao-img, .btn-recolher').forEach(el => el.style.display = 'none');
-    if (!isVisible) {
-      img.style.display = 'block';
-      closeBtn.style.display = 'inline-block';
-    }
-  });
-}); 
-
-/*document.querySelectorAll('.btn-recolher').forEach(btn => {
-  btn.addEventListener('click', () => {
-    btn.previousElementSibling.style.display = 'none';
-    btn.style.display = 'none';
-  });
-});
-
-// Lightbox
-const lightbox = document.createElement('div');
-lightbox.classList.add('lightbox');
-lightbox.innerHTML = '<span class="lightbox-close">×</span><img src="/src/assets/imagens/bg.jpg"alt="Programação">';
-document.body.appendChild(lightbox);
-
-const lightboxImg = lightbox.querySelector('img');
-const lightboxClose = lightbox.querySelector('.lightbox-close');
-
-document.querySelectorAll('.programacao-img img').forEach(img => {
-  img.addEventListener('click', () => {
-    lightboxImg.src = img.src;
-    lightbox.style.display = 'flex';
-  });
-});
-
-lightboxClose.addEventListener('click', () => lightbox.style.display = 'none');
-lightbox.addEventListener('click', e => {
-  if (e.target === lightbox) lightbox.style.display = 'none';
-});
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') lightbox.style.display = 'none';
-});
-
-*/
-
-
-// === FICHAS DAS ATRAÇÕES ===
+// ================================= FICHAS DAS ATRAÇÕES ====================== //
 let atracoesData = [];
 let fichaIndex = 0;
 
@@ -254,12 +153,7 @@ document.getElementById('ficha-next').addEventListener('click', () => {
   abrirFicha(fichaIndex);
 });
 
-
-
-
-
-
-// === PROGRAMAÇÃO - alternar cartazes ===
+// ========================== PROGRAMAÇÃO - alternar cartazes ======================
 document.querySelectorAll('.btn-day').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.btn-day').forEach(b => b.classList.remove('active'));
@@ -269,7 +163,7 @@ document.querySelectorAll('.btn-day').forEach(btn => {
   });
 });
 
-// === FICHAS DA EQUIPE ===
+// =================== FICHAS DA EQUIPE ========================
 let equipeData = [];
 let equipeIndex = 0;
 
@@ -307,52 +201,5 @@ function abrirFichaEquipe(index) {
 document.addEventListener('click', (e) => {
   if (e.target.classList.contains('btn-fechar') || e.target.id === 'overlay-equipe') {
     document.getElementById('overlay-equipe').classList.add('hidden');
-  }
-});
-
-// =================== LIGHTBOX + PANZOOM UNIFICADO ============REMOVER?=================
-document.addEventListener("DOMContentLoaded", () => {
-  const imagens = document.querySelectorAll("img.lightboxable");
-
-  imagens.forEach(img => {
-    img.style.cursor = "zoom-in";
-
-    img.addEventListener("click", () => {
-      abrirLightbox(img.src);
-    });
-  });
-
-  function abrirLightbox(src) {
-    const overlay = document.createElement("div");
-    overlay.className = "lightbox-overlay";
-
-    const img = document.createElement("img");
-    img.src = src;
-    overlay.appendChild(img);
-
-    document.body.appendChild(overlay);
-
-    // 🟣 Panzoom (zoom + arrastar)
-    const panzoomInstance = Panzoom(img, {
-      maxScale: 4,
-      contain: 'outside',
-      cursor: 'grab'
-    });
-
-    overlay.addEventListener("wheel", panzoomInstance.zoomWithWheel);
-
-    // 🔹 fechar ao clicar fora
-    overlay.addEventListener("click", (e) => {
-      if (e.target === overlay) fecharLightbox();
-    });
-
-    // 🔹 suportar botão voltar do celular
-    history.pushState({ lightbox: true }, "");
-
-    window.addEventListener("popstate", fecharLightbox, { once: true });
-
-    function fecharLightbox() {
-      overlay.remove();
-    }
   }
 });
