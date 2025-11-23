@@ -7,13 +7,6 @@
     "instagram": "https://www.instagram.com/banda.cg125"
   },
   {
-    "id": "efeitomassivo",
-    "nome": "Efeito Massivo",
-    "bio": "Em breve, Descrição da Atração",
-    "destaque": "/src/assets/images/confirmados/bandas-destaque/efeitomassivo-foto.webp",
-    "instagram": "https://www.instagram.com/efeitomassivo"
-  },
-  {
     "id": "guvrim",
     "nome": "Guvrim",
     "bio": "Guvrim é o projeto solo de Gustavo Amorim, artista do Rio de Janeiro que une Post-Rock Alternativo e Indie Rock. Já se apresentou em eventos como Rock in SP e em casas influentes do Rio, incluindo o Teatro Kubrick (antigo Odisséia e atual Agyto), Rock na Biblioteca, além de espaços como Rock Experience, Heavy Duty e Rock n Beer.<br><br>Em 2025 lançou o single duplo “Your Life Is A Mess, But Focus On Me”, além do single “Nobody’s Watching”. Com esses trabalhos, Guvrim consolida-se como um nome emergente da cena alternativa, pronto para levar sua sonoridade intensa e envolvente aos palcos.",
@@ -219,14 +212,14 @@
   {
     "id": "cosplay",
     "nome": "Concurso de Cosplay",
-    "bio": "O palco abre espaço para cosplayers mostrarem todo seu talento, dedicação e amor pelos personagens que representam. É o momento de brilhar, posar, interpretar e surpreender o público com figurinos criativos, performances divertidas e muita energia geek.<br><br>Fique atento às regras para garantir sua participação no Concurso Cosplay",
+    "bio": "O Palco Garagem abre espaço para cosplayers mostrarem todo seu talento, dedicação e amor pelos personagens que representam. É o momento de brilhar, posar, interpretar e surpreender o público com figurinos criativos, performances divertidas e muita energia geek.<br><hr><h2>Regras do Concurso</h2><br>Dia 29/11 - Sábado<br>Horário: 16h (após o Desfile Cosplay)<br>Faixa Etária: a partir de 13 anos<br><hr><b>Inscrição:</b> pode ser feita no local até uma hora antes ou adiantada através do formulário online, <a href='https://docs.google.com/forms/d/e/1FAIpQLSfmau5FEktnJ8SapXHGg3hQbGKpry8--b8kziI99Eq3upUWlA/viewform' target='blank'>Clique aqui!</a><br><br><b>Traje:</b> qualquer personagem da cultura pop; o traje não deve ser excessivamente ousado ou sexualizado. Evite roupas com partes íntimas à mostra, transparências exageradas ou qualquer visual que possa gerar desconforto ao público geral, incluindo crianças.<br><br><b>Apresentação:</b> cada participante terá seu momento de brilhar no palco com uma apresentação individual de até 30s para interpretar seu personagem; é proibido o uso de objetos cortantes/metálicos, fogo/fumaça/líquidos/explosivos, jogar itens no público ou atitudes ofensivas. <br><br><b>Avaliação:</b> o cosplay será avaliado em 3 categorias — <b>Técnico</b> (confecção, acabamento, fidelidade, materiais), <b>Performance</b> (presença, interpretação, conexão com público, impacto) e <b>Criatividade</b> (soluções, adaptações, originalidade, estilo); notas de 1 a 10; a soma define o ranking onde os 3 primeiros serão premiados.<br><br><b>Segurança:</b> staffs podem barrar cosplays perigosos/inapropriados ou retirar quem quebrar regras; lembre-se que o respeito é obrigatório.<br><br><b>Premiação:</b> o anúncio será durante o show da Banda Kyori que acontece logo após as apresentações; a presença é obrigatória na premiação.",
     "destaque": "/src/assets/images/confirmados/geek-destaque/cosplay-foto.webp",
     "instagram": ""
   },
   {
     "id": "cosplaykids",
     "nome": "Desfile de Cosplay Kids",
-    "bio": "Um momento especial para as crianças viverem a magia da cultura pop, desfilando com seus personagens favoritos em um ambiente seguro, acolhedor e cheio de fofura. É o tipo de atração que derrete corações e rende fotos inesquecíveis.<br><br>Fique atento às regras para garantir a participação de sua criança no Desfile de Cosplay Kids",
+    "bio": "Um momento especial para as crianças viverem a magia da cultura pop, desfilando com seus personagens favoritos em um ambiente seguro, acolhedor e cheio de fofura. É o tipo de atração que derrete corações e rende fotos inesquecíveis.<br><br>Fique atento às regras para garantir a participação de sua criança no Desfile de Cosplay Kids<br><hr><h2>Regras do Desfile:</h2>Dia 29/11 - Sábado<br>Horário: 16h<br>Faixa Etária - 2 a 12 anos<br>Limite: 30 crianças<br<br><hr><b>IMPORTANTE!</b><br>1 - O desfile contará com a presença máxima de até 30 crianças com idade de 2 a 12 anos. <br><br>2 - É necessário chegar cedo e se inscrever para participar. <br><br>3 - Só será permitida a participação de crianças trajando personagem ou celebridade de qualquer franquia da cultura pop(anime, jogo, série, filme, quadrinhos, etc).<br><br>4 - Os trajes devem ser seguros e permitir movimentação da criança, acessórios leves e não cortantes são permitidos;<br><br>5 - O desfile acontecerá às 16h, os participantes devem estar com seus trajes completos para subir ao palco.<br><br>6 - É obrigatória a presença dos responsáveis, antes durante e depois do desfile.<br><br>7 - Após o Desfile os participantes receberão brindes exclusivos do Festival Underground Literário.",
     "destaque": "/src/assets/images/confirmados/geek-destaque/cosplaykids-foto.webp",
     "instagram": ""
   },
