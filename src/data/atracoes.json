@@ -227,7 +227,7 @@
     "id": "rpg",
     "nome": "Mesa de RPG",
     "bio": "O RPG é um hobby que combina imaginação, colaboração e narrativa, onde cada jogador cria um personagem e juntos constroem histórias cheias de aventura, mistério e heroísmo. No festival, o público poderá viver essa experiência na prática, mergulhando em mundos fantásticos guiados por mestres experientes e aventuras criadas especialmente para quem quer descobrir — ou redescobrir — a magia de contar histórias em grupo.<br>Para maiores de 13 anos<br>As vagas são limitadas, recomendamos chegar cedo para fazer a inscrição.",
-    "destaque": "/src/assets/images/confirmados/geek-destaque/rpgkids-foto.webp",
+    "destaque": "/src/assets/images/confirmados/geek-destaque/rpg-foto.webp",
     "instagram": ""
   },
   {
@@ -497,3 +497,4 @@
     "instagram": "https://www.instagram.com/thamirescorreaatelie"
   }
 ]
+
