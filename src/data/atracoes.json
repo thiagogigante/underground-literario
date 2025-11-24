@@ -166,13 +166,6 @@
     "bio": "Sob a direção do bailarino Luís Felipe, o Aphrodite, criado em 2024, nasceu com o propósito de expressar arte com muita força, beleza e atitude da deusa que nos dá nome.<br><br>Unindo talento, criatividade e muita energia, o Aphrodite traz coreografias marcantes, que transitam entre o urbano, o jazz e o estilizado, sempre com uma pegada ousada e autêntica.",
     "destaque": "/src/assets/images/confirmados/street-destaque/aphrodite-foto.webp",
     "instagram": "https://www.instagram.com/aphrodite.dancegroup"
-  },  
-  {
-    "id": "baixadacrew",
-    "nome": "Baixada Crew",
-    "bio": "Sob a direção do bailarino Luís Felipe, o Aphrodite, criado em 2024, nasceu com o propósito de expressar arte com muita força, beleza e atitude da deusa que nos dá nome.<br><br>Unindo talento, criatividade e muita energia, o Aphrodite traz coreografias marcantes, que transitam entre o urbano, o jazz e o estilizado, sempre com uma pegada ousada e autêntica.",
-    "destaque": "/src/assets/images/confirmados/street-destaque/baixadacrew-foto.webp",
-    "instagram": "https://www.instagram.com/baixadacrew_"
   },
   {
     "id": "boombox",
@@ -240,7 +233,7 @@
   {
     "id": "joganerd",
     "nome": "Joga Nerd",
-    "bio": "Encontro mensal que acontece a todo 3º sábado do mês no Espaço Cultural Magé Nerd, próximo a Estação Guia e Pacobaíba em Mauá. Estarão com todo seu arcenal pra galera experimentar de perto como é jogar um boardgame de qualidade!",
+    "bio": "Encontro mensal que acontece a todo 3º sábado do mês no Espaço Cultural Magé Nerd, próximo a Estação Guia e Pacobaíba em Mauá. Estarão com todo seu arsenal pra galera experimentar de perto como é jogar um boardgame de qualidade!",
     "destaque": "/src/assets/images/confirmados/geek-destaque/joganerd-foto.webp",
     "instagram": ""
   },  
@@ -497,5 +490,6 @@
     "instagram": "https://www.instagram.com/thamirescorreaatelie"
   }
 ]
+
 
 
