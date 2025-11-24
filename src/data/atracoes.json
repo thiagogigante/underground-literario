@@ -282,7 +282,7 @@
   {
     "id": "torneiocards",
     "nome": "Torneio de CardGame (TCG)",
-    "bio": "Traga seu Desk e venha competir com a gente! <br><br>Coordenado pelo Vilson Stratos, referência em TCG da região, os visitantes do Festival Underground Literário poderão se inscrever para participar dos torneios de Yu-Gi-Oh! (Formato avançado com a lista de restritas e proibidas vigente) e Pokémon (Rotação atual).",
+    "bio": "Traga seu Deck e venha competir com a gente! <br><br>Coordenado pelo Vilson Stratos, referência em TCG da região, os visitantes do Festival Underground Literário poderão se inscrever para participar dos torneios de Yu-Gi-Oh! (Formato avançado com a lista de restritas e proibidas vigente) e Pokémon (Rotação atual).",
     "destaque": "/src/assets/images/confirmados/geek-destaque/torneiocards-foto.webp",
     "instagram": ""
   },
@@ -497,4 +497,5 @@
     "instagram": "https://www.instagram.com/thamirescorreaatelie"
   }
 ]
+
 
