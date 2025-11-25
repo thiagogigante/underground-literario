@@ -175,13 +175,6 @@
     "instagram": ""
   },
   {
-    "id": "dinastia021",
-    "nome": "Dinastia 21",
-    "bio": "Nascido em 2022, o grupo iniciou sua trajetória como Golden Wings, formado por Kai, Lara e Raphael, estreando no primeiro Festival de Dança de Magé. No ano seguinte, renasceram com uma nova identidade: Dinastia. Um nome que carrega força, união e propósito.<br>Com o tempo, a família cresceu. Aysha, Ana Luiza, Gabriela se juntaram ao time, somando seus talentos aos de Kailane, Lara e Raphael trazendo mais presença e personalidade às performances. Juntos, eles transformam cada palco em território de pura energia, surpreendendo o público com técnica, emoção e sintonia.<br>Em maio de 2025, o grupo conquistou seu primeiro pódio como Melhor Grupo com uma coreografia de Hip Hop no Festival de Caxias. Um marco que solidificou ainda mais sua trajetória e dedicação.<br>Hoje, a Dinastia é mais que um grupo: é uma família artística que evolui, inspira e entrega intensidade em cada apresentação. Onde eles pisam, a dança acontece viva, forte e inesquecível.",
-    "destaque": "/src/assets/images/confirmados/street-destaque/dinastia21-foto.webp,",
-    "instagram": ""
-  },
-  {
     "id": "soniacastilho",
     "nome": "Sônia Castilho Studio de Dança",
     "bio": "O Studio de Dança Sônia Castilho marcará presença no Festival Underground Literário, com seus mais de 25 anos de atuação na dança em Magé (sede em Fragoso), oferecendo modalidades como Ballet Clássico, Jazz, Zumba, Hip Hop, Fit Dance, Dança do Ventre e Dança de Salão. Com turmas infantil, juvenil e adulto.",
@@ -490,6 +483,7 @@
     "instagram": "https://www.instagram.com/thamirescorreaatelie"
   }
 ]
+
 
 
 
