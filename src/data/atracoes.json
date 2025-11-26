@@ -142,7 +142,7 @@
   {
     "id": "campeonatoskate",
     "nome": "Campeonato de Skate - Best Trick",
-    "bio": "O 1º Festival Underground Literário traz o Campeonato de Skate – Best Trick, pra quem manda bem nas manobras e quer mostrar estilo, técnica e atitude na pista!<br><br>Vai rolar no lendário Beco da Palha, bem no coração de Magé – RJ! O pico vai estar transformado com equipamentos instalados especialmente pro evento e um espaço aberto pro público vibrar a cada manobra insana! <br><br>Então já sabe: leva teu skate, tua vibe e teu melhor trick, porque aqui o destaque vai pra quem tem criatividade, estilo e ousadia no shape — daquele jeitinho que só a galera da rua sabe fazer!<br><br>Para se inscrever e participar, <a href='https://docs.google.com/forms/d/e/1FAIpQLSdJURcXtDjPtC1Naf5SQSSlXcqQdkGEMgRtuWqctGKM5UvvEA/viewform' target='blank'> Clique aqui!</a>",
+    "bio": "<br><b>1. Apresentação</b><br><br>O Festival Underground Literário realiza o Best Trick de Skate – Categoria Livre, com o objetivo de celebrar a cultura de rua, o convívio entre skatistas e a livre expressão através do skate. O evento integra as atividades culturais do festival, valorizando a criatividade, o estilo e o espírito coletivo que caracterizam a cena underground.<hr><br><b>2. Formato da Competição</b><br><br>Modalidade: Best Trick – Street Categoria: Livre (qualquer gênero e idade podem participar) A competição consiste em um tempo determinado para que cada participante realize suas melhores manobras em um obstáculo específico da pista. Cada skatista poderá tentar quantas manobras desejar dentro do tempo total do jam.<hr><br><b>3. Tempo de Prova</b><br><br>Duração: de 10 a 15 minutos, dependendo do número de inscritos.<br>Todos os competidores andam simultaneamente (jam session).<hr><br><b>4. Critérios de Julgamento</b><br>A avaliação será feita por uma banca de 3 juízes convidados, considerando os seguintes critérios: <br>• Dificuldade Técnica – Complexidade e precisão da manobra executada<br>• Execução / Consistência – Controle, aterrissagem e segurança<br>• Estilo / Criatividade – Originalidade e fluidez da execução <br>• Impacto / Estética – Impressão geral e energia do momento A melhor manobra do evento será premiada.<hr><br><b>5. Premiação</b><br><br>1º Lugar – Melhor Manobra: prêmio em dinheiro<br>2º Lugar e 3º Lugar: prêmios simbólicos ou brindes de apoiadores (se houver) <br><br>Os valores e detalhes da premiação serão divulgados no dia do evento, antes do início das baterias.<hr><br><b>6. Inscrições</b><br><br>As inscrições são gratuitas e poderão ser realizadas no local do evento, antes do início da competição ou antecipadamente através do formulário online. Cada participante deverá preencher uma ficha de inscrição com nome completo, idade e assinatura. Menores de 18 anos devem apresentar autorização do responsável.<hr><br><b>7. Regras Gerais</b><br><br>• O uso de capacete é obrigatório para menores de 18 anos.<br>• Cada participante deve respeitar o tempo e o espaço dos demais durante a sessão.<br>• É proibido o consumo de bebidas alcoólicas e substâncias ilícitas na área de competição.<br>• A organização poderá interromper ou cancelar a bateria em caso de chuva, acidentes ou situações que comprometam a segurança.<br>• A decisão dos juízes é irrecorrível.<br>• O simples ato da inscrição implica na aceitação integral deste regulamento.<br><br>Para adiantar sua inscrição, <a href='https://docs.google.com/forms/d/e/1FAIpQLSdJURcXtDjPtC1Naf5SQSSlXcqQdkGEMgRtuWqctGKM5UvvEA/viewform' target='blank'> Clique aqui!</a>",
     "destaque": "/src/assets/images/confirmados/street-destaque/campeonatoskate-foto.webp",
     "instagram": ""
   },
@@ -175,6 +175,13 @@
     "instagram": ""
   },
   {
+    "id": "dinastia021",
+    "nome": "Dinastia 21",
+    "bio": "Nascido em 2022, o grupo iniciou sua trajetória como Golden Wings, formado por Kai, Lara e Raphael, estreando no primeiro Festival de Dança de Magé. No ano seguinte, renasceram com uma nova identidade: Dinastia. Um nome que carrega força, união e propósito.<br>Com o tempo, a família cresceu. Aysha, Ana Luiza, Gabriela se juntaram ao time, somando seus talentos aos de Kailane, Lara e Raphael trazendo mais presença e personalidade às performances. Juntos, eles transformam cada palco em território de pura energia, surpreendendo o público com técnica, emoção e sintonia.<br>Em maio de 2025, o grupo conquistou seu primeiro pódio como Melhor Grupo com uma coreografia de Hip Hop no Festival de Caxias. Um marco que solidificou ainda mais sua trajetória e dedicação.<br>Hoje, a Dinastia é mais que um grupo: é uma família artística que evolui, inspira e entrega intensidade em cada apresentação. Onde eles pisam, a dança acontece viva, forte e inesquecível.",
+    "destaque": "/src/assets/images/confirmados/street-destaque/dinastia21-foto.webp,",
+    "instagram": ""
+  },
+  {
     "id": "soniacastilho",
     "nome": "Sônia Castilho Studio de Dança",
     "bio": "O Studio de Dança Sônia Castilho marcará presença no Festival Underground Literário, com seus mais de 25 anos de atuação na dança em Magé (sede em Fragoso), oferecendo modalidades como Ballet Clássico, Jazz, Zumba, Hip Hop, Fit Dance, Dança do Ventre e Dança de Salão. Com turmas infantil, juvenil e adulto.",
@@ -198,7 +205,7 @@
   {
     "id": "cosplay",
     "nome": "Concurso de Cosplay",
-    "bio": "O Palco Garagem abre espaço para cosplayers mostrarem todo seu talento, dedicação e amor pelos personagens que representam. É o momento de brilhar, posar, interpretar e surpreender o público com figurinos criativos, performances divertidas e muita energia geek.<br><hr><h2>Regras do Concurso</h2><br>Dia 29/11 - Sábado<br>Horário: 16h (após o Desfile Cosplay)<br>Faixa Etária: a partir de 13 anos<br><hr><b>Inscrição:</b> pode ser feita no local até uma hora antes ou adiantada através do formulário online, <a href='https://docs.google.com/forms/d/e/1FAIpQLSfmau5FEktnJ8SapXHGg3hQbGKpry8--b8kziI99Eq3upUWlA/viewform' target='blank'> Clique aqui!</a><br><br><b>Traje:</b> qualquer personagem da cultura pop; o traje não deve ser excessivamente ousado ou sexualizado. Evite roupas com partes íntimas à mostra, transparências exageradas ou qualquer visual que possa gerar desconforto ao público geral, incluindo crianças.<br><br><b>Apresentação:</b> cada participante terá seu momento de brilhar no palco com uma apresentação individual de até 30s para interpretar seu personagem; é proibido o uso de objetos cortantes/metálicos, fogo/fumaça/líquidos/explosivos, jogar itens no público ou atitudes ofensivas. <br><br><b>Avaliação:</b> o cosplay será avaliado em 3 categorias — <b>Técnico</b> (confecção, acabamento, fidelidade, materiais), <b>Performance</b> (presença, interpretação, conexão com público, impacto) e <b>Criatividade</b> (soluções, adaptações, originalidade, estilo); notas de 1 a 10; a soma define o ranking onde os 3 primeiros serão premiados.<br><br><b>Segurança:</b> staffs podem barrar cosplays perigosos/inapropriados ou retirar quem quebrar regras; lembre-se que o respeito é obrigatório.<br><br><b>Premiação:</b> o anúncio será durante o show da Banda Kyori que acontece logo após as apresentações; a presença é obrigatória na premiação.",
+    "bio": "O Palco Garagem abre espaço para cosplayers mostrarem todo seu talento, dedicação e amor pelos personagens que representam. É o momento de brilhar, posar, interpretar e surpreender o público com figurinos criativos, performances divertidas e muita energia geek.<br><hr><h2>Regras da Competição</h2><br>Dia 29/11 - Sábado<br>Horário: 16h (após o Desfile Cosplay)<br>Faixa Etária: a partir de 13 anos<br><hr><b>Inscrição:</b> pode ser feita no local até uma hora antes ou adiantada através do formulário online, <a href='https://docs.google.com/forms/d/e/1FAIpQLSfmau5FEktnJ8SapXHGg3hQbGKpry8--b8kziI99Eq3upUWlA/viewform' target='blank'> Clique aqui!</a><br><br><b>Traje:</b> qualquer personagem da cultura pop; o traje não deve ser excessivamente ousado ou sexualizado. Evite roupas com partes íntimas à mostra, transparências exageradas ou qualquer visual que possa gerar desconforto ao público geral, incluindo crianças.<br><br><b>Apresentação:</b> cada participante terá seu momento de brilhar no palco com uma apresentação individual de até 30s para interpretar seu personagem; é proibido o uso de objetos cortantes/metálicos, fogo/fumaça/líquidos/explosivos, jogar itens no público ou atitudes ofensivas. <br><br><b>Avaliação:</b> o cosplay será avaliado em 3 categorias — <b>Técnico</b> (confecção, acabamento, fidelidade, materiais), <b>Performance</b> (presença, interpretação, conexão com público, impacto) e <b>Criatividade</b> (soluções, adaptações, originalidade, estilo); notas de 1 a 10; a soma define o ranking onde os 3 primeiros serão premiados.<br><br><b>Segurança:</b> staffs podem barrar cosplays perigosos/inapropriados ou retirar quem quebrar regras; lembre-se que o respeito é obrigatório.<br><br><b>Premiação:</b> o anúncio será durante o show da Banda Kyori que acontece logo após as apresentações; a presença é obrigatória na premiação.",
     "destaque": "/src/assets/images/confirmados/geek-destaque/cosplay-foto.webp",
     "instagram": ""
   },
@@ -299,6 +306,13 @@
     "bio": "Everton é um jovem mageense apaixonado por animes, super heróis e games. Seu diagnóstico de autismo não o afastou de sua paixão pelo mundo geek e de se dedicar aos seus desenhos. Muito pelo contrário, isso o tornou quase uma máquina de obras de arte. Artes nas quais ele vai expor durante o Festival. <br><br>Everton aprimorou tão bem suas técnicas de desenho que hoje dá aulas na Fundação Cultural de Magé e também estará com sua Oficina de Desenho Mangá durante o Festival. <br><br>Chegem cedo para se inscrever, vagas limitadas!",
     "destaque": "/src/assets/images/confirmados/feira-destaque/everton-foto.webp",
     "instagram": "https://www.instagram.com/evertondrawings"
+  },
+  {
+    "id": "kailani",
+    "nome": "Kailani de Souza",
+    "bio": "A jovem artista Kailani de Souza, de 18 anos vem explorado o mundo da pintura em tela há aproximados 2 anos, trabalhando com tinta óleo e tinta acrílica. Ela sempre teve uma paixão por desenhar desde criança, agora, está se aprofundando nessa área e adorando cada momento. Ela e suas obras estarão conosco na Exposição de Artes Visuais do Festival Underground Literário nos dias 29 e 30 de novembro.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/kailani-foto.webp",
+    "instagram": "https://www.instagram.com/"
   },
   {
     "id": "projeto50euns",
@@ -483,8 +497,3 @@
     "instagram": "https://www.instagram.com/thamirescorreaatelie"
   }
 ]
-
-
-
-
-
