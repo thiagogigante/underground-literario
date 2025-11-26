@@ -81,11 +81,15 @@ main {
 .menu {
   display: flex;
   white-space: nowrap;      /* nunca quebra linha */
-  gap: 20px;                /* espaçamento horizontal */
+  gap: 10px;                /* espaçamento horizontal */
   align-items: center;
   margin: 0;
   padding: 8px 12px;
   list-style: none;
+
+  flex-wrap: nowrap;        /* impede quebrar linha */
+  justify-content: space-between;
+
 }
 
 /* links do menu */
@@ -93,12 +97,14 @@ main {
   display: inline-block;
   text-decoration: none;
   color: var(--verde-neon);
-  font-weight: 700;
+  font-weight: 500;
   padding: 6px 6px;
   transition: color var(--transition-fast), transform var(--transition-fast);
 
   /* fonte reduz conforme necessário, mas nunca quebra */
-  font-size: clamp(0.75rem, 1.4vw, 1rem);
+  font-size: clamp(0.55rem, 1.6vw, 1rem);
+  white-space: nowrap;      /* impede quebrar texto */
+
 }
 
 .menu > a:hover {
@@ -296,7 +302,6 @@ button:hover, .btn:hover { filter: brightness(1.03);
 .card { background: rgba(12,12,12,0.72); border: 2px solid var(--azul-livro); padding:18px; border-radius:10px; transition: transform 220ms ease, box-shadow 220ms ease; }
 .card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(0,0,0,0.6); border-color: var(--rosa-grafite); }
 
-
 /* === FESTIVAL == VIDEO  === */
 
   /* o festival vira container do vídeo */
@@ -317,9 +322,71 @@ button:hover, .btn:hover { filter: brightness(1.03);
   pointer-events: none;
 }
 
+/* ============= NA MIDIA  ============= */
+#namidia { 
+  position:relative; 
+  overflow:hidden; 
+  color: #fff;
+  text-shadow: #0b0c0b;
+  position: relative;
+  background: url("/src/assets/images/jornal.webp") center/cover no-repeat;
+  display: grid;
+}
+
+.namidia-gallery {
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  padding: 20px 0;
+  justify-items: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px 0;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+
+.namidia-gallery a {
+  height: 50px;        /* tamanho vertical → AGORA é retangular */
+  border-radius: 6px;  /* bordas leves, sem ficar redondo */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.05);
+  transition: transform 0.25s, box-shadow 0.25s;
+  width: 8rem;
+  max-width: 200px;
+  }
+
+.namidia-gallery a img {
+  width: 100%;
+  object-fit: cover;  /* 🔹 preserva a proporção das logos */
+  object-position: center;
+}
+.namidia-gallery a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px var(--azul-livro);
+}
+
+/*======================================================================================
+COMPETIÇÕES
+/*======================================================================================*/
+
+#premiacao {
+  width: 100%;
+  max-width: 420px; /* 🔹 limite máximo (ajustável) */
+  display: block;
+  margin: 20px auto; /* centraliza */
+  height: auto; /* mantém proporção */
+}
+
+
+
 
 /* ============= GALERIA ATRAÇÕES CONFIRMADAS  ============= */
-
 #atracoes { 
   position:relative; 
   overflow:hidden; 
@@ -805,7 +872,7 @@ body.linktree h1 {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  z-index: 9999;
+  z-index: 9998;
   padding: 20px;
   backdrop-filter: blur(4px);
   gap: 2%;
@@ -942,6 +1009,7 @@ body.linktree h1 {
   font-weight: bold;
   text-decoration: none;
   font-size: 1rem;
+  z-index: 9999;
 }
 
 .ficha-controles #ficha-instagram:hover {
