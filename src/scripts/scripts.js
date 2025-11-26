@@ -130,7 +130,7 @@ function abrirFicha(index) {
 // instagram entre as setas
 const linkInsta = document.getElementById('ficha-instagram');
 linkInsta.textContent = atracao.instagram ? atracao.instagram.replace('https://www.instagram.com/', '@') : '';
-linkInsta.href = atracao.instagram || '#';
+linkInsta.href = atracao.instagram || 'LINK_EXTERNO';
 
   document.getElementById('overlay-ficha').classList.remove('hidden');
 }
