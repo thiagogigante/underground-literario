@@ -83,6 +83,59 @@ carregarEquipe();
       });
     });
   })();
+
+
+
+// =================== SLIDE GALERIA =================== //
+async function carregarSlides() {
+
+  const slidesBox = document.querySelector(".slides");
+  const legenda = document.querySelector(".slide-legenda");
+
+    const req = await fetch("src/data/fotos.json");
+    const grupos = await req.json();
+
+    grupos.forEach(grupo => {
+      const slide = document.createElement("div");
+      slide.classList.add("slide");
+
+        grupo.fotos.forEach(src => {
+          slide.innerHTML += `
+          <a href="${src}" target="_blank">
+          <img src="${src}" alt="">
+          </a>
+            `;
+        });
+
+        slide.dataset.legenda = grupo.legenda || "";
+        slidesBox.appendChild(slide);
+    });
+
+    let slideAtual = 0;
+
+    function atualizarSlide() {
+        const largura = document.querySelector(".slide-frame").offsetWidth;
+        slidesBox.style.transform = `translateX(-${slideAtual * largura}px)`;
+        legenda.textContent = grupos[slideAtual].legenda;
+  }
+
+    document.querySelector(".btn-next").addEventListener("click", () => {
+      if (slideAtual < grupos.length - 1) slideAtual++;
+       atualizarSlide();
+    });
+
+     document.querySelector(".btn-prev").addEventListener("click", () => {
+       if (slideAtual > 0) slideAtual--;
+       atualizarSlide();
+   });
+
+   window.addEventListener("resize", atualizarSlide);
+
+   atualizarSlide();
+}
+
+carregarSlides();
+
 });
 
 // =================== GALERIA: NOVA SESSÃO ATRAÇÕES =================\\
@@ -202,4 +255,6 @@ document.addEventListener('click', (e) => {
   if (e.target.classList.contains('btn-fechar') || e.target.id === 'overlay-equipe') {
     document.getElementById('overlay-equipe').classList.add('hidden');
   }
+
 });
+
