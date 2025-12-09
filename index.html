@@ -30,8 +30,8 @@
       <a href="#namidia">Nós na Mídia</a>
       <a href="#festival">O Festival</a>
      
-      <a href="#competicoes">Competições</a>
-      <a href="#atracoes">Atrações Confirmadas</a>
+  <!-- <a href="#competicoes">Competições</a> -->
+      <a href="#atracoes">Atrações</a>
       <a href="#mapa">Mapa do Evento</a>
       <!--a href="#programacao"> Programação</a> ATIVAR APÓS RECEBER ARTE DA PROGRAMAÇÃO POR DIAS-->
       <a href="#local">Local</a>
@@ -77,47 +77,62 @@
   <main>
   <section id="inicio" class="hero">
     <img id="logo" src="src/assets/images/logo.png" alt="Logo do Festival" class="hero-logo" />
-    <br>   
-  <div class="info-linha">
-  <div class="info-item">
-    <img src="/src/assets/images/calendar.png" alt="Ícone de calendário">
-    <h3 class="data_local">29 e 30 de Novembro</h3><br>
-  </div>
-  <div class="info-item">
-    <img src="/src/assets/images/local.png" alt="Ícone de localização">
-    <h3 class="data_local">El Loco Eventos</h3>
-  </div>
-  <div class="info-item">
-    <img src="/src/assets/images/cifrao.png" alt="Ícone de Custo">
-    <h3 class="data_local">Entrada Gratuita</h3>
-  </div>
-</div>
-  </section>
-
-  <!-- === FOTOS (link para hub) =============================================== -->
-  <section id="foto" class="foto">
-    <h1>Galeria de Fotos</h1>
-        <p>Nossa primeira edição foi um sucesso! O fotógrafo oficial está tratando as fotos, assim que estiverem ok elas estarão aqui!
-          <br>Aguardem só mais um pouquinho.</p>
-    <br>
-    <br>
-    <p>Enquanto isso acompanhem na nossa página do Instagram: <a href="https://www.instagram.com/festivalundergroundliterario" target="blank"> @festivalundergroundliterario</a></p>
-
-
- <!-- AQUI ENTRA A ESTRUTURA DA GALERIA DE FOTOS DO EVENTO
-  <p>Confere aí como foi a primeira edição do nosso Festival Underground Literário
-      <br>
-    <div>
-
-
-
-    </div> 
-    <br><p>Nos vemos na próxima! Até lá!</p> 
-    
-    FIM DA GALERIA DE FOTOS -->
-  </section>
+    <p>    Nossa 1ª edição foi um sucesso, as fotos já estão disponíveis aqui em baixo e vc pode acompanhar a gente nas redes sociais.
+    <br> Fique ligado nas próximas edições, vem muita coisa boa por aí! </p>
   
-  <!-- === INSCRIÇÕES (link para hub) =============================================== 
+  <!--
+  <div class="info-linha">
+    <div class="info-item">
+      <img src="/src/assets/images/calendar.png" alt="Ícone de calendário">
+      <h3 class="data_local">29 e 30 de Novembro</h3><br>
+    </div>
+  
+    <div class="info-item">
+      <img src="/src/assets/images/local.png" alt="Ícone de localização">
+      <h3 class="data_local">El Loco Eventos</h3>
+    </div>
+    <div class="info-item">
+      <img src="/src/assets/images/cifrao.png" alt="Ícone de Custo">
+      <h3 class="data_local">Entrada Gratuita</h3>
+    </div>
+  </div> 
+  -->
+
+    <div class="info-item">
+      <img src="/src/assets/images/insta.png" alt="Ícone do Instagram"></div>
+      <a class="btn" href="https://www.instagram.com/festivalundergroundliterario" target="blank">
+      <h2>@festivalundergroundliterario</h2></a>
+    </div>
+
+    Nos vemos na próxima! Até lá!         
+
+  </section>
+<!-- =========== GALERIA DE FOTOS =============================================== -->
+
+  <section id="galeria-fotos" class="galeria-fotos">
+    <h1>Galeria de Fotos</h1>
+<p> Confere aí algumas fotos do que rolou na 1ª edição do Festival Underground Literário! </p>
+    <div class="slide-container">
+        <button class="slide-btn btn-prev">‹</button>
+
+        <div class="slide-frame">
+            <div class="slides"></div>
+        </div>
+
+        <button class="slide-btn btn-next">›</button>
+    </div>
+
+    <div class="slide-legenda"></div>
+    <br><br>
+    <p> Se quiser acessar nossa pasta com todas as fotos, <a class="btn-primary" href="https://drive.google.com/drive/folders/1wFgJQoGfa8U9qo83mkGNC93G8_gG-WLa" target="_blank">Clique aqui!</a>
+      <br>PS: Algumas ainda estão sendo editadas. Assim que der postaremos elas.</p>
+
+    </section>
+
+
+  
+  <!-- === INSCRIÇÕES (link para hub) ============ SÓ LIGAR EM 2026 NA 2º EDIÇÃO =================================== 
+  
   <section id="inscricoes" class="cta">
     <h1>Inscrições Abertas!</h1>
     <p>Quer expor sua arte, se apresentar, participar da Feira Literária ou Garagem Geek?
@@ -144,6 +159,8 @@
     <a href="https://bafafa.com.br/arte-e-cultura/letras-e-livros/mage-recebe-o-1-festival-underground-literario" target="_blank"><img src="/src/assets/images/namidia/agendabafafa.webp" alt="Agenda Bafafa"></a>
     <a href="https://redetvmais.tv/policia-civil-prende-idoso-de-70-anos-condenado-por-estupro-de-vulneravel-em-mage/" target="_blank"><img src="/src/assets/images/namidia/redemaistv.webp" alt="Rede Mais Tv"></a>
     <a href="https://bravabaixada.com.br/2025/11/26/mage-recebe-1o-festival-underground-literario-nos-dias-29-e-30-de-novembro/" target="_blank"><img src="/src/assets/images/namidia/bravabaixada.webp" alt="Brava Baixada"></a>
+    <a href="https://folhadabaixada.com.br/noticia/2055/festival-underground-literario-estreia-na-baixada-fluminense-com-musica-literatura-e-cultura-geek#google_vignette" target="_blank"><img src="/src/assets/images/namidia/folhadabaixada.webp" alt="Folha da Baixada"></a>
+    <a href="https://portalc3.net/mage-recebe-1o-festival-underground-literario-com-foco-na-producao-independente/" target="_blank"><img src="/src/assets/images/namidia/portalc3.webp" alt="Portal C3"></a>
 
   </div>
 </section>
@@ -174,7 +191,7 @@
   
 
 
-  <!-- === COMPETIÇÕES =============================================== -->
+  <!-- ============================ COMPETIÇÕES ============SÓ LIGAR EM 2026 NA 2º EDIÇÃO ===================================
   <section id="competicoes" class="programacao">
     <h1>Competições</h1>
       Participe, se diverta, mostre seu talento e de quebra leve uma graninha pra casa!!!
@@ -189,7 +206,9 @@
       <br><img src="/src/assets/images/premiacao.webp" alt="Premiação" id="premiacao">
       <p>Premiações em Dinheiro + Brindes!</b>
     </div> 
-  </section>
+  </section>-->
+
+    <!-- =========================== VÍDEO ================================================ -->
 
   <section id="atracoes" class="atracoes">
     <video autoplay muted loop id="bg-video">
@@ -197,12 +216,11 @@
     Deu ruim! Era pra rodar um vídeo aqui, mas aparentemente seu navegador ñ suporta. Que pena!
     </video>
   </section>
-  <!-- ===== SESSÃO TESTE - EXCLUIR DEPOIS ================================================ -->
 
   
-  <!-- ===== ATRAÇÕES CONFIRMADAS === MODELO 1 ============================================ -->
+  <!-- ===== ATRAÇÕES CONFIRMADAS ============================================== -->
   <section class="atracoes">
-  <h1>O que você vai encontrar no Festival?</h1>
+  <h1>O que rolou na 1ª edição?</h1>
 
   <div class="tabs">
     <button class="tab btn-day" data-tab="bandas">Bandas</button>
@@ -365,14 +383,14 @@
   </div> 
   </section>
 
-  <!-- === PROGRAMAÇÃOO =============================================== -->
+  <!-- === PROGRAMAÇÃOO ============[ SÓ USAR EM 2026 NA 2ª EDIÇÃO ]=================================== -->
   <!-- section id="programacao" class="programacao">
     <h1>Programação</h1>
 <p>Em breve divulgaremos, aguenta aí!</p> 
 
 --><!-- Botões de dias -> ============= FECHAR ESSA TAG QUANDO FOR EXIBIR OS BOTÕES ====== AGUARDANDO A ARTE DA PROGRAMAÇÃO FICAR PRONTA -->
   
-  <!-- ========== AGUARDANDO CARTAZ DE ATRAÇÕES ========== 
+  <!-- ========== AGUARDANDO CARTAZ DE ATRAÇÕES ====[ SÓ USAR EM 2026 NA 2ª EDIÇÃO ]====== 
   
   <div class="tabs">
     <button class="tab btn-day" data-tab="sabado">📅 Sábado - 29/11</button>
@@ -390,7 +408,7 @@
   </div>  
   </div>
 
-  ========== AGUARDANDO CARTAZ DE ATRAÇÕES ========== -->
+  ========== AGUARDANDO CARTAZ DE ATRAÇÕES ======= [ SÓ USAR EM 2026 NA 2ª EDIÇÃO ] ========= -->
 
    <!-- Botão para a página com programação completa // provavelmente não será usado
   
@@ -444,8 +462,6 @@
   </div>
 </div>
 
-  </section>
-
   <!-- === APOIADORES ========================== OK ===================== -->
   <section id="apoio">
     <div class="apoio-grupo">
@@ -454,13 +470,13 @@
       </div>
     </div>
     
-    <div class="apoio-grupo">
+   <!-- <div class="apoio-grupo">
       <br><h2>Apoio Cultural</h2>
       <div class="logos">
         <img src="src/assets/images/realizacao/sualogo.png" alt="Parceiro">
         <img src="src/assets/images/realizacao/sualogo.png" alt="Parceiro">
       </div>
-    </div>
+    </div> -->
 
     <div class="apoio-grupo">
       <br><h2>Produção Executiva</h2>
@@ -503,7 +519,3 @@
 </body>
 
 </html>
-
-
-
-
