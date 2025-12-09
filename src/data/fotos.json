@@ -1,0 +1,82 @@
+[
+    {
+        "legenda": "Abertura do Evento: Gleissiano (Sound Wave) e Ingrid (Estética Sonora) e Equipe Organizadora",
+        "fotos": ["src/assets/images/fotos/slide01-equipe1.jpg", "src/assets/images/fotos/slide01-equipe2.jpg", "src/assets/images/fotos/slide01-equipe3.jpg", "src/assets/images/fotos/slide01-equipe4.jpg", "src/assets/images/fotos/slide01-equipe5.jpg", "src/assets/images/fotos/slide01-equipe6.jpg"]
+    },
+    {
+        "legenda": "Feira de Artesanato, Gastronomia e Economia Criativa",
+        "fotos": ["src/assets/images/fotos/slide02-artesanato01.jpg","src/assets/images/fotos/slide02-artesanato02.jpg", "src/assets/images/fotos/slide02-artesanato03.jpg", "src/assets/images/fotos/slide02-artesanato04.jpg", "src/assets/images/fotos/slide02-artesanato05.jpg", "src/assets/images/fotos/slide02-artesanato06.jpg"]
+    },
+    {
+        "legenda": "Exposição de Artes visuais com artistas locais",
+        "fotos": ["src/assets/images/fotos/slide03-artistas01.jpg", "src/assets/images/fotos/slide03-artistas02.jpg", "src/assets/images/fotos/slide03-artistas03.jpg", "src/assets/images/fotos/slide03-artistas04.jpg", "src/assets/images/fotos/slide03-artistas05.jpg", "src/assets/images/fotos/slide03-artistas06.jpg"]
+    },
+    {
+        "legenda": "Feira Literária com autores independentes e editoras periféricas apresentando seus trabalhos",
+        "fotos": ["src/assets/images/fotos/slide04-autores01.jpg", "src/assets/images/fotos/slide04-autores02.jpg", "src/assets/images/fotos/slide04-autores03.jpg", "src/assets/images/fotos/slide04-autores04.jpg", "src/assets/images/fotos/slide04-autores05.jpg", "src/assets/images/fotos/slide04-autores06.jpg"]
+    },
+    {
+        "legenda": "Diversão na Garagem Geek: Game Retrô, CardGame, BoardGame, RPG Kids e Oficina de Desenho",
+        "fotos": ["src/assets/images/fotos/slide05-geek1.jpg", "src/assets/images/fotos/slide05-geek2.jpg", "src/assets/images/fotos/slide05-geek3.jpg", "src/assets/images/fotos/slide05-geek4.jpg", "src/assets/images/fotos/slide05-geek5.jpg", "src/assets/images/fotos/slide05-geek6.jpg"]
+    },
+    {
+        "legenda": "Coringa Quiz - Jogo de Perguntas e Respostas do Universo Geek",
+        "fotos": ["src/assets/images/fotos/slide06-coringa1.jpg", "src/assets/images/fotos/slide06-coringa2.jpg", "src/assets/images/fotos/slide06-coringa3.jpg", "src/assets/images/fotos/slide06-coringa4.jpg", "src/assets/images/fotos/slide06-coringa5.jpg", "src/assets/images/fotos/slide06-coringa6.jpg"]
+    },
+    {
+        "legenda": "Papo de Geek: Bate-Papo sobre Arte e tecnologia",
+        "fotos": ["src/assets/images/fotos/slide07-papogeek1.jpg", "src/assets/images/fotos/slide07-papogeek2.jpg", "src/assets/images/fotos/slide07-papogeek3.jpg", "src/assets/images/fotos/slide07-papogeek4.jpg", "src/assets/images/fotos/slide07-papogeek5.jpg", "src/assets/images/fotos/slide07-papogeek6.jpg"]
+    },
+    {
+        "legenda": "Roda de Conversa: Culturas Periféricas",
+        "fotos": ["src/assets/images/fotos/slide08-conversacultura1.jpg", "src/assets/images/fotos/slide08-conversacultura2.jpg", "src/assets/images/fotos/slide08-conversacultura3.jpg", "src/assets/images/fotos/slide08-conversacultura4.jpg", "src/assets/images/fotos/slide08-conversacultura5.jpg", "src/assets/images/fotos/slide08-conversacultura6.jpg"]
+    },
+    {
+        "legenda": "Musicalização Infantil, Oficinas Inclusivas e Contação de Histórias",
+        "fotos": ["src/assets/images/fotos/slide09-oficinas1.jpg", "src/assets/images/fotos/slide09-oficinas2.jpg", "src/assets/images/fotos/slide09-oficinas3.jpg", "src/assets/images/fotos/slide09-oficinas4.jpg", "src/assets/images/fotos/slide09-oficinas5.jpg", "src/assets/images/fotos/slide09-oficinas6.jpg"]
+    },
+    {
+        "legenda": "Apresentações de Danças Urbanas",
+        "fotos": ["src/assets/images/fotos/slide10-dança1.jpg" , "src/assets/images/fotos/slide10-dança2.jpg", "src/assets/images/fotos/slide10-dança3.jpg", "src/assets/images/fotos/slide10-dança4.jpg", "src/assets/images/fotos/slide10-dança5.jpg", "src/assets/images/fotos/slide10-dança6.jpg"]
+    },
+    {
+        "legenda": "Batalha de Breakdance no Palco Underground com participação de grupos locais",
+        "fotos": ["src/assets/images/fotos/slide11-break1.jpg", "src/assets/images/fotos/slide11-break2.jpg", "src/assets/images/fotos/slide11-break3.jpg", "src/assets/images/fotos/slide11-break4.jpg", "src/assets/images/fotos/slide11-break5.jpg", "src/assets/images/fotos/slide11-break6.jpg"]
+    },
+    {
+        "legenda": "Cosplays encantando a Garagem Geek e participando do Desfile de Cosplay Kids",
+        "fotos": ["src/assets/images/fotos/slide12-cosplay1.jpg", "src/assets/images/fotos/slide12-cosplay2.jpg", "src/assets/images/fotos/slide12-cosplay3.jpg", "src/assets/images/fotos/slide12-cosplay4.jpg", "src/assets/images/fotos/slide12-cosplay5.jpg", "src/assets/images/fotos/slide12-cosplay6.jpg"]
+    },
+    {
+        "legenda": "Concurso de Cosplay com premiação para as melhores fantasias",
+        "fotos": ["src/assets/images/fotos/slide13-concursocosplay1.jpg", "src/assets/images/fotos/slide13-concursocosplay2.jpg", "src/assets/images/fotos/slide13-concursocosplay3.jpg", "src/assets/images/fotos/slide13-concursocosplay4.jpg", "src/assets/images/fotos/slide13-concursocosplay5.jpg", "src/assets/images/fotos/slide13-concursocosplay6.jpg"]
+    },
+    {
+        "legenda": "Apresentação de Rappers da Baixada Fluminense",
+        "fotos": ["src/assets/images/fotos/slide14-rappers1.jpg", "src/assets/images/fotos/slide14-rappers2.jpg", "src/assets/images/fotos/slide14-rappers3.jpg", "src/assets/images/fotos/slide14-rappers4.jpg", "src/assets/images/fotos/slide14-rappers5.jpg", "src/assets/images/fotos/slide14-rappers6.jpg"]
+    },
+    {
+        "legenda": "Batalha de Rimas",
+        "fotos": ["src/assets/images/fotos/slide15-rima1.jpg", "src/assets/images/fotos/slide15-rima2.jpg", "src/assets/images/fotos/slide15-rima3.jpg", "src/assets/images/fotos/slide15-rima4.jpg"]
+    },
+    {
+        "legenda": "Repertório variado pra combinar legal com as atrações: Kyori (J-Rock), Vidal Rock Trio (Punk), KM Rock(Anos 80 e 90), Sunkiller(Rock Anos 2000 e Internacional),CG 125 (Classicos do Rock e MPB com participações de outros músicos)",
+        "fotos": ["src/assets/images/fotos/slide16-rock1.jpg", "src/assets/images/fotos/slide16-rock2.jpg", "src/assets/images/fotos/slide16-rock3.jpg", "src/assets/images/fotos/slide16-rock4.jpg", "src/assets/images/fotos/slide16-rock5.jpg", "src/assets/images/fotos/slide16-rock6.jpg"]
+    },
+    {
+        "legenda": "Show de Bandas de Rock Autoral e Independentes: Skorno (Trash Metal), Tornokrê (Rock Alternativo), Guvrim (Rock Psicodélico), Samambaia Ornamental (Rock Experimental), Banda Stigma (Hard Rock comemorando 8 anos e lançando seu primeiro single autoral)",
+        "fotos": ["src/assets/images/fotos/slide17-rock1.jpg", "src/assets/images/fotos/slide17-rock2.jpg", "src/assets/images/fotos/slide17-rock3.jpg", "src/assets/images/fotos/slide17-rock4.jpg", "src/assets/images/fotos/slide17-rock5.jpg", "src/assets/images/fotos/slide17-rock6.jpg"]
+    },
+    {
+        "legenda": "Campeonato de Skate - Best Trick e Arte em Grafite ao Vivo",
+        "fotos": ["src/assets/images/fotos/slide18-skate1.jpg", "src/assets/images/fotos/slide18-skate2.jpg", "src/assets/images/fotos/slide18-skate3.jpg", "src/assets/images/fotos/slide18-skate4.jpg", "src/assets/images/fotos/slide18-skate5.jpg", "src/assets/images/fotos/slide18-skate6.jpg"]
+    },
+    {
+        "legenda": "Show de Trap com a Equipe BG Records Produtora Musical Independente da Baixada Fluminense",
+        "fotos": ["src/assets/images/fotos/slide19-trap1.jpg", "src/assets/images/fotos/slide19-trap2.jpg", "src/assets/images/fotos/slide19-trap3.jpg", "src/assets/images/fotos/slide19-trap4.jpg", "src/assets/images/fotos/slide19-trap5.jpg", "src/assets/images/fotos/slide19-trap6.jpg"]
+    },
+    {
+        "legenda": "Público Interagindo e Curtindo as Atrações do Festival Underground Literário",
+        "fotos": ["src/assets/images/fotos/slide20-publico1.jpg", "src/assets/images/fotos/slide20-publico2.jpg", "src/assets/images/fotos/slide20-publico3.jpg", "src/assets/images/fotos/slide20-publico4.jpg", "src/assets/images/fotos/slide20-publico5.jpg", "src/assets/images/fotos/slide20-publico6.jpg"]
+    }
+]
