@@ -235,6 +235,7 @@ main {
 .btn-primary { 
   background: var(--roxo); 
   color: #fff; 
+  text-decoration: none;
 }
 .btn-primary:hover { 
   background: var(--rosa-grafite); 
@@ -334,7 +335,7 @@ button:hover, .btn:hover { filter: brightness(1.03);
 }
 
 .namidia-gallery {
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 16px;
   padding: 20px 0;
   justify-items: center;
@@ -349,7 +350,7 @@ button:hover, .btn:hover { filter: brightness(1.03);
 }
 
 .namidia-gallery a {
-  height: 50px;        /* tamanho vertical → AGORA é retangular */
+  height: 40px;        /* tamanho vertical → AGORA é retangular */
   border-radius: 6px;  /* bordas leves, sem ficar redondo */
   overflow: hidden;
   display: flex;
@@ -1085,4 +1086,156 @@ body.linktree h1 {
 
 .ficha-instagram a:hover {
   color: var(--rosa-grafite);
+}
+
+/* =================== GALERIA SLIDES =================== */
+.galeria-fotos {
+    padding: 20px 20px;
+    color: #fff;
+    background-color: #000000e0;
+}
+
+.slide-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 40px; /* espaço para os botões */
+}
+
+.slide-frame {
+    overflow: hidden;
+    
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.slide {
+    padding-top: 20px;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    flex-shrink: 0; 
+    max-width: 100%;
+    min-height: 330px;
+    align-content: flex-start;
+    background-color: #091402a4;
+}
+
+/* --- NOVO: torna o <a> o novo "item" da galeria --- */
+.slide a {
+    display: block;
+    width: calc(33% - 10px);
+    max-width: 250px;
+    height: 150px;
+    border-radius: 8px;
+    overflow: hidden; /* mantém corte igual ao img */
+}
+
+/* mantém o comportamento visual */
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.slide-legenda {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Botões */
+.slide-btn {
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.4);
+    border: none;
+    color: #fff;
+    font-size: 32px;
+    padding: 15px 15px;
+    cursor:pointer;
+    border-radius: 80px;
+    z-index: 10;
+}
+
+.btn-prev { left: -10px; }
+.btn-next { right: -10px; }
+
+.slide-btn:hover {
+    background: var(--rosa-grafite);
+    box-shadow: 0px 0px 5px rgba(42, 195, 255, 0.877);
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .slide a {
+        width: calc(50% - 8px);
+        height: 120px;
+        max-width: none;
+    }
+}
+
+/* Hover das fotos dentro dos slides */
+.slide a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px var(--azul-livro);
+}
+.slide a {
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+@media (max-width: 600px) {
+
+    .slide-btn {
+        height: 60px;
+        width: 60px;
+        font-size: 26px;
+        padding: 8px;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .slide-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 0 20px; /* espaço para os botões */
+}
+
+    .btn-prev { 
+        left: 25px;
+    }
+
+    .btn-next { 
+        right: 25px;
+    }
+
+    .slide-container {
+        padding: 0 20px; /* garante espaço pros botões caberem */
+    }
+
+    .slide {
+    padding-top: 10px;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    flex-shrink: 0; 
+    max-width: 100%;
+    min-height: 150px;
+    align-content: flex-start;
+    background-color: #091402a4;
+}
 }
