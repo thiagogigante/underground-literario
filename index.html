@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- === META / FONTS / CSS =============================================== -->
@@ -25,7 +25,7 @@
   <nav class="navbar" role="navigation" aria-label="Main">
     <ul class="menu" aria-expanded="false">
       <a href="#inicio">Início</a>   
-      <a href="#foto">Galeria de Fotos</a> 
+      <a href="#galeria-fotos">Galeria de Fotos</a> 
  <!-- <a href="#inscricoes">Inscrições Abertas</a> -->
       <a href="#namidia">Nós na Mídia</a>
       <a href="#festival">O Festival</a>
@@ -67,7 +67,7 @@
     <!-- Navegação -->
     <div class="ficha-controles">
       <button id="ficha-prev">⬅</button>
-        <a id="ficha-instagram" href="LINK_EXTERNO" target="blank"></a> <!-- LINK DO INSTAGRAM -->
+        <a id="ficha-instagram" href="LINK_EXTERNO" target="_blank" rel="noopener noreferrer"></a> <!-- LINK DO INSTAGRAM -->
       <button id="ficha-next">➡</button>
     </div>
   </div>
@@ -76,17 +76,29 @@
   <!-- === HERO SECTION =============================================== -->
   <main>
   <section id="inicio" class="hero">
-    <img id="logo" src="src/assets/images/logo.png" alt="Logo do Festival" class="hero-logo" />
-    <p>    Nossa 1ª edição foi um sucesso, as fotos já estão disponíveis aqui em baixo e vc pode acompanhar a gente nas redes sociais.
-    <br> Fique ligado nas próximas edições, vem muita coisa boa por aí! </p>
-  
+  <img id="logo" src="src/assets/images/logo.png" alt="Logo do Festival" class="hero-logo" fetchpriority="high" decoding="async" />
+  <div class="hero-bubble note-bubble" data-bubble role="dialog" aria-label="Mensagem do festival">
+    <button class="btn-fechar note-close" type="button" aria-label="Fechar aviso">X</button>
+    <p>
+      Nossa 1ª edição foi um sucesso, as fotos já estão disponíveis aqui em baixo e vc pode acompanhar a gente nas redes sociais.
+      <br>Fique ligado nas próximas edições, vem muita coisa boa por aí!
+    </p>
+    <div class="bubble-insta">
+      <img src="/src/assets/images/insta.png" alt="Ícone do Instagram">
+      <a class="btn-contato" href="https://www.instagram.com/festivalundergroundliterario" target="_blank" rel="noopener noreferrer">
+        @festivalundergroundliterario
+      </a>
+    </div>
+    <p class="bubble-footer">Nos vemos na próxima! Até lá!</p>
+  </div>
+
   <!--
   <div class="info-linha">
     <div class="info-item">
       <img src="/src/assets/images/calendar.png" alt="Ícone de calendário">
       <h3 class="data_local">29 e 30 de Novembro</h3><br>
     </div>
-  
+
     <div class="info-item">
       <img src="/src/assets/images/local.png" alt="Ícone de localização">
       <h3 class="data_local">El Loco Eventos</h3>
@@ -95,18 +107,9 @@
       <img src="/src/assets/images/cifrao.png" alt="Ícone de Custo">
       <h3 class="data_local">Entrada Gratuita</h3>
     </div>
-  </div> 
+  </div>
   -->
-
-    <div class="info-item">
-      <img src="/src/assets/images/insta.png" alt="Ícone do Instagram"></div>
-      <a class="btn" href="https://www.instagram.com/festivalundergroundliterario" target="blank">
-      <h2>@festivalundergroundliterario</h2></a>
-    </div>
-
-    Nos vemos na próxima! Até lá!         
-
-  </section>
+</section>
 <!-- =========== GALERIA DE FOTOS =============================================== -->
 
   <section id="galeria-fotos" class="galeria-fotos">
@@ -124,8 +127,10 @@
 
     <div class="slide-legenda"></div>
     <br><br>
-    <p> Se quiser acessar nossa pasta com todas as fotos, <a class="btn-primary" href="https://drive.google.com/drive/folders/1wFgJQoGfa8U9qo83mkGNC93G8_gG-WLa" target="_blank">Clique aqui!</a>
-      <br>PS: Algumas ainda estão sendo editadas. Assim que der postaremos elas.</p>
+    <div class="gallery-bubble note-bubble" data-bubble role="note" aria-label="Recado sobre as fotos">
+      <button class="btn-fechar note-close" type="button" aria-label="Fechar aviso">X</button>
+      <p>Para acessar nossa pasta com todas as fotos, <a class="btn-contato" href="https://drive.google.com/drive/folders/1wFgJQoGfa8U9qo83mkGNC93G8_gG-WLa" target="_blank" rel="noopener noreferrer">clique aqui!</a></p>
+    </div>
 
     </section>
 
@@ -151,16 +156,16 @@
       Confia as notícias!
   </p>
   <div class="namidia-gallery">
-    <a href="https://odia.ig.com.br/mage/2025/11/7168987-mage-recebe-1-festival-underground-literario.html" target="_blank"><img src="/src/assets/images/namidia/odia.webp" alt="O DIA"></a>
-    <a href="https://revistainfoco.com.br/2025/11/24/mage-recebe-1o-festival-underground-literario-nos-dias-29-e-30-de-novembro/" target="_blank"><img src="/src/assets/images/namidia/infoco.webp" alt="Revista Infoco"></a>
-    <a href="https://eurio.com.br/noticia/85605/mage-recebe-1%C2%BA-festival-underground-literario.html" target="_blank"><img src="/src/assets/images/namidia/eurio.webp" alt="Eu Rio"></a>
-    <a href="https://www.correiodamanha.com.br/baixada/2025/11/235419-mage-sedia-evento-literario-com-musica-cultura-geek-e-muito-mais.html" target="_blank"><img src="/src/assets/images/namidia/correiodamanha.webp" alt="Correio da Manhã"></a>
-    <a href="https://tvprefeito.com/mage-recebe-o-1o-festival-underground-literario-musica-literatura-arte-urbana-e-cultura-geek-movimentam-a-cidade-nos-dias-29-e-30-de-novembro/" target="_blank"><img src="/src/assets/images/namidia/tvprefeito.webp" alt="Tv Prefeito"></a>
-    <a href="https://bafafa.com.br/arte-e-cultura/letras-e-livros/mage-recebe-o-1-festival-underground-literario" target="_blank"><img src="/src/assets/images/namidia/agendabafafa.webp" alt="Agenda Bafafa"></a>
-    <a href="https://redetvmais.tv/policia-civil-prende-idoso-de-70-anos-condenado-por-estupro-de-vulneravel-em-mage/" target="_blank"><img src="/src/assets/images/namidia/redemaistv.webp" alt="Rede Mais Tv"></a>
-    <a href="https://bravabaixada.com.br/2025/11/26/mage-recebe-1o-festival-underground-literario-nos-dias-29-e-30-de-novembro/" target="_blank"><img src="/src/assets/images/namidia/bravabaixada.webp" alt="Brava Baixada"></a>
-    <a href="https://folhadabaixada.com.br/noticia/2055/festival-underground-literario-estreia-na-baixada-fluminense-com-musica-literatura-e-cultura-geek#google_vignette" target="_blank"><img src="/src/assets/images/namidia/folhadabaixada.webp" alt="Folha da Baixada"></a>
-    <a href="https://portalc3.net/mage-recebe-1o-festival-underground-literario-com-foco-na-producao-independente/" target="_blank"><img src="/src/assets/images/namidia/portalc3.webp" alt="Portal C3"></a>
+    <a href="https://odia.ig.com.br/mage/2025/11/7168987-mage-recebe-1-festival-underground-literario.html" target="_blank" rel="noopener noreferrer"><img src="/src/assets/images/namidia/odia.webp" alt="O DIA"></a>
+    <a href="https://revistainfoco.com.br/2025/11/24/mage-recebe-1o-festival-underground-literario-nos-dias-29-e-30-de-novembro/" target="_blank" rel="noopener noreferrer"><img src="/src/assets/images/namidia/infoco.webp" alt="Revista Infoco"></a>
+    <a href="https://eurio.com.br/noticia/85605/mage-recebe-1%C2%BA-festival-underground-literario.html" target="_blank" rel="noopener noreferrer"><img src="/src/assets/images/namidia/eurio.webp" alt="Eu Rio"></a>
+    <a href="https://www.correiodamanha.com.br/baixada/2025/11/235419-mage-sedia-evento-literario-com-musica-cultura-geek-e-muito-mais.html" target="_blank" rel="noopener noreferrer"><img src="/src/assets/images/namidia/correiodamanha.webp" alt="Correio da Manhã"></a>
+    <a href="https://tvprefeito.com/mage-recebe-o-1o-festival-underground-literario-musica-literatura-arte-urbana-e-cultura-geek-movimentam-a-cidade-nos-dias-29-e-30-de-novembro/" target="_blank" rel="noopener noreferrer"><img src="/src/assets/images/namidia/tvprefeito.webp" alt="Tv Prefeito"></a>
+    <a href="https://bafafa.com.br/arte-e-cultura/letras-e-livros/mage-recebe-o-1-festival-underground-literario" target="_blank" rel="noopener noreferrer"><img src="/src/assets/images/namidia/agendabafafa.webp" alt="Agenda Bafafa"></a>
+    <a href="https://redetvmais.tv/policia-civil-prende-idoso-de-70-anos-condenado-por-estupro-de-vulneravel-em-mage/" target="_blank" rel="noopener noreferrer"><img src="/src/assets/images/namidia/redemaistv.webp" alt="Rede Mais Tv"></a>
+    <a href="https://bravabaixada.com.br/2025/11/26/mage-recebe-1o-festival-underground-literario-nos-dias-29-e-30-de-novembro/" target="_blank" rel="noopener noreferrer"><img src="/src/assets/images/namidia/bravabaixada.webp" alt="Brava Baixada"></a>
+    <!-- <a href="https://folhadabaixada.com.br/noticia/2055/festival-underground-literario-estreia-na-baixada-fluminense-com-musica-literatura-e-cultura-geek#google_vignette" target="_blank" rel="noopener noreferrer"><img src="/src/assets/images/namidia/folhadabaixada.webp" alt="Folha da Baixada"></a> -->
+    <!-- <a href="https://portalc3.net/mage-recebe-1o-festival-underground-literario-com-foco-na-producao-independente/" target="_blank" rel="noopener noreferrer"><img src="/src/assets/images/namidia/portalc3.webp" alt="Portal C3"></a> -->
 
   </div>
 </section>
@@ -211,9 +216,9 @@
     <!-- =========================== VÍDEO ================================================ -->
 
   <section id="atracoes" class="atracoes">
-    <video autoplay muted loop id="bg-video">
-    <source src="/src/assets/videos/video.mp4" type="video/mp4">
-    Deu ruim! Era pra rodar um vídeo aqui, mas aparentemente seu navegador ñ suporta. Que pena!
+    <video autoplay muted loop playsinline preload="none" poster="/src/assets/images/bg.png" id="bg-video">
+      <source src="/src/assets/videos/video.mp4" type="video/mp4">
+      Deu ruim! Era pra rodar um vídeo aqui, mas aparentemente seu navegador ñ suporta. Que pena!
     </video>
   </section>
 
@@ -383,7 +388,7 @@
   </div> 
   </section>
 
-  <!-- === PROGRAMAÇÃOO ============[ SÓ USAR EM 2026 NA 2ª EDIÇÃO ]=================================== -->
+  <!-- === PROGRAMAÇÃO ============[ SÓ USAR EM 2026 NA 2ª EDIÇÃO ]=================================== -->
   <!-- section id="programacao" class="programacao">
     <h1>Programação</h1>
 <p>Em breve divulgaremos, aguenta aí!</p> 
@@ -423,7 +428,7 @@
   <section id="local" class="local">
     <h1>Local</h1>
     <p>El Loco Eventos - Rua Abel Graça Júnior, Centro - Magé - RJ</p>
-    <iframe id="local"
+    <iframe id="local-mapa"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d294.1533808121646!2d-43.03900103369898!3d-22.655302448545996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99a37ce3a22d63%3A0xe24c3cde5be98a8a!2sEl%20Loco%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1761275811944!5m2!1spt-BR!2sbr"
       width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
@@ -437,12 +442,12 @@
       Calma, já já eles aparecem aqui!
   </p>
   <div class="gallery equipe-gallery">
-    <a><img src="/src/assets/images/equipe/fotoequipe/pessoa1.png" alt="Pessoa 1"></a>
-    <a><img src="/src/assets/images/equipe/fotoequipe/pessoa2.png" alt="Pessoa 2"></a>
-    <a><img src="/src/assets/images/equipe/fotoequipe/pessoa3.png" alt="Pessoa 3"></a>
-    <a><img src="/src/assets/images/equipe/fotoequipe/pessoa4.png" alt="Pessoa 4"></a>
-    <a><img src="/src/assets/images/equipe/fotoequipe/pessoa5.png" alt="Pessoa 5"></a>
-    <a><img src="/src/assets/images/equipe/fotoequipe/pessoa6.png" alt="Pessoa 6"></a>
+    <a href="#" data-id="pessoa1"><img src="/src/assets/images/equipe/fotoequipe/pessoa1.png" alt="Pessoa 1"></a>
+    <a href="#" data-id="pessoa2"><img src="/src/assets/images/equipe/fotoequipe/pessoa2.png" alt="Pessoa 2"></a>
+    <a href="#" data-id="pessoa3"><img src="/src/assets/images/equipe/fotoequipe/pessoa3.png" alt="Pessoa 3"></a>
+    <a href="#" data-id="pessoa4"><img src="/src/assets/images/equipe/fotoequipe/pessoa4.png" alt="Pessoa 4"></a>
+    <a href="#" data-id="pessoa5"><img src="/src/assets/images/equipe/fotoequipe/pessoa5.png" alt="Pessoa 5"></a>
+    <a href="#" data-id="pessoa6"><img src="/src/assets/images/equipe/fotoequipe/pessoa6.png" alt="Pessoa 6"></a>
 
   </div>
 </section>
@@ -503,19 +508,21 @@
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
       <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
     </svg>
-    <a class="btn-contato" href="mailto:seuemail@example.com" target="blank"> esteticasonora@gmail.com</a>
+    <a class="btn-contato" href="mailto:seuemail@example.com" target="_blank" rel="noopener noreferrer"> esteticasonora@gmail.com</a>
     <br><br>
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
       <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
     </svg>
-    <a class="btn-contato" href="https://www.instagram.com/festivalundergroundliterario" target="blank"> @festivalundergroundliterario</a>
+    <a class="btn-contato" href="https://www.instagram.com/festivalundergroundliterario" target="_blank" rel="noopener noreferrer"> @festivalundergroundliterario</a>
      
     <p>&copy; 2025 Festival Underground Literário</p>
     </footer>
   </main>
 
   <!-- === SCRIPTS === -->
-  <script src="src/scripts/scripts.js"></script>
+  <script type="module" src="src/scripts/main.js"></script>
 </body>
 
 </html>
+
+

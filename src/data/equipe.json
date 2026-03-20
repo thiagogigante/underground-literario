@@ -1,27 +1,38 @@
-[
+﻿[
   {
     "id": "pessoa1",
-    "nome": "Thiago Gigante",
-    "bio": "Confira minha BIO em breve...",
-    "destaque": "/src/assets/images/equipe/thiagogigante.webp",
-    "instagram": "https://www.instagram.com/thiago.gigante"
+    "nome": "Pessoa 1",
+    "bio": "Confira minha bio em breve.",
+    "foto": "/src/assets/images/equipe/fotoequipe/pessoa1.png"
   },
   {
     "id": "pessoa2",
-    "nome": "Nome da Pessoa 2",
-    "bio": "Conheça essa pessoa da Equipe!<br><br><a href='https://www.instagram.com/pessoa.2/' target='_blank'>@pessoa.2</a>",
-    "foto": "/src/assets/images/equipe/pessoa2.png"
+    "nome": "Pessoa 2",
+    "bio": "Conheca essa pessoa da equipe em breve.",
+    "foto": "/src/assets/images/equipe/fotoequipe/pessoa2.png"
   },
   {
     "id": "pessoa3",
-    "nome": "Nome da Pessoa 3",
-    "bio": "Conheça essa pessoa da Equipe!<br><br><a href='https://www.instagram.com/pessoa.2/' target='_blank'>@pessoa.3</a>",
-    "foto": "/src/assets/images/equipe/pessoa3.png"
+    "nome": "Pessoa 3",
+    "bio": "Conheca essa pessoa da equipe em breve.",
+    "foto": "/src/assets/images/equipe/fotoequipe/pessoa3.png"
   },
   {
     "id": "pessoa4",
-    "nome": "Nome da Pessoa 4",
-    "bio": "Conheça essa pessoa da Equipe!<br><br><a href='https://www.instagram.com/pessoa.4/' target='_blank'>@pessoa.4</a>",
-    "foto": "/src/assets/images/equipe/pessoa4.png"
+    "nome": "Pessoa 4",
+    "bio": "Conheca essa pessoa da equipe em breve.",
+    "foto": "/src/assets/images/equipe/fotoequipe/pessoa4.png"
+  },
+  {
+    "id": "pessoa5",
+    "nome": "Pessoa 5",
+    "bio": "Conheca essa pessoa da equipe em breve.",
+    "foto": "/src/assets/images/equipe/fotoequipe/pessoa5.png"
+  },
+  {
+    "id": "pessoa6",
+    "nome": "Pessoa 6",
+    "bio": "Conheca essa pessoa da equipe em breve.",
+    "foto": "/src/assets/images/equipe/fotoequipe/pessoa6.png"
   }
 ]

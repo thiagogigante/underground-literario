@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "cg125",
     "nome": "CG 125",
@@ -119,15 +119,16 @@
     "instagram": "https://www.instagram.com/original_bigup"
   },
   {
-    "id": "Rhuas.Art",
-    "nome": "Rhuas.Art",
+    "id": "rhuas",
+    "nome": "rhuas",
     "bio": "A Rhuas.Art é uma produtora artística independente idealizada por Mário Junior, criador e articulador cultural dedicado ao fortalecimento da cena Hip Hop. A produtora se destaca pela criação de projetos sociais que impulsionam talentos emergentes, como A CHANCE, Cria dos Crias e Vitrine MC, iniciativas que oferecem oportunidades reais para MCs independentes, conectando arte, formação profissional e impacto comunitário. Com uma visão voltada à inclusão, educação musical e valorização da cultura urbana, a Rhuas.Art atua como ponte entre artistas, marcas e público, construindo futuros possíveis dentro e fora dos palcos.",
     "destaque": "/src/assets/images/confirmados/street-destaque/rhuas.webp",
     "instagram": "https://www.instagram.com/rhuas.Art"
   },
   {
     "id": "batalharimas",
-    "nome": "Batalha de Rimas",<br><hr><b>1. Formato da Batalha:</b><br><br>-Será utilizado o modelo de duelos (1 contra 1) de MCs (inspirado nas batalhas tradicionais).<br><br>-Cada duelo terá 2 rounds principais de improviso ('ataque' e 'resposta'). Isso é semelhante ao formato usado em regulamentos como o da IFMG.<br<br>-Cada MC terá 40 segundos por rodada. <br><br>-Se após os 2 rounds principais houver empate (ou empate na votação), pode haver um 3º round de desempate ('bate-volta'). Por exemplo, eles usam um terceiro round com formato de 4 entradas alternadas. <br><br><hr><b>2. Temas, Palavras ou Desafios:</b><br><br>-Caso a organização queira, pode ser sorteada uma palavra ou tema para cada MC usar durante a batalha, como parte do 'ataque' e da 'resposta' (ex: um MC recebe a palavra 'tempo', deve usar em suas rimas). Isso já é usado em algumas batalhas culturais. <br><br>-Se usar temas, a organização deve divulgar as regras de sorteio antes da batalha.<br><br><hr><b>3. Critérios de Julgamento:</b><br><br>-O público avaliará: criatividade / originalidade das rimas, flow / habilidade de improvisação, linguagem, postura no palco, desempenho no ataque e na resposta, e respeito às regras éticas (sem discurso de ódio, sem discriminação, sem excessos ofensivos). Isso é padrão em muitos regulamentos de batalha de rima. <br><br><hr><b>4. Conduta e Limites:</b><br><br>-É proibido o uso de linguagem discriminatória (racismo, homofobia, sexismo, capacitismo, etc.). Na “1ª Noite da Cultura Hip Hop”, por exemplo, ofensas graves podem resultar em penalidade ou desclassificação. <br><br>-Não é permitido o uso de substâncias (bebidas alcoólicas, drogas) para MCs enquanto estiverem batalhando, para garantir clareza mental e segurança, se fizer sentido para a logística. (Essa regra varia conforme o tipo de evento, mas pode ser adotada como medida de responsabilidade.)<br><br><hr><b>5. Premiação:</b><br><br>O vencedor da batalha de rima será premiado em dinheiro.",
+    "nome": "Batalha de Rimas",
+    "bio": "<br><hr><b>1. Formato da Batalha:</b><br><br>-Será utilizado o modelo de duelos (1 contra 1) de MCs (inspirado nas batalhas tradicionais).<br><br>-Cada duelo terá 2 rounds principais de improviso ('ataque' e 'resposta'). Isso é semelhante ao formato usado em regulamentos como o da IFMG.<br><br>-Cada MC terá 40 segundos por rodada.<br><br>-Se após os 2 rounds principais houver empate (ou empate na votação), pode haver um 3º round de desempate ('bate-volta'). Por exemplo, eles usam um terceiro round com formato de 4 entradas alternadas.<br><br><hr><b>2. Temas, Palavras ou Desafios:</b><br><br>-Caso a organização queira, pode ser sorteada uma palavra ou tema para cada MC usar durante a batalha, como parte do 'ataque' e da 'resposta' (ex: um MC recebe a palavra 'tempo', deve usar em suas rimas). Isso já é usado em algumas batalhas culturais.<br><br>-Se usar temas, a organização deve divulgar as regras de sorteio antes da batalha.<br><br><hr><b>3. Critérios de Julgamento:</b><br><br>-O público avaliará: criatividade / originalidade das rimas, flow / habilidade de improvisação, linguagem, postura no palco, desempenho no ataque e na resposta, e respeito às regras éticas (sem discurso de ódio, sem discriminação, sem excessos ofensivos). Isso é padrão em muitos regulamentos de batalha de rima.<br><br><hr><b>4. Conduta e Limites:</b><br><br>-É proibido o uso de linguagem discriminatória (racismo, homofobia, sexismo, capacitismo, etc.). Na “1ª Noite da Cultura Hip Hop”, por exemplo, ofensas graves podem resultar em penalidade ou desclassificação.<br><br>-Não é permitido o uso de substâncias (bebidas alcoólicas, drogas) para MCs enquanto estiverem batalhando, para garantir clareza mental e segurança, se fizer sentido para a logística. (Essa regra varia conforme o tipo de evento, mas pode ser adotada como medida de responsabilidade.)<br><br><hr><b>5. Premiação:</b><br><br>O vencedor da batalha de rima será premiado em dinheiro.",
     "destaque": "/src/assets/images/confirmados/street-destaque/batalharimas-foto.webp",
     "instagram": ""
   },
@@ -419,7 +420,7 @@
     "instagram": "https://www.instagram.com/evertondrawings"
   },
   {
-    "id": "oficeinageek3",
+    "id": "oficinageek3",
     "nome": "Oficina de Storytelling",
     "bio": "Com o quadrinista Hamilton Kabuna,<br><br>Vagas Limitadas, chegue cedo para se inscrever! ",
     "destaque": "/src/assets/images/confirmados/rodas-destaque/oficinageek3-foto.webp",
@@ -494,6 +495,35 @@
     "bio": "Thamires Corrêa – Designer, costureira, professora e CEO do Thamires Corrêa Ateliê e Donna Lili Crochê. Desenvolve uma pocket coleção inspirada em sua ancestralidade e vive o redesign de sua marca, guiada pelo propósito e pela maternidade. Acredita na moda como expressão, memória e transformação.",
     "destaque": "/src/assets/images/confirmados/rodas-destaque/thamires-foto.webp",
     "instagram": "https://www.instagram.com/thamirescorreaatelie"
+  },
+  {
+    "id": "artesanato",
+    "nome": "Artesanato",
+    "bio": "Em breve, descrição da atração.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/artesanato-foto.webp",
+    "instagram": ""
+  },
+  {
+    "id": "artesvisuais",
+    "nome": "Artes Visuais",
+    "bio": "Em breve, descrição da atração.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/artesvisuais-foto.webp",
+    "instagram": ""
+  },
+  {
+    "id": "economiacriativa",
+    "nome": "Economia Criativa",
+    "bio": "Em breve, descrição da atração.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/economiacriativa-foto.webp",
+    "instagram": ""
+  },
+  {
+    "id": "literaria",
+    "nome": "Literária",
+    "bio": "Em breve, descrição da atração.",
+    "destaque": "/src/assets/images/confirmados/feira-destaque/literaria-foto.webp",
+    "instagram": ""
   }
 ]
+
 
